@@ -1,7 +1,7 @@
 .popular {
     position: relative;
     padding-bottom: 50px;
-    @include media(l){
+    @include media(lg){
         padding-bottom: 0;
     }
     &__item {

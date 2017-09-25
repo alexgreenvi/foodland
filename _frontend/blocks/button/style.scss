@@ -25,7 +25,7 @@
         font-size: 15px;
         text-shadow: 0 0 1px rgba(35, 35, 35, 0.5);
         border: none;
-        @include media(l){
+        @include media(lg){
             padding: 0 12px;
         }
         &:before, &:after {
@@ -71,7 +71,7 @@
     font-weight: 700;
     font-size: 14px;
     padding: 0 49px;
-    @include media(l){
+    @include media(lg){
         padding: 0 12px;
     }
 }

@@ -13,7 +13,7 @@
     }
     &--prev {left: -30px}
     &--next {right: -30px}
-    @include media(l){
+    @include media(lg){
         &--prev {left: 0}
         &--next {right: 0}
     }

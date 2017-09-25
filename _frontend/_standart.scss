@@ -50,7 +50,7 @@ input[type="text"]:focus {
     font-weight: 800;
     line-height: 53px;
     margin-bottom: 20px;
-    @include media(l) {
+    @include media(lg) {
         font-size: 31px;
         line-height: 37px;
     }

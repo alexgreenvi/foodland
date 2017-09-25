@@ -4,7 +4,7 @@
     z-index: 1;
     padding: 50px 0;
     background: url("../images/footer-bg.jpg");
-    @include media(l) {
+    @include media(lg) {
         background-size: cover;
         background-position: center;
     }
@@ -27,7 +27,7 @@
             font-size: 28px;
             font-weight: 700;
         }
-        @include media(l) {
+        @include media(lg) {
             display: block;
             margin-top: 30px;
             float: none;
@@ -38,7 +38,7 @@
         position: relative;
         top: -3px;
         margin-right: 20px;
-        @include media(l) {
+        @include media(lg) {
             margin-top: 20px;
             float: none;
         }

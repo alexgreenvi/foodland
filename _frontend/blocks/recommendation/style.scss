@@ -45,7 +45,7 @@
             height: 440px;
             padding: 50px;
         }
-        @include media (s) {
+        @include media (sm) {
             &_col-2 , &_col-4{
                 height: inherit;
                 min-height: 210px;
@@ -59,7 +59,7 @@
         &__title {
             font-size: 40px;
             line-height: 40px;
-            @include media (s){
+            @include media (sm){
                 font-size: 22px;
                 line-height: 30px;
             }
@@ -93,7 +93,7 @@
             line-height: 30px;
             color: #000;
             
-            @include media(l){
+            @include media(lg){
                 font-size: 15px;
             }
         }
