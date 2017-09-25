@@ -1,0 +1,55 @@
+
+.slack {
+    position: absolute;
+    z-index: 0;
+    &_cheese {
+        top: -175px;
+        right: -281px;
+        width: 593px;
+        height: 459px;
+        background: url("../images/slack/cheese.png") no-repeat;
+    }
+}
+.slack.left {left: 0;}
+.slack.right {right: 0}
+
+.slack.tomato {
+    left: -290px;
+    width: 575px;
+    height: 539px;
+    background: url("../images/slack/tomato.png") no-repeat;
+}
+.slack.maslo {
+    left: -125px;
+    bottom: -80px;
+    width: 442px;
+    height: 400px;
+    background: url("../images/slack/maslo.png") no-repeat;
+}
+
+.slack.cheese_and_tomato {
+    top: -275px;
+    left: -230px;
+    width: 573px;
+    height: 586px;
+    background: url("../images/slack/cheese_and_tomato.png") no-repeat;
+}
+.slack.petro {
+    width: 468px;
+    height: 397px;
+    bottom: -180px;
+    background: url("../images/slack/petro.png") no-repeat;}
+.slack.petro.left {left: -230px;}
+.slack.petro.left-2 { left: -230px; transform: rotate(30deg);}
+.slack.petro.right {right: -230px;}
+.slack.petro.right-2 {right: -230px; transform: rotate(-30deg);}
+
+@media (max-width: 1600px) {
+    .slack {opacity: 0.6}
+}
+@media (max-width: 1000px) {
+    .slack {opacity: 0.3}
+}
+@media (max-width: 800px) {
+    .slack {opacity: 0.2}
+}
