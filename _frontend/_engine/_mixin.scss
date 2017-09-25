@@ -5,7 +5,7 @@
     @media only screen and (max-width: map-get($media-size, $size)) {@content;}
 }
 @mixin media-custom($size) {
-    @media only screen and (max-width: $size) { @content; }
+    @media only screen and (max-width: $size+px) { @content; }
 }
 
 // bg
