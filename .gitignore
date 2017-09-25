@@ -1,3 +1,5 @@
 .idea
 .git
 config.codekit3
+.DS_Store
+
