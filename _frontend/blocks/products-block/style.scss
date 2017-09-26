@@ -2,7 +2,6 @@
     padding-top: 60px;
     &__wrap-item {
         height: 328px;
-        overflow: hidden;
         position: relative;
     }
 
@@ -14,6 +13,8 @@
         cursor: pointer;
         color: #979695;
         background-color: #fff;
+        border-radius: 5px;
+        transition: all .2s;
         &__image {
             width: 206px;
             height: 159px;
@@ -40,6 +41,7 @@
             position: absolute;
             z-index: 9;
             height: auto;
+            box-shadow: 0 5px 13px rgba(59, 59, 59, 0.35);
 
         }
         &:hover &__description {
