@@ -1,6 +1,11 @@
 .category-carousel {
     margin-right: 32px;
     margin-bottom: 60px;
+    padding-top: 20px;
+    @include media(md) {
+        width: 50%;
+        margin: 0 auto 60px;
+    }
 }
 
 .category-carousel__item {
