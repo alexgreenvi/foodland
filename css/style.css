@@ -2462,7 +2462,7 @@ input[type="text"]:focus {
   padding-top: 20px; }
   @media only screen and (max-width: 758px) {
     .category-carousel {
-      width: 50%;
+      width: 80%;
       margin: 0 auto 60px; } }
 
 .category-carousel__item {
@@ -2478,9 +2478,20 @@ input[type="text"]:focus {
 
 .products-block {
   padding-top: 60px; }
+  @media only screen and (max-width: 992px) {
+    .products-block {
+      padding-top: 0; } }
   .products-block__wrap-item {
     height: 328px;
-    position: relative; }
+    position: relative;
+    float: left;
+    width: 33%; }
+    @media only screen and (max-width: 992px) {
+      .products-block__wrap-item {
+        width: 50%; } }
+    @media only screen and (max-width: 576px) {
+      .products-block__wrap-item {
+        width: 100%; } }
   .products-block__item {
     height: 328px;
     overflow: hidden;
