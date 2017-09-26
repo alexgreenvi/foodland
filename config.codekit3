@@ -1081,6 +1081,72 @@
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-thin.ttf",
 		"oF": 0
 		},
+	"\/images\/background\/cheese-left-page-cetegory-2.png": {
+		"ft": 32768,
+		"iS": 99196,
+		"oA": 0,
+		"oAP": "\/images\/background\/cheese-left-page-cetegory-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/cheese-left-page-cetegory.png": {
+		"ft": 32768,
+		"iS": 273513,
+		"oA": 0,
+		"oAP": "\/images\/background\/cheese-left-page-cetegory.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/cheese-right-page-category.png": {
+		"ft": 32768,
+		"iS": 141111,
+		"oA": 0,
+		"oAP": "\/images\/background\/cheese-right-page-category.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/cow.png": {
+		"ft": 32768,
+		"iS": 190359,
+		"oA": 0,
+		"oAP": "\/images\/background\/cow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/parsley-left.png": {
+		"ft": 32768,
+		"iS": 152446,
+		"oA": 0,
+		"oAP": "\/images\/background\/parsley-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/parsley-right.png": {
+		"ft": 32768,
+		"iS": 130635,
+		"oA": 0,
+		"oAP": "\/images\/background\/parsley-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/blud.png": {
 		"ft": 32768,
 		"iS": 0,

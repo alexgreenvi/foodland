@@ -1788,7 +1788,7 @@ input[type="text"]:focus {
     transform: rotate(0deg);
     opacity: 0.5;
     cursor: pointer; }
-    .cheese-circle .icon.hover, .cheese-circle .icon.active {
+    .cheese-circle .icon.hover {
       opacity: 1; }
     .cheese-circle .icon[data-number='item1'] {
       width: 121.694473854px;

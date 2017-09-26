@@ -199,7 +199,8 @@ var _resize = {
             var before = $('[data-resize=' + name + ']');
             var after = $('[data-resize-after=' + name + ']');
 
-            if ($(after).children().length < 1) {}
+            if ($(after).children().length < 1) {
+            }
 
             if (_resize.width < size) {
                 var block = before.children();
@@ -212,10 +213,10 @@ var _resize = {
                 block.detach();
                 before.prepend(block);
             }
-        };
+        }
+        ;
     }
 };
-
 
 
 // Активный элемент по умолчанию под номером 2
@@ -261,14 +262,13 @@ $(document).ready(function () {
             index = $this.attr('data-index');
 
 
-
-        if (active == 3 && index == 1) rotate += 240;
+        if (active == 3 && index == 1) rotate -= 120;
         if (active == 3 && index == 2) rotate += 120;
 
         if (active == 2 && index == 1) rotate += 120;
-        if (active == 2 && index == 3) rotate += 240;
+        if (active == 2 && index == 3) rotate -= 120;
 
-        if (active == 1 && index == 2) rotate += 240;
+        if (active == 1 && index == 2) rotate -= 120;
         if (active == 1 && index == 3) rotate += 120;
 
 
@@ -283,13 +283,13 @@ $(document).ready(function () {
         });
 
         if (active != index) {
-            if (active == 3 && index == 1) to += -240;
+            if (active == 3 && index == 1) to -= -120;
             if (active == 3 && index == 2) to += -120;
 
             if (active == 2 && index == 1) to += -120;
-            if (active == 2 && index == 3) to += -240;
+            if (active == 2 && index == 3) to -= -120;
 
-            if (active == 1 && index == 2) to += -240;
+            if (active == 1 && index == 2) to -= -120;
             if (active == 1 && index == 3) to += -120;
 
 
@@ -309,7 +309,6 @@ $(document).ready(function () {
 
         $('[data-spinner="content"]').removeClass('active')
         $('[data-index="' + index + '"]').addClass('active')
-
 
 
         // var index = $(this).data('index'),
