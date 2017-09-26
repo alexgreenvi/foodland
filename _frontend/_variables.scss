@@ -2,9 +2,6 @@
 $font:          'PFBeauSansPro', sans-serif;
 $font-2:        'Museo';
 
-$font-path:        '../fonts' !default;
-$font-path-name:   '' !default;
-
 $font-size:                    14px         !default;
 $font-size-mini:               0.7142em     !default;
 $font-size-small:              0.8571em     !default;
@@ -30,12 +27,39 @@ $color-link-hover:              #ce0018;
 
 $background:                    #fff;
 
-$media-size: (
-    xxl: 1400px,
-    xl: 1200px,
-    l: 1000px,
-    m: 800px,
-    s: 640px,
-    n: 480px
-  );
+$status: (
+  '': (
+    #888,
+    #979797,
+  ),
+  primary:    (
+    #f96332,
+    #fa7a50,
+  ),
+  info:        (
+    #2CA8FF,
+    #4bb5ff
+  ),
+  success:     (
+    #18ce0f,
+    #1beb11
+  ),
+  warning:     (
+    #FFB236,
+    #f96332
+  ),
+  danger:      (
+    #FF3636,
+    #f96332
+  ),
+);
+
+$color-primary:                 #f96332;
+$color-info:                    #2CA8FF;
+$color-success:                 #18ce0f;
+$color-warning:                 #FFB236;
+$color-danger:                  #FF3636;
+
+
+
 

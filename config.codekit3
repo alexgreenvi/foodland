@@ -9,16 +9,22 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.idea\/deployment.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/deployment.xml",
 		"oF": 0
 		},
-	"\/.idea\/FoodLand.iml": {
+	"\/.idea\/foodland.iml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/.idea\/FoodLand.iml",
+		"oAP": "\/.idea\/foodland.iml",
 		"oF": 0
 		},
 	"\/.idea\/modules.xml": {
@@ -33,25 +39,13 @@
 		"oAP": "\/.idea\/vcs.xml",
 		"oF": 0
 		},
-	"\/.idea\/webResources.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.idea\/webResources.xml",
-		"oF": 0
-		},
-	"\/.idea\/webServers.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.idea\/webServers.xml",
-		"oF": 0
-		},
 	"\/.idea\/workspace.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
-	"\/_frontend\/_engine\/_col.scss": {
+	"\/_frontend\/_engine\/_container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -59,7 +53,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/_frontend\/css\/_col.css",
+		"oAP": "\/_frontend\/css\/_container.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -271,16 +265,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/_frontend\/blocks\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_frontend\/blocks\/css\/style-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_frontend\/blocks\/filter\/style.scss": {
 		"aP": 0,
@@ -2202,7 +2186,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 527608592,
-	"displayValue": "FoodLand",
+	"displayValue": "foodland",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-archer"
 	},

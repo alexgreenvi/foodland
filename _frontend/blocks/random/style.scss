@@ -7,7 +7,7 @@
     flex-flow: row nowrap;
     -ms-flex-pack: center;
     justify-content: center;
-    @include media(l){
+    @include media(lg){
         margin-top: 0;
     }
 
