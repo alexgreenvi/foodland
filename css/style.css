@@ -1801,9 +1801,9 @@ input[type="text"]:focus {
 .search {
   margin-bottom: 30px;
   text-align: right; }
-  .search__form {
+  .search__form-mini {
     position: relative; }
-    .search__form input {
+    .search__form-mini input {
       height: 38px;
       width: 290px;
       position: relative;
@@ -1813,7 +1813,7 @@ input[type="text"]:focus {
       background: #fff;
       border: 0;
       border-bottom: 4px solid #f6cc49; }
-    .search__form button {
+    .search__form-mini button {
       position: absolute;
       top: 15px;
       right: 15px;
