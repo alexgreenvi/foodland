@@ -29,10 +29,16 @@ div.cs-select {
       z-index: 201;
       width: 100%;
       padding-left: 8px;
+      font-size: 14px;
+      line-height: 1.3em;
     }
     & .cs-options{
       padding-top: 35px;
     }
+  }
+  & .cs-placeholder {
+    font-size: 13px;
+    line-height: 1px;
   }
 
 }

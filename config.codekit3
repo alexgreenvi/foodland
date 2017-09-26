@@ -201,6 +201,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/_element\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/back-img\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -265,6 +278,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/_frontend\/blocks\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_frontend\/blocks\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_frontend\/blocks\/filter\/style.scss": {
 		"aP": 0,
@@ -422,6 +445,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/search\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/slider\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -444,19 +480,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/text\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2362,16 +2385,6 @@
 		"oA": 2,
 		"oAP": "\/product-category.html",
 		"oF": 0
-		},
-	"\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [
