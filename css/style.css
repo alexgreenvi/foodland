@@ -1714,7 +1714,7 @@ input[type="text"]:focus {
     left: 573px;
     top: 965px;
     height: 232px; }
-  .cheese-circle .circle,
+  .cheese-circle .bg,
   .cheese-circle .green,
   .cheese-circle .shadow {
     position: absolute;
@@ -1725,7 +1725,7 @@ input[type="text"]:focus {
     background-size: cover;
     background-color: transparent;
     background-repeat: no-repeat; }
-  .cheese-circle .circle,
+  .cheese-circle .bg,
   .cheese-circle .shadow {
     top: 0;
     bottom: 0;
@@ -1740,7 +1740,7 @@ input[type="text"]:focus {
     background-image: url("../images/cheese/shadow.png"); }
   .cheese-circle .green {
     background-image: url("../images/cheese/green.png"); }
-  .cheese-circle .circle {
+  .cheese-circle .bg {
     background-image: url("../images/cheese/cheese.png"); }
   .cheese-circle .piece {
     width: 423.28042328px;
