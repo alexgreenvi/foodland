@@ -84,19 +84,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_frontend\/_engine\/_print.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_frontend\/css\/_print.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/_frontend\/_engine\/_standart.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -214,6 +201,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/_element\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/back-img\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -228,6 +228,19 @@
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/button\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/category-carousel\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -266,6 +279,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_frontend\/blocks\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_frontend\/blocks\/filter\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -280,6 +303,19 @@
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/footer\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/header-background\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -370,6 +406,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/products-block\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/random\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -384,6 +433,19 @@
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/recommendation\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/search\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -422,19 +484,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_frontend\/blocks\/text\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_frontend\/blocks\/css\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/_frontend\/style.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -455,6 +504,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/style.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1519,6 +1578,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/product\/category-for-slider\/cat1.png": {
+		"ft": 32768,
+		"iS": 7982,
+		"oA": 0,
+		"oAP": "\/images\/product\/category-for-slider\/cat1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/category-for-slider\/cat2.png": {
+		"ft": 32768,
+		"iS": 6436,
+		"oA": 0,
+		"oAP": "\/images\/product\/category-for-slider\/cat2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/category-for-slider\/cat3.png": {
+		"ft": 32768,
+		"iS": 7782,
+		"oA": 0,
+		"oAP": "\/images\/product\/category-for-slider\/cat3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/category-for-slider\/cat4.png": {
+		"ft": 32768,
+		"iS": 8081,
+		"oA": 0,
+		"oAP": "\/images\/product\/category-for-slider\/cat4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/category-for-slider\/cat5.png": {
+		"ft": 32768,
+		"iS": 8841,
+		"oA": 0,
+		"oAP": "\/images\/product\/category-for-slider\/cat5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/product\/category\/1.png": {
 		"ft": 32768,
 		"iS": 9416,
@@ -1849,6 +1963,83 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/product\/header-product-category.png": {
+		"ft": 32768,
+		"iS": 242360,
+		"oA": 0,
+		"oAP": "\/images\/product\/header-product-category.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/header-product-category2.png": {
+		"ft": 32768,
+		"iS": 286593,
+		"oA": 0,
+		"oAP": "\/images\/product\/header-product-category2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/header-product-category3.png": {
+		"ft": 32768,
+		"iS": 305313,
+		"oA": 0,
+		"oAP": "\/images\/product\/header-product-category3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/header-product-category4.png": {
+		"ft": 32768,
+		"iS": 474,
+		"oA": 0,
+		"oAP": "\/images\/product\/header-product-category4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/products\/product-item-2.png": {
+		"ft": 32768,
+		"iS": 39347,
+		"oA": 0,
+		"oAP": "\/images\/product\/products\/product-item-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/products\/product-item-3.png": {
+		"ft": 32768,
+		"iS": 45050,
+		"oA": 0,
+		"oAP": "\/images\/product\/products\/product-item-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/products\/product-item.png": {
+		"ft": 32768,
+		"iS": 29270,
+		"oA": 0,
+		"oAP": "\/images\/product\/products\/product-item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/recommendation\/bondesto.jpg": {
 		"ft": 16384,
 		"iS": 71403,
@@ -2172,6 +2363,22 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/js\/scripts.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/product-catalog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-catalog.html",
+		"oF": 0
 		},
 	"\/product-category.html": {
 		"ft": 8192,
