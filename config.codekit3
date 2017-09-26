@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.bowerrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.bowerrc",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -279,16 +285,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_frontend\/blocks\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_frontend\/blocks\/css\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_frontend\/blocks\/filter\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -368,6 +364,19 @@
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/product-day\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/product-pagination\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -480,6 +489,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/tm-carousel\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1278,6 +1300,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/button\/paginat-button.png": {
+		"ft": 32768,
+		"iS": 7106,
+		"oA": 0,
+		"oAP": "\/images\/button\/paginat-button.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/cheese\/1.png": {
 		"ft": 32768,
 		"iS": 9087,
@@ -1436,6 +1469,17 @@
 		"iS": 1852,
 		"oA": 0,
 		"oAP": "\/images\/icons\/like.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/search.png": {
+		"ft": 32768,
+		"iS": 1442,
+		"oA": 0,
+		"oAP": "\/images\/icons\/search.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2262,6 +2306,39 @@
 		"iS": 26176,
 		"oA": 0,
 		"oAP": "\/images\/spinner\/technologies.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tm\/layer-16.png": {
+		"ft": 32768,
+		"iS": 13433,
+		"oA": 0,
+		"oAP": "\/images\/tm\/layer-16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tm\/layer-17.png": {
+		"ft": 32768,
+		"iS": 12479,
+		"oA": 0,
+		"oAP": "\/images\/tm\/layer-17.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tm\/slice-1.png": {
+		"ft": 32768,
+		"iS": 8157,
+		"oA": 0,
+		"oAP": "\/images\/tm\/slice-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

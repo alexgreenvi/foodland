@@ -24,6 +24,9 @@ $container-max-widths: (
     xl: 1140px
 ) !default;
 
+$container-margin: 70px;
+$container-aside: 170px;
+$container-main: 940px;
 
 %after {
     &::after{
@@ -45,6 +48,8 @@ $container-max-widths: (
 .container {
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    @extend %after;
 
     &-fluid {
       position: relative;
@@ -52,8 +57,13 @@ $container-max-widths: (
       width: 100%;
     }
 
-    width: 100%;
-    @extend %after;
+    &-aside {
+      width: $container-aside;
+      margin-right: $container-margin;
+    }
+    &-main {
+      width: $container-main;
+    }
 
     // Адаптивность
     @each $name, $size in $container-media-size {
@@ -63,6 +73,23 @@ $container-max-widths: (
               padding-left: 20px;
               padding-right: 20px;
             }
+
+            // Доп контаинеты
+            @if($name != sm and $name != xs) {
+              &-main {
+                width: (map-get($container-max-widths, $name) - $container-aside - $container-margin - 40);
+              }
+              &-aside{
+                width: $container-aside;
+              }
+
+            } @else {
+              &-main , &-aside{
+                width: 100%;
+              }
+            }
+
+
         }
     }
 
@@ -80,8 +107,8 @@ $container-max-widths: (
     @extend %after;
 }
 
-.container-main , .container-left , .container-right ,
-.container-main-left , .container-main-right ,
+
+.container-main , .container-aside,
 .col {
   @extend %block;
 }
