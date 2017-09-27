@@ -1,5 +1,13 @@
+.wrap-search {
+    padding-top: 50px;
+    @include media(md) {
+        padding-top: 100px;
+    }
+}
+
 .bread-crumbs {
-    width: 580px;
+    display: inline-block;
+    max-width: 580px;
     ul {
         li {
             display: inline-block;
@@ -8,14 +16,17 @@
             font-weight: 600;
             font-style: italic;
             letter-spacing: 0.2px;
-            margin-left: 8px;
+            margin-left: 5px;
             &:not(:last-of-type):after {
                 content: ">";
                 display: inline-block;
                 width: 9px;
                 height: 14px;
-                margin-left: 8px;
+                margin-left: 6px;
             }
+        }
+        a:hover {
+            color: inherit;
         }
     }
 }
