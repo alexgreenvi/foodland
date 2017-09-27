@@ -1,6 +1,5 @@
 .footer {
     position: relative;
-    z-index: 1;
     padding: 50px 0;
     background: url("../images/footer-bg.jpg");
     @include media(lg) {
@@ -8,7 +7,10 @@
         background-position: center;
     }
 
-    &__title, &__button, &__social, &__phone {
+    &__title,
+    &__button,
+    &__social,
+    &__phone {
         display: inline-block;
     }
     &__title {
@@ -54,7 +56,7 @@
             fill: #73662f;
             background: #f8dc65;
             border: 1px solid #d5bd57;
-            
+
             &:hover {
                 fill: #73662f;
                 background: #facc0e;
@@ -72,5 +74,26 @@
         svg {
             fill: #694c3d;
         }
+    }
+    &__parsley-left {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: -208px;
+        width: 220px;
+        height: 367px;
+        background: url('../images/background/parsley-left.png') no-repeat;
+        @include media (xs) {
+            display: none;
+        }
+    }
+    &__parsley-right {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: -226px;
+        width: 273px;
+        height: 352px;
+        background: url('../images/background/parsley-right.png') no-repeat;
     }
 }
