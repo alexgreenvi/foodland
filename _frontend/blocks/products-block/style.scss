@@ -1,6 +1,6 @@
 .products-block {
     padding-top: 60px;
-    @include media(lg){
+    @include media(lg) {
         padding-top: 0;
     }
     &__wrap-item {
@@ -8,10 +8,10 @@
         position: relative;
         float: left;
         width: 33%;
-        @include media(lg){
+        @include media(lg) {
             width: 50%;
         }
-        @include media(sm){
+        @include media(sm) {
             width: 100%;
         }
     }
@@ -22,6 +22,7 @@
         text-align: center;
         cursor: pointer;
         color: #979695;
+
         background-color: #fff;
         border-radius: 10px;
         transition: all .2s;
