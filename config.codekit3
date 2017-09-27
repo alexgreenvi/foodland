@@ -239,6 +239,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/background-page-category\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/bread-crumbs\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/button\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2533,6 +2559,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-category.html",
+		"oF": 0
+		},
+	"\/product-page.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/product-page.html",
 		"oF": 0
 		}
 	},

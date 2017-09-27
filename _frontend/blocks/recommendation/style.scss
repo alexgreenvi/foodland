@@ -1,7 +1,39 @@
 .recommendation {
+    margin: auto;
+    position: relative;
     z-index: 1;
+    width: 1200px;
+
+    $i: 1920;
+    @while $i > 100 {
+        $i: $i - 50;
+
+        @include media-custom($i){
+            $value: 100;
+            @if ($i <= 640) {$value: 50}
+            width: $i - $value + px;
+        }
+    }
+    .slick-slider {
+        padding: 0px;
+
+        @include media(lg){
+
+            padding: 0 0 80px;
+            margin: -10px;
+
+            .arrows {
+                top: auto;
+                bottom: 0;
+            }
+        }
+
+
+    }
+
 
     &__list {
+
         .row {
             padding: 10px;
         }
@@ -90,7 +122,7 @@
         }
         &__text {
             font-size: 20px;
-            line-height: 30px;
+            line-height: 26px;
             color: #000;
             
             @include media(lg){
