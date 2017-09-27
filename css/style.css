@@ -2613,6 +2613,11 @@ input[type="text"]:focus {
   -webkit-background-size: cover, cover, cover;
           background-size: cover, cover, cover; }
 
+.product-page-header {
+  background: url("../images/product/header-product-category.png") no-repeat center, url("../images/product/header-product-category4.png") no-repeat center;
+  -webkit-background-size: cover, cover;
+          background-size: cover, cover; }
+
 .category-carousel {
   margin-right: 32px;
   margin-bottom: 60px;
@@ -2849,3 +2854,20 @@ input[type="text"]:focus {
   .footer__parsley-right,
   .background-page-category .cheese-left {
     display: none; } }
+
+.bread-crumbs {
+  width: 580px; }
+  .bread-crumbs ul li {
+    display: inline-block;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    margin-left: 8px; }
+    .bread-crumbs ul li:not(:last-of-type):after {
+      content: ">";
+      display: inline-block;
+      width: 9px;
+      height: 14px;
+      margin-left: 8px; }
