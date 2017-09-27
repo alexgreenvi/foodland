@@ -6,23 +6,24 @@
     &_right {right: 0}
 
     &__cheese {
-        top: -175px;
-        right: -281px;
+        top: -246px;
+        right: -183px;
         width: 593px;
         height: 459px;
         background: url("../images/slack/cheese.png") no-repeat;
     }
     &__tomato {
-        left: -290px;
-        width: 575px;
-        height: 539px;
+        top: -66px;
+        left: -387px;
+        width: 673px;
+        height: 596px;
         background: url("../images/slack/tomato.png") no-repeat;
     }
     &__maslo {
         left: -125px;
-        bottom: -80px;
-        width: 442px;
-        height: 400px;
+        bottom: -105px;
+        width: 424px;
+        height: 358px;
         background: url("../images/slack/maslo.png") no-repeat;
         @include media(xl) {
             display: none;
