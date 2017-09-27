@@ -1,0 +1,105 @@
+.block-product-img {
+
+    &__img {
+        width: 411px;
+        height: 354px;
+        border-radius: 10px;
+        background: url('../images/product/product-page/3-layers.png');
+        text-align: center;
+        position: relative;
+        img {
+            width: 264px;
+            height: 247px;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            box-shadow: 0px 7px 5px -5px #222, -5px 40px 50px -10px #bbb;
+        }
+    }
+    &__carousel {
+        margin-top: 3px;
+        width: 411px;
+        border-radius: 10px;
+        overflow: hidden;
+        &__item {
+            width: 99px;
+            height: 99px;
+            border: 2px solid #efeee8;
+            background-color: #efeee8;
+            position: relative;
+            img {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+            }
+            &:hover {
+                border: 2px solid #f6d34b;
+            }
+        }
+        .arrows--next {
+            right: 2px;
+        }
+        .arrows--prev {
+            left: 0px;
+        }
+
+        .arrows {
+            width: 32px;
+            height: 100%;
+            background-color: #000000;
+            opacity: 0.2;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            cursor: pointer;
+            transform: none;
+            z-index: 1;
+        }
+    }
+    &__description {
+        font-weight: 600;
+        &__h2 {
+            margin: 35px 0 25px;
+            color: #0a0a0a;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28px;
+        }
+        &__line {
+            position: relative;
+            color: #0a0a0a;
+            font-size: 18px;
+            width: 310px;
+            height: 28px;
+
+            &__name {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-color: #fff;
+                z-index: 1;
+            }
+            &__dots {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 4px;
+                height: 4px;
+                background: url('../images/product/product-page/line__dot.png');
+            }
+            &__val {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                background-color: #fff;
+                z-index: 1;
+            }
+        }
+    }
+}
