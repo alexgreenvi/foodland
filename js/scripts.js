@@ -238,10 +238,15 @@ $(document).ready(function () {
 
     $('.icon').on('click', function () {
 
-        var number = $(this).data('number')
+        var number = $(this).data('number');
 
-        $('[data-type="piece"]').removeClass('active')
-        $('[data-number="' + number + '"]').addClass('active')
+        if($('[data-number="' + number + '"]').hasClass('active')){
+            $('[data-type="piece"]').removeClass('active');
+        }else{
+            $('[data-type="piece"]').removeClass('active');
+            $('[data-number="' + number + '"]').addClass('active');
+
+        }
 
         // Чтобы добавить анимацию, связанную с кликом по куску сыра, необходимо добавить
         // data-type="piece"
