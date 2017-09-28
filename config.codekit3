@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/.bowerrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.bowerrc",
-		"oF": 0
-		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -265,6 +259,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/background-page-product\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/block-product-img\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -466,6 +473,19 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/product-use-carousel\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
@@ -1185,11 +1205,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/background\/cheese-right-page-product.png": {
+		"ft": 32768,
+		"iS": 206644,
+		"oA": 0,
+		"oAP": "\/images\/background\/cheese-right-page-product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/background\/cow.png": {
 		"ft": 32768,
 		"iS": 190359,
 		"oA": 0,
 		"oAP": "\/images\/background\/cow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/milk.png": {
+		"ft": 32768,
+		"iS": 106429,
+		"oA": 0,
+		"oAP": "\/images\/background\/milk.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2287,6 +2329,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/product\/product-page\/product-use-1.png": {
+		"ft": 32768,
+		"iS": 178596,
+		"oA": 0,
+		"oAP": "\/images\/product\/product-page\/product-use-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/product-page\/product-use-2.png": {
+		"ft": 32768,
+		"iS": 137284,
+		"oA": 0,
+		"oAP": "\/images\/product\/product-page\/product-use-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/product\/products\/product-item-2.png": {
 		"ft": 32768,
 		"iS": 39347,
@@ -2472,12 +2536,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/images\/slack\/tomato_tmp1233218704": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/slack\/tomato_tmp1233218704",
-		"oF": 0
 		},
 	"\/images\/slider\/1-logo.png": {
 		"ft": 32768,
