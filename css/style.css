@@ -2004,6 +2004,10 @@ input[type="text"]:focus {
   .clients__carousel:after {
     right: -550px; }
 
+.clients-page-product {
+  padding: 100px 0 120px;
+  background: transparent; }
+
 .popular {
   position: relative;
   padding-bottom: 50px; }
@@ -3050,3 +3054,10 @@ input[type="text"]:focus {
     width: 60px;
     height: 46px;
     background: url("../images/icons/info-product-2.png"); }
+
+.product-use-carousel__carousel__item {
+  width: 288px;
+  height: 126px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #ffffff; }

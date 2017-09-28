@@ -8,14 +8,15 @@
         line-height: 48px;
         margin-bottom: 43px
     }
-    &__carousel { 
+    &__carousel {
         &__item {
             position: relative;
             height: 95px;
             margin: auto;
-            text-align: center; 
+            text-align: center;
         }
-        &:before, &:after {
+        &:before,
+        &:after {
             content: '';
             display: block;
             top: 48px;
@@ -26,10 +27,15 @@
             background: #f6d34b;
         }
         &:before {
-            left: -550px; 
+            left: -550px;
         }
         &:after {
             right: -550px;
-        }   
-    }   
+        }
+    }
+}
+
+.clients-page-product {
+    padding: 100px 0 120px;
+    background: transparent;
 }
