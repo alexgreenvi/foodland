@@ -1,5 +1,8 @@
 .product-pagination {
     padding: 50px 0 75px;
+    &_padding {
+        padding-top: 0;
+    }
     &__button {
         text-align: right;
         .button-cheese {
@@ -46,6 +49,9 @@
                 color: #f6d44d;
                 background-color: #fff;
             }
+        }
+        &_center {
+            text-align: center;
         }
     }
 }

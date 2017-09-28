@@ -1,0 +1,38 @@
+.trade-marks {
+    text-align: center;
+    &__item {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: -4px;
+        margin-bottom: 75px;
+        width: 25%;
+        @include media(xl) {
+            width: 33%;
+        }
+        @include media(lg) {
+            width: 50%;
+        }
+        &__card {
+            height: 125px;
+            position: relative;
+            &__img {
+                height: 90px;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            &__title {
+                font-size: 18px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+
+}

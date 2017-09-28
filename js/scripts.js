@@ -15,6 +15,7 @@ $(document).ready(function () {
         dots: true,
         dotsClass: 'dots'
     });
+
     $('.recommendation-carousel').slick({
         infinite: true,
         slidesToShow: 2,

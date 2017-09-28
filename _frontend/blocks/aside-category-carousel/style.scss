@@ -1,0 +1,19 @@
+.aside-category-carousel {
+    .tm-carousel__title {
+        margin-bottom: 50px;
+    }
+    .product__category__item__images {
+        width: auto;
+        height: auto;
+        padding: 12px 0;
+        img {
+            height: 95px;
+        }
+    }
+    .arrows--prev {
+        top: -35px;
+    }
+    .arrows--next {
+        bottom: -35px;
+    }
+}
