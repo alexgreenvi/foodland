@@ -1,0 +1,74 @@
+.background-page-product {
+    position: relative;
+    .milk {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: -50px;
+        width: 298px;
+        height: 566px;
+        background: url('../images/background/milk.png') no-repeat;
+    }
+    .block-left-top {
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        top: 290px;
+        width: 100%;
+        height: 320px;
+        transform: skewY(20deg);
+        background-color: #f6d34b;
+        opacity: .2;
+    }
+    .block-left-middle {
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        top: 820px;
+        width: 390px;
+        height: 110px;
+        transform: skewY(20deg);
+        background-color: #f6d34b;
+        opacity: .2;
+    }
+    .block-left-bottom {
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        bottom: -330px;
+        width: 100%;
+        height: 600px;
+        transform: skewY(20deg);
+        background-color: #f6d34b;
+        opacity: .2;
+    }
+    .block-right {
+        position: absolute;
+        z-index: -2;
+        right: 0px;
+        top: 60px;
+        width: 350px;
+        height: 190px;
+        transform: skewY(20deg);
+        background-color: #f6d34b;
+        opacity: .2;
+    }
+    .cheese-right {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 990px;
+        width: 335px;
+        height: 477px;
+        background: url('../images/background/cheese-right-page-product.png') no-repeat;
+        @include media(xl) {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .background-page-product .milk {
+        display: none;
+    }
+}

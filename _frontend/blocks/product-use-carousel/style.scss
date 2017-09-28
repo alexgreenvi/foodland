@@ -1,10 +1,81 @@
 .product-use-carousel {
+    margin-top: 50px;
     &__carousel {
+        padding: 15px 7px;
+        width: 274px;
         &__item {
-            width: 288px;
-            height: 126px;
+            height: 356px;
             border-radius: 10px;
             background-color: #ffffff;
+
+            img {
+                height: 216px;
+                width: 100%;
+                max-width: 100%;
+            }
+            &__name {
+                color: #000000;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: 0.24px;
+                text-align: center;
+                margin: 26px auto 30px;
+            }
+            &__block-link {
+                text-align: right;
+                padding-right: 18px;
+                position: relative;
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    position: absolute;
+                    left: 0;
+                    top: 12px;
+                    width: 106px;
+                    height: 2px;
+                    border-radius: 1px;
+                    background-color: #f6c647;
+                    vertical-align: middle;
+
+                }
+                a {
+                    font-weight: 600;
+                    font-style: italic;
+                    letter-spacing: 0.16px;
+                    vertical-align: baseline;
+                    display: inline-block;
+                    background-color: #fff;
+                    &:before {
+                        content: '';
+                        display: inline-block;
+                        width: 15px;
+                        height: 2px;
+                        background-color: #000;
+                        vertical-align: middle;
+                    }
+                    &:after {
+                        content: '';
+                        display: inline-block;
+                        width: 15px;
+                        height: 2px;
+                        background-color: #000;
+                        vertical-align: middle;
+                    }
+                    span {
+                        vertical-align: middle;
+                        margin: 0 10px;
+                    }
+                }
+
+            }
+        }
+        .random__arrows {
+            margin-top: -80px;
+        }
+        .slick-list {
+            box-shadow: 0px 10px 30px 0px #aaa;
+            border-radius: 10px;
         }
     }
 
