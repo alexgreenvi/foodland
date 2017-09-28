@@ -1630,14 +1630,14 @@ input[type="text"]:focus {
   .cheese:before {
     content: '';
     left: -300px;
-    bottom: -271px;
+    bottom: -274px;
     position: absolute;
     z-index: -5;
     width: 200%;
-    height: 42px;
-    -webkit-transform: rotate(24deg);
-        -ms-transform: rotate(24deg);
-            transform: rotate(24deg);
+    height: 24px;
+    -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+            transform: rotate(15deg);
     background: #fff8dd; }
   .cheese:after {
     content: '';
@@ -1770,7 +1770,7 @@ input[type="text"]:focus {
 .cheese-circle {
   position: absolute;
   float: left;
-  top: -150px;
+  top: -235px;
   width: 1000px;
   height: 1000px; }
   .cheese-circle:before, .cheese-circle:after {
@@ -2405,7 +2405,7 @@ input[type="text"]:focus {
   margin: auto;
   position: relative;
   z-index: 1;
-  width: 1200px; }
+  width: 1900px; }
   @media only screen and (max-width: 1870px) {
     .recommendation {
       width: 1770px; } }
@@ -2652,10 +2652,10 @@ input[type="text"]:focus {
     height: 459px;
     background: url("../images/slack/cheese.png") no-repeat; }
   .back-img__tomato {
-    top: -66px;
+    top: -158px;
     left: -387px;
     width: 673px;
-    height: 596px;
+    height: 680px;
     background: url("../images/slack/tomato.png") no-repeat; }
   .back-img__maslo {
     left: -125px;
