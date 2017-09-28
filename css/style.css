@@ -1598,12 +1598,12 @@ input[type="text"]:focus {
   .cheese:before {
     content: '';
     left: -300px;
-    bottom: -271px;
+    bottom: -274px;
     position: absolute;
     z-index: -5;
     width: 200%;
-    height: 42px;
-    transform: rotate(24deg);
+    height: 24px;
+    transform: rotate(15deg);
     background: #fff8dd; }
   .cheese:after {
     content: '';
@@ -1722,7 +1722,7 @@ input[type="text"]:focus {
 .cheese-circle {
   position: absolute;
   float: left;
-  top: -150px;
+  top: -235px;
   width: 1000px;
   height: 1000px; }
   .cheese-circle:before, .cheese-circle:after {
@@ -2287,7 +2287,7 @@ input[type="text"]:focus {
   margin: auto;
   position: relative;
   z-index: 1;
-  width: 1200px; }
+  width: 1900px; }
   @media only screen and (max-width: 1870px) {
     .recommendation {
       width: 1770px; } }
@@ -2523,10 +2523,10 @@ input[type="text"]:focus {
     height: 459px;
     background: url("../images/slack/cheese.png") no-repeat; }
   .back-img__tomato {
-    top: -66px;
+    top: -158px;
     left: -387px;
     width: 673px;
-    height: 596px;
+    height: 680px;
     background: url("../images/slack/tomato.png") no-repeat; }
   .back-img__maslo {
     left: -125px;
@@ -2893,9 +2893,7 @@ input[type="text"]:focus {
       left: 50%;
       top: auto;
       fill: #f6d34b;
-      -webkit-transform: translateX(-50%) rotate(90deg);
-          -ms-transform: translateX(-50%) rotate(90deg);
-              transform: translateX(-50%) rotate(90deg);
+      transform: translateX(-50%) rotate(90deg);
       cursor: pointer; }
     .analog-carousel__carousel .arrows--prev {
       top: -40px; }
@@ -2905,8 +2903,7 @@ input[type="text"]:focus {
 .block-product-img__img {
   width: 411px;
   height: 354px;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
+  border-radius: 10px;
   background: url("../images/product/product-page/3-layers.png");
   text-align: center;
   position: relative; }
@@ -2917,19 +2914,14 @@ input[type="text"]:focus {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    -webkit-box-shadow: 0px 7px 5px -5px #222, -5px 40px 50px -10px #bbb;
-            box-shadow: 0px 7px 5px -5px #222, -5px 40px 50px -10px #bbb; }
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0px 7px 5px -5px #222, -5px 40px 50px -10px #bbb; }
 
 .block-product-img__carousel {
   margin-top: 3px;
   width: 411px;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
+  border-radius: 10px;
   overflow: hidden; }
   .block-product-img__carousel__item {
     width: 99px;
@@ -2942,9 +2934,7 @@ input[type="text"]:focus {
       position: absolute;
       top: 50%;
       left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%); }
+      transform: translate(-50%, -50%); }
     .block-product-img__carousel__item:hover {
       border: 2px solid #f6d34b; }
   .block-product-img__carousel .arrows--next {
@@ -2960,9 +2950,7 @@ input[type="text"]:focus {
     top: 0;
     bottom: 0;
     cursor: pointer;
-    -webkit-transform: none;
-        -ms-transform: none;
-            transform: none;
+    transform: none;
     z-index: 1; }
 
 .block-product-img__description {
