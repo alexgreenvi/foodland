@@ -19,5 +19,9 @@
   }
   &__button {
     margin-top: 20px;
+
+    & .button-orange span {
+      padding: 0 46px;
+    }
   }
 }

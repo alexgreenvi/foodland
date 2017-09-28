@@ -17,14 +17,18 @@
         }
         & button {
             position: absolute;
-            top: 15px;
-            right: 15px;
+            top: -2px;
+            right: 10px;
             padding: 0 4px;
             line-height: 0;
             background: none;
             border: none;
             cursor: pointer;
             outline: none;
+            background-image: url(../images/icons/search.png);
+            width: 32px;
+            height: 32px;
+            background-repeat: no-repeat    ;
         }
     }
 }
