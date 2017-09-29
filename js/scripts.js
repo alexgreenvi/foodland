@@ -357,6 +357,9 @@ $(document).ready(function () {
 
         }
 
+        $('[data-cheese="content"]').removeClass('active');
+        $('[data-cheese-index="' + number + '"]').addClass('active');
+
         // Чтобы добавить анимацию, связанную с кликом по куску сыра, необходимо добавить
         // data-type="piece"
         // 

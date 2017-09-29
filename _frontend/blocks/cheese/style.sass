@@ -4,6 +4,11 @@
 	@include media(lg)
 		margin-bottom: 70px
 
+	&__product
+		display: none
+		&.active
+			display: block
+
 	&:before
 		content: ''
 		left: -300px
@@ -159,6 +164,15 @@ $width: 1000px
 		left: 573px
 		top: 965px
 		height: 232px
+	@include media(xl)
+		position: relative
+		float: left
+		top: auto
+		left: auto
+		width: 100%
+		height: auto
+		margin-top: 150px
+		text-align: center
 
 	.bg,
 	.green,
@@ -179,12 +193,17 @@ $width: 1000px
 		right: $width/4.725
 	.shadow
 		background-image: url("../images/cheese/shadow.png")
+		@include media(xl)
+			display: none
 
 	.green
 		background-image: url("../images/cheese/green.png")
-
+		@include media(xl)
+			display: none
 	.bg
 		background-image: url("../images/cheese/cheese.png")
+		@include media(xl)
+			display: none
 
 	.piece
 		width: $width/2.3625
@@ -206,6 +225,8 @@ $width: 1000px
 			&.active
 				transform: rotate(53deg) translateX(-$width/10)
 
+
+
 		&[data-number='item2']
 			top: $width/4.2631
 			left: $width/7.0875
@@ -225,7 +246,8 @@ $width: 1000px
 
 			&.active
 				transform: rotate(-37deg) translateX(-$width/10)
-
+		@include media(xl)
+			display: none
 	.icon
 
 		position: absolute
@@ -286,3 +308,23 @@ $width: 1000px
 
 			&.active
 				transform: rotate(-37deg) translateX(-$width/10)
+
+		@include media(xl)
+			position: relative
+			top: auto!important
+			left: auto!important
+			display: inline-block
+			margin-right: 30px
+			margin-bottom: 10px
+
+			&[data-number='item1']
+				&.active
+					transform: rotate(53deg)!important
+			&[data-number='item2']
+				&.active
+					transform: rotate(7deg)!important
+			&[data-number='item3']
+				&.active
+					transform: rotate(-37deg)!important
+			&.active
+				transform: translateX(0)!important
