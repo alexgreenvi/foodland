@@ -3,6 +3,12 @@
     @include media(lg) {
         padding-top: 0;
     }
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        margin-bottom: 5px;
+    }
     &__wrap-item {
         height: 328px;
         position: relative;

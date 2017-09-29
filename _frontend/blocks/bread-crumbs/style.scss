@@ -3,11 +3,27 @@
     @include media(md) {
         padding-top: 100px;
     }
+    &_one-brand {
+        padding-top: 0px;
+    }
 }
+
 
 .bread-crumbs {
     display: inline-block;
     max-width: 580px;
+    &_return {
+        margin-top: 20px;
+        li {
+            &:before {
+                content: "<";
+                display: inline-block;
+                width: 9px;
+                height: 14px;
+                margin-right: 10px;
+            }
+        }
+    }
     ul {
         li {
             display: inline-block;
