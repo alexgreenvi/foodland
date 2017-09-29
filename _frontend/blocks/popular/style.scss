@@ -1,7 +1,10 @@
 .popular {
     position: relative;
     padding-bottom: 50px;
-    @include media(lg){
+    @include media(lg) {
+        padding-bottom: 0;
+    }
+    &_pb {
         padding-bottom: 0;
     }
     &__item {
@@ -32,7 +35,9 @@
 
         &__description,
         &__name,
-        &__text {display: inline-block}
+        &__text {
+            display: inline-block
+        }
 
         &__name,
         &__text {
@@ -40,18 +45,23 @@
             line-height: 28px;
         }
 
-        &__name {font-size: 24px}
-        &__text {font-size: 20px;
+        &__name {
+            font-size: 24px
+        }
+        &__text {
+            font-size: 20px;
             opacity: 0;
-            transition: opacity .3s}
+            transition: opacity .3s
+        }
 
         &__description {
             font-size: 16px;
             line-height: 18px;
             opacity: 0;
-            transition: opacity .3s;}
+            transition: opacity .3s;
+        }
         &:hover & {
-            &__image{
+            &__image {
                 margin-top: 0;
                 transition: margin-top .3s;
             }
@@ -67,15 +77,21 @@
 }
 
 @media (max-width: 640px) {
-    .popular .item .image {margin-top: 0; transition: margin-top .3s}
+    .popular .item .image {
+        margin-top: 0;
+        transition: margin-top .3s
+    }
     .popular .item,
     .popular .item .description,
     .popular .item .text {
-        opacity: 1; transition: opacity .3s
+        opacity: 1;
+        transition: opacity .3s
     }
 }
+
 .popular__carousel {
-    &:before, &:after {
+    &:before,
+    &:after {
         content: '';
         display: block;
         top: 250px;
@@ -86,7 +102,7 @@
         background: #f6d34b;
     }
     &:before {
-        left: -550px; 
+        left: -550px;
     }
     &:after {
         right: -550px;

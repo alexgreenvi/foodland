@@ -7,7 +7,7 @@
     flex-flow: row nowrap;
     -ms-flex-pack: center;
     justify-content: center;
-    @include media(lg){
+    @include media(lg) {
         margin-top: 0;
     }
 
@@ -22,7 +22,8 @@
     }
 
     .row {
-        &:before, &:after {
+        &:before,
+        &:after {
             content: '';
             position: absolute;
             top: 50%;
@@ -30,15 +31,43 @@
             height: 3px;
             background-image: url("../images/point-line.png");
         }
-        &:before{
+        &:before {
             left: -50px;
         }
         &:after {
             right: -50px;
         }
     }
+    &_about {
+        background-color: transparent;
+        margin-top: 0;
+        padding-bottom: 60px;
+        .row {
+            &:before,
+            &:after {
+                display: none;
+            }
+        }
+        &__wrap {
+            &:before,
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                width: 450px;
+                height: 3px;
+                background-image: url("../images/point-line.png");
+            }
+            &:before {
+                left: -550px;
+            }
+            &:after {
+                right: -550px;
+            }
+        }
+    }
 
-    
+
     &__carousel {
         position: relative;
         margin: 5px;
@@ -78,7 +107,7 @@
         min-height: 55px;
         max-height: 55px;
         overflow: hidden;
-    
+
     }
     &__text {
         font-size: 15px;
@@ -118,9 +147,7 @@
         top: 50%;
         margin-top: -17px;
         -ms-transform: translateY(-50%);
-        transform: translateY(-50%)
-
-        &--prev {
+        transform: translateY(-50%) &--prev {
             left: 0
         }
         &--next {
@@ -135,6 +162,3 @@
         }
     }
 }
-
-
-

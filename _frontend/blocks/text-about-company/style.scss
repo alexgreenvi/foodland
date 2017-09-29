@@ -1,0 +1,15 @@
+.text-about-company {
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    &_pb {
+        padding-bottom: 60px;
+    }
+    &__advantages {
+        padding-top: 15px;
+        li:before {
+            content: "- ";
+        }
+    }
+}

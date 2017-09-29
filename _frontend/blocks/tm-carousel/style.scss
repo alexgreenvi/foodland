@@ -29,4 +29,29 @@
             bottom: -40px;
         }
     }
+    &-horizontal {
+        &__carousel {
+            padding-top: 10px;
+            &:before,
+            &:after {
+                content: '';
+                display: block;
+                top: 48px;
+                position: absolute;
+                z-index: 1;
+                width: 500px;
+                height: 2px;
+                background: #f6d34b;
+            }
+            &:before {
+                left: -550px;
+            }
+            &:after {
+                right: -550px;
+            }
+            &__item {
+                text-align: center;
+            }
+        }
+    }
 }

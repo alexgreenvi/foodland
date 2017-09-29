@@ -17,3 +17,46 @@
     font-weight: 700;
     line-height: 40px;
 }
+
+.h1 {
+    &_about-company {
+        color: #f6d34b;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+.h2 {
+    &_about-company {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        margin: 47px auto 30px;
+        &_center {
+            text-align: center;
+        }
+        &_mt {
+            margin-top: 0;
+        }
+    }
+}
+
+.h3 {
+    &_about-company {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.24px;
+        &_center {
+            text-align: center;
+            height: 50px;
+            margin-top: 95px;
+            margin-bottom: 15px;
+            @include media(lg) {
+                margin: 30px auto 10px;
+            }
+        }
+    }
+
+}
