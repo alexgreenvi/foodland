@@ -41,7 +41,7 @@
         }
     }
     &__cheese-left {
-        &-about {
+        &_about {
             position: absolute;
             z-index: -1;
             left: 0;
@@ -49,6 +49,32 @@
             width: 345px;
             height: 586px;
             background: url('../images/background/cheese-left-about.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
+        &_direction {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            top: 30px;
+            width: 606px;
+            height: 562px;
+            background: url('../images/background/cheese-left_direction.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
+    }
+    &__cheese-left-bottom {
+        &_direction {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            bottom: 280px;
+            width: 213px;
+            height: 670px;
+            background: url('../images/background/cheese-left-bottom_direction.png') no-repeat;
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -73,6 +99,17 @@
             top: 650px;
             width: 100%;
             height: 30px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+        &_direction {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 390px;
+            width: 50%;
+            height: 120px;
             transform: skewY(20deg);
             background-color: #f6d34b;
             opacity: .2;
@@ -114,6 +151,17 @@
             background-color: #f6d34b;
             opacity: .2;
         }
+        &_direction {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 1220px;
+            width: 300px;
+            height: 170px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
     }
     &__block-left-middle-bottom {
         &_about {
@@ -140,6 +188,17 @@
             background-color: #f6d34b;
             opacity: .2;
         }
+        &_direction {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            bottom: -530px;
+            width: 100%;
+            height: 400px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
     }
     &__block-right {
         &_brand {
@@ -161,6 +220,17 @@
                 top: 400px;
                 width: 370px;
                 height: 420px;
+                transform: skewY(20deg);
+                background-color: #f6d34b;
+                opacity: .2;
+            }
+            &_direction {
+                position: absolute;
+                z-index: -2;
+                right: 0px;
+                top: 300px;
+                width: 340px;
+                height: 270px;
                 transform: skewY(20deg);
                 background-color: #f6d34b;
                 opacity: .2;
@@ -214,6 +284,18 @@
             width: 407px;
             height: 649px;
             background: url('../images/background/cheese-right-about.png') no-repeat;
+            @media only screen and (max-width: 1660px) {
+                display: none;
+            }
+        }
+        &_direction {
+            position: absolute;
+            z-index: -2;
+            right: 0;
+            bottom: 1100px;
+            width: 319px;
+            height: 586px;
+            background: url('../images/background/cheese-right_direction.png') no-repeat;
             @media only screen and (max-width: 1660px) {
                 display: none;
             }

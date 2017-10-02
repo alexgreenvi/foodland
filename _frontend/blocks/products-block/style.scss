@@ -3,6 +3,10 @@
     @include media(lg) {
         padding-top: 0;
     }
+    &_pt {
+        padding-top: 0;
+        margin-top: -60px;
+    }
     &__title {
         font-size: 40px;
         font-weight: 700;

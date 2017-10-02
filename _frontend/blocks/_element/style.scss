@@ -19,12 +19,14 @@
 }
 
 .h1 {
-    &_about-company {
-        color: #f6d34b;
-        font-size: 48px;
-        font-weight: 700;
-        text-align: center;
+    color: #f6d34b;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    &_mt-35 {
+        margin-top: 35px;
     }
+
 }
 
 .h2 {
@@ -59,4 +61,11 @@
         }
     }
 
+}
+
+.text-direct {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 90px;
 }
