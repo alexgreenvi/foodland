@@ -37,7 +37,23 @@
         }
     }
     &_about {
+        padding-top: 10px;
+        padding-bottom: 10px;
         background-color: transparent;
+        .arrows--prev {
+            left: -40px;
+        }
+        .arrows--next {
+            right: -40px;
+        }
+        @include media(sm) {
+            .arrows--prev {
+                left: -20px;
+            }
+            .arrows--next {
+                right: -20px;
+            }
+        }
     }
 }
 

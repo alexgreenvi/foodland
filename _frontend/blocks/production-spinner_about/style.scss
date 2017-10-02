@@ -1,0 +1,10 @@
+.production-spinner_about {
+    margin-top: 80px;
+    margin-bottom: 145px;
+    &:after {
+        display: none;
+    }
+    @include media(sm) {
+        margin-bottom: 100px;
+    }
+}

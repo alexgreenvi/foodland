@@ -13,6 +13,46 @@
                 display: none;
             }
         }
+        &_about {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            top: -180px;
+            width: 397px;
+            height: 726px;
+            background: url('../images/background/tomato-about.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
+    }
+    &__butter {
+        &_about {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            top: 980px;
+            width: 324px;
+            height: 400px;
+            background: url('../images/background/butter-about.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
+    }
+    &__cheese-left {
+        &-about {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            top: 3080px;
+            width: 345px;
+            height: 586px;
+            background: url('../images/background/cheese-left-about.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
     }
     &__block-left-top {
         &_brand {
@@ -22,6 +62,30 @@
             top: 490px;
             width: 100%;
             height: 30px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+        &_about {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 650px;
+            width: 100%;
+            height: 30px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+    }
+    &__block-left-middle-top {
+        &_about {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 545px;
+            width: 140px;
+            height: 170px;
             transform: skewY(20deg);
             background-color: #f6d34b;
             opacity: .2;
@@ -39,6 +103,43 @@
             background-color: #f6d34b;
             opacity: .2;
         }
+        &_about {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 2500px;
+            width: 100%;
+            height: 250px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+    }
+    &__block-left-middle-bottom {
+        &_about {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 2654px;
+            width: 300px;
+            height: 125px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+    }
+    &__block-left-bottom {
+        &_about {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            bottom: -630px;
+            width: 100%;
+            height: 1153px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
     }
     &__block-right {
         &_brand {
@@ -52,6 +153,45 @@
             background-color: #f6d34b;
             opacity: .2;
         }
+        &-top {
+            &_about {
+                position: absolute;
+                z-index: -2;
+                right: 0px;
+                top: 400px;
+                width: 370px;
+                height: 420px;
+                transform: skewY(20deg);
+                background-color: #f6d34b;
+                opacity: .2;
+            }
+        }
+        &-middle {
+            &_about {
+                position: absolute;
+                z-index: -2;
+                right: 0px;
+                top: 1440px;
+                width: 950px;
+                height: 600px;
+                transform: skewY(20deg);
+                background-color: #f6d34b;
+                opacity: .2;
+            }
+        }
+        &-bottom {
+            &_about {
+                position: absolute;
+                z-index: -2;
+                right: 0px;
+                bottom: 350px;
+                width: 300px;
+                height: 60px;
+                transform: skewY(20deg);
+                background-color: #f6d34b;
+                opacity: .2;
+            }
+        }
     }
     &__cheese-right {
         &_brand {
@@ -62,6 +202,18 @@
             width: 392px;
             height: 562px;
             background: url('../images/background/cheese-green.png') no-repeat;
+            @media only screen and (max-width: 1660px) {
+                display: none;
+            }
+        }
+        &_about {
+            position: absolute;
+            z-index: -2;
+            right: 0;
+            top: 1700px;
+            width: 407px;
+            height: 649px;
+            background: url('../images/background/cheese-right-about.png') no-repeat;
             @media only screen and (max-width: 1660px) {
                 display: none;
             }
