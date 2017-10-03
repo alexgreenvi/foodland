@@ -2,7 +2,7 @@
 .git
 config.codekit3
 .DS_Store
-.css/style.css
+css/style.css
 .gitignore
 node_modules/
 gulpfile.js
