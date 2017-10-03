@@ -7,6 +7,9 @@
     &_m-0-60 {
         margin: 0 auto 60px;
     }
+    &_m-0-50 {
+        margin: 0 auto 50px;
+    }
     &__wrap {
         float: left;
         width: 25%;
@@ -22,7 +25,7 @@
         max-width: 288px;
         margin: auto;
         &__item {
-            height: 356px;
+            min-height: 356px;
             border-radius: 10px;
             background-color: #ffffff;
 
@@ -38,7 +41,9 @@
                 line-height: 28px;
                 letter-spacing: 0.24px;
                 text-align: center;
-                margin: 26px auto 30px;
+                margin: 24px auto 0;
+                padding: 0 10px;
+                min-height: 57px;
             }
             &__block-link {
                 text-align: right;
@@ -50,7 +55,7 @@
                     position: absolute;
                     left: 0;
                     top: 12px;
-                    width: 106px;
+                    width: 90px;
                     height: 2px;
                     border-radius: 1px;
                     background-color: #f6c647;
@@ -58,6 +63,7 @@
 
                 }
                 a {
+                    font-size: 16px;
                     font-weight: 600;
                     font-style: italic;
                     letter-spacing: 0.16px;
@@ -119,7 +125,9 @@
             }
             &__item {
                 background-color: transparent;
-
+                &_gallery {
+                    min-height: auto;
+                }
                 img {
                     height: 200px;
                 }
@@ -130,12 +138,25 @@
                     border-radius: 10px;
                     background-color: #fff;
                     box-shadow: 0px 10px 15px 0px #aaa;
+                    &_gallery {
+                        height: auto;
+                        img {
+                            border-radius: 10px;
+                        }
+                    }
                 }
             }
         }
         .slick-list {
             height: 380px;
             background-color: transparent;
+        }
+        &_gallery {
+            margin: 60px auto 95px;
+            .slick-list {
+                height: 220px;
+                background-color: transparent;
+            }
         }
     }
 }

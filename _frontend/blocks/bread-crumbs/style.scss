@@ -6,6 +6,12 @@
     &_one-brand {
         padding-top: 0px;
     }
+    &_pt-42 {
+        padding-top: 42px;
+        @media only screen and(max-width: 1450px) {
+            padding-top: 70px;
+        }
+    }
 }
 
 
@@ -18,9 +24,23 @@
             &:before {
                 content: "<";
                 display: inline-block;
+                vertical-align: middle;
                 width: 9px;
-                height: 14px;
+                height: 20px;
                 margin-right: 10px;
+            }
+        }
+    }
+    &_after {
+        li {
+            &:after {
+                content: " ";
+                display: inline-block;
+                vertical-align: middle;
+                width: 20px;
+                height: 2px;
+                background-color: #707070;
+                margin-left: 10px;
             }
         }
     }
@@ -41,8 +61,11 @@
                 margin-left: 6px;
             }
         }
-        a:hover {
-            color: inherit;
+        a {
+            vertical-align: middle;
+            &:hover {
+                color: inherit;
+            }
         }
     }
 }

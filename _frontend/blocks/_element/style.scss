@@ -30,10 +30,11 @@
 }
 
 .h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
     &_about-company {
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
+        @extend .h2;
         margin: 47px auto 30px;
         &_center {
             text-align: center;
@@ -41,6 +42,9 @@
         &_mt {
             margin-top: 0;
         }
+    }
+    &_mb-25 {
+        margin-bottom: 25px;
     }
 }
 

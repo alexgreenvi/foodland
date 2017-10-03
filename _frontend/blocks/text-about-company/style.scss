@@ -11,5 +11,11 @@
         li:before {
             content: "- ";
         }
+        &_event {
+            padding-top: 0;
+            li {
+                margin: 10px auto;
+            }
+        }
     }
 }
