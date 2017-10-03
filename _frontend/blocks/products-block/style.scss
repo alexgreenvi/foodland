@@ -7,6 +7,9 @@
         padding-top: 0;
         margin-top: -60px;
     }
+    &_excl {
+        padding-top: 10px;
+    }
     &__title {
         font-size: 40px;
         font-weight: 700;
@@ -23,6 +26,18 @@
         }
         @include media(sm) {
             width: 100%;
+        }
+        &_4 {
+            width: 25%;
+            @include media(lg) {
+                width: 50%;
+            }
+            @include media(sm) {
+                width: 100%;
+            }
+            .products-block__item {
+                background-color: transparent;
+            }
         }
     }
     &__item {
@@ -63,7 +78,6 @@
             z-index: 9;
             height: auto;
             box-shadow: 0 5px 13px rgba(59, 59, 59, 0.35);
-
         }
         &:hover &__description {
             visibility: visible;
@@ -79,4 +93,5 @@
             margin-bottom: 0;
         }
     }
+
 }

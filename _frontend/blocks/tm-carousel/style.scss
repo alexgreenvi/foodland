@@ -30,6 +30,9 @@
         }
     }
     &-horizontal {
+        &_mb-120 {
+            margin-bottom: 120px;
+        }
         &__carousel {
             padding-top: 10px;
             &:before,

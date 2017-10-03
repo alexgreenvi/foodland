@@ -2943,6 +2943,8 @@ input[type="text"]:focus {
   .products-block_pt {
     padding-top: 0;
     margin-top: -60px; }
+  .products-block_excl {
+    padding-top: 10px; }
   .products-block__title {
     font-size: 40px;
     font-weight: 700;
@@ -2959,6 +2961,16 @@ input[type="text"]:focus {
     @media only screen and (max-width: 576px) {
       .products-block__wrap-item {
         width: 100%; } }
+    .products-block__wrap-item_4 {
+      width: 25%; }
+      @media only screen and (max-width: 992px) {
+        .products-block__wrap-item_4 {
+          width: 50%; } }
+      @media only screen and (max-width: 576px) {
+        .products-block__wrap-item_4 {
+          width: 100%; } }
+      .products-block__wrap-item_4 .products-block__item {
+        background-color: transparent; }
   .products-block__item {
     height: 328px;
     overflow: hidden;
@@ -3012,6 +3024,8 @@ input[type="text"]:focus {
     padding-top: 0; }
     .product-pagination_padding-20-65 {
       padding: 20px 0 65px; }
+    .product-pagination_padding-40-60 {
+      padding: 40px 0 60px; }
   .product-pagination_pb-10 {
     padding-bottom: 10px; }
   .product-pagination__button {
@@ -3085,6 +3099,8 @@ input[type="text"]:focus {
       top: -40px; }
     .tm-carousel__carousel .arrows--next {
       bottom: -40px; }
+  .tm-carousel-horizontal_mb-120 {
+    margin-bottom: 120px; }
   .tm-carousel-horizontal__carousel {
     padding-top: 10px; }
     .tm-carousel-horizontal__carousel:before, .tm-carousel-horizontal__carousel:after {
@@ -3391,6 +3407,8 @@ input[type="text"]:focus {
   margin-top: 50px; }
   .product-use-carousel_margin-bottom {
     margin-bottom: 90px; }
+  .product-use-carousel_m-0-60 {
+    margin: 0 auto 60px; }
   .product-use-carousel__wrap {
     float: left;
     width: 25%; }
@@ -3661,6 +3679,17 @@ input[type="text"]:focus {
     @media only screen and (max-width: 1680px) {
       .background-page__tomat_about {
         display: none; } }
+  .background-page__tomat_exclusive {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 250px;
+    width: 260px;
+    height: 388px;
+    background: url("../images/background/tomat_exclusive.png") no-repeat; }
+    @media only screen and (max-width: 1680px) {
+      .background-page__tomat_exclusive {
+        display: none; } }
   .background-page__butter_about {
     position: absolute;
     z-index: -1;
@@ -3764,6 +3793,18 @@ input[type="text"]:focus {
             transform: skewY(20deg);
     background-color: #f6d34b;
     opacity: .2; }
+  .background-page__block-left-top_exclusive {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 335px;
+    width: 34%;
+    height: 105px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #f6d34b;
+    opacity: .2; }
   .background-page__block-left-middle-top_about {
     position: absolute;
     z-index: -2;
@@ -3819,6 +3860,18 @@ input[type="text"]:focus {
     bottom: 486px;
     width: 270px;
     height: 170px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #f6d34b;
+    opacity: .2; }
+  .background-page__block-left-middle_exclusive {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    bottom: 600px;
+    width: 270px;
+    height: 180px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3920,6 +3973,18 @@ input[type="text"]:focus {
             transform: skewY(20deg);
     background-color: #f6d34b;
     opacity: .2; }
+  .background-page__block-right-top_exclusive {
+    position: absolute;
+    z-index: -2;
+    right: 0px;
+    top: 300px;
+    width: 310px;
+    height: 285px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #f6d34b;
+    opacity: .2; }
   .background-page__block-right-middle_about {
     position: absolute;
     z-index: -2;
@@ -3987,6 +4052,17 @@ input[type="text"]:focus {
     background: url("../images/background/butter-right_event.png") no-repeat; }
     @media only screen and (max-width: 1660px) {
       .background-page__butter-right_event {
+        display: none; } }
+  .background-page__milk-right_exclusive {
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    bottom: 810px;
+    width: 318px;
+    height: 566px;
+    background: url("../images/background/milk-right_exclusive.png") no-repeat; }
+    @media only screen and (max-width: 1660px) {
+      .background-page__milk-right_exclusive {
         display: none; } }
   .background-page__top {
     position: absolute;
