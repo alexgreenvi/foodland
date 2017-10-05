@@ -31,7 +31,7 @@
         }
         li {
             display: inline-block;
-            color: #f6d44d;
+            color: #ffc928;
             font-size: 16px;
             font-style: italic;
             text-align: center;
@@ -44,18 +44,18 @@
             padding-top: 13px;
             &:hover {
                 border-radius: 50%;
-                background-color: #fbdd65;
+                background-color: #ffc928;
                 color: #000;
             }
         }
         &__elem-active {
             border-radius: 50%;
-            background-color: #fbdd65;
+            background-color: #ffc928;
             color: #000;
         }
         a.product-pagination__pagination__elem-deactive {
             &:hover {
-                color: #f6d44d;
+                color: #ffc928;
                 background-color: #fff;
             }
         }
