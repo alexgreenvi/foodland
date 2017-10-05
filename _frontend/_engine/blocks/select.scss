@@ -5,7 +5,7 @@ div.cs-select {
   position: relative;
   text-align: left;
   background: transparent;
-  border-bottom: 2px solid #f6d34b;
+  border-bottom: 2px solid #ffc928;
   z-index: 100;
   width: 100%;
   max-width: 500px;
@@ -103,7 +103,7 @@ div.cs-select:focus {
 
   span {
     &:hover {
-      background: #f6cc49;
+      background: #ffc928;
     }
   }
 }

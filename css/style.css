@@ -847,7 +847,7 @@ ul ul, ol ul, ul ol, ol ol {
   height: 42px;
   position: absolute;
   top: 50%;
-  fill: #f6d34b;
+  fill: #ffc928;
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -944,7 +944,7 @@ div.cs-select {
   position: relative;
   text-align: left;
   background: transparent;
-  border-bottom: 2px solid #f6d34b;
+  border-bottom: 2px solid #ffc928;
   z-index: 100;
   width: 100%;
   max-width: 500px;
@@ -1028,7 +1028,7 @@ div.cs-select:focus {
   background: #fff;
   visibility: hidden; }
   .cs-select .cs-options span:hover {
-    background: #f6cc49; }
+    background: #ffc928; }
 
 .cs-select.cs-active .cs-options {
   visibility: visible; }
@@ -1250,7 +1250,7 @@ input[type="text"]:focus {
     padding: 40px 140px 45px;
     -webkit-box-shadow: 0 9px 24px rgba(75, 50, 0, 0.61);
             box-shadow: 0 9px 24px rgba(75, 50, 0, 0.61);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     -webkit-transition: top .2s;
     -o-transition: top .2s;
     transition: top .2s;
@@ -1333,7 +1333,7 @@ input[type="text"]:focus {
       border: 1px solid #d5bd57; }
       .footer__social__item:hover {
         fill: #73662f;
-        background: #facc0e;
+        background: #ffc928;
         border-color: #c7a119; }
   .footer .menu-site-map {
     margin-top: 20px; }
@@ -1647,7 +1647,7 @@ input[type="text"]:focus {
     .slider__item__text {
       max-width: 380px;
       padding: 40px;
-      border: 10px solid #fdd439;
+      border: 10px solid #ffc928;
       -webkit-border-radius: 10px;
               border-radius: 10px;
       color: #fff; }
@@ -1702,11 +1702,11 @@ input[type="text"]:focus {
       display: block;
       -webkit-border-radius: 50%;
               border-radius: 50%;
-      border: 5px solid #f6d34b;
+      border: 5px solid #ffc928;
       background-color: #fff; }
     .slider .dots .slick-active button {
-      border: 5px solid #f6d34b;
-      background-color: #f6d34b; }
+      border: 5px solid #ffc928;
+      background-color: #ffc928; }
 
 .cheese {
   margin-bottom: 150px;
@@ -1781,7 +1781,7 @@ input[type="text"]:focus {
 .cheese__text-block:after, .cheese__text-block:before {
   content: '';
   position: absolute;
-  background: #fdd439; }
+  background: #ffc928; }
 
 .cheese__text-block:before {
   width: 15px;
@@ -1836,7 +1836,7 @@ input[type="text"]:focus {
   bottom: 0;
   width: 25px;
   height: 2px;
-  background: #fdd439;
+  background: #ffc928;
   -webkit-transition: width .3s;
   -o-transition: width .3s;
   transition: width .3s; }
@@ -1848,7 +1848,7 @@ input[type="text"]:focus {
 .cheese__link:hover:before {
   width: 100%;
   height: 1px;
-  background: #fdd439;
+  background: #ffc928;
   -webkit-transition: width .3s;
   -o-transition: width .3s;
   transition: width .3s; }
@@ -2068,7 +2068,7 @@ input[type="text"]:focus {
       font-weight: 300;
       background-color: transparent;
       border: 0;
-      border-bottom: 4px solid #f6cc49; }
+      border-bottom: 4px solid #ffc928; }
     .search__form-mini button {
       position: absolute;
       top: -2px;
@@ -2144,7 +2144,7 @@ input[type="text"]:focus {
     z-index: 1;
     width: 500px;
     height: 2px;
-    background: #f6d34b; }
+    background: #ffc928; }
   .clients__carousel:before {
     left: -550px; }
   .clients__carousel:after {
@@ -2263,7 +2263,7 @@ input[type="text"]:focus {
   z-index: -1;
   width: 500px;
   height: 2px;
-  background: #f6d34b; }
+  background: #ffc928; }
 
 .popular__carousel:before {
   left: -550px; }
@@ -2724,7 +2724,7 @@ input[type="text"]:focus {
     width: 100%;
     height: 210px;
     color: #ffffff;
-    background-color: #fdd439;
+    background-color: #ffc928;
     -webkit-border-radius: 10px;
             border-radius: 10px;
     float: left;
@@ -2806,7 +2806,7 @@ input[type="text"]:focus {
     .recommendation__block__line:before {
       content: "";
       position: absolute;
-      background: #fdd439; }
+      background: #ffc928; }
     .recommendation__block__line_down:before {
       left: 0;
       bottom: -100%;
@@ -3075,7 +3075,7 @@ input[type="text"]:focus {
         margin-bottom: 30px; } }
     .product-pagination__pagination li {
       display: inline-block;
-      color: #f6d44d;
+      color: #ffc928;
       font-size: 16px;
       font-style: italic;
       text-align: center;
@@ -3088,15 +3088,15 @@ input[type="text"]:focus {
       .product-pagination__pagination a:hover {
         -webkit-border-radius: 50%;
                 border-radius: 50%;
-        background-color: #fbdd65;
+        background-color: #ffc928;
         color: #000; }
     .product-pagination__pagination__elem-active {
       -webkit-border-radius: 50%;
               border-radius: 50%;
-      background-color: #fbdd65;
+      background-color: #ffc928;
       color: #000; }
     .product-pagination__pagination a.product-pagination__pagination__elem-deactive:hover {
-      color: #f6d44d;
+      color: #ffc928;
       background-color: #fff; }
     .product-pagination__pagination_center {
       text-align: center; }
@@ -3122,7 +3122,7 @@ input[type="text"]:focus {
       position: absolute;
       left: 50%;
       top: auto;
-      fill: #f6d34b;
+      fill: #ffc928;
       -webkit-transform: translateX(-50%) rotate(90deg);
           -ms-transform: translateX(-50%) rotate(90deg);
               transform: translateX(-50%) rotate(90deg);
@@ -3143,7 +3143,7 @@ input[type="text"]:focus {
       z-index: 1;
       width: 500px;
       height: 2px;
-      background: #f6d34b; }
+      background: #ffc928; }
     .tm-carousel-horizontal__carousel:before {
       left: -550px; }
     .tm-carousel-horizontal__carousel:after {
@@ -3171,7 +3171,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-category .block-left-middle {
     position: absolute;
@@ -3183,7 +3183,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-category .cheese-left {
     position: absolute;
@@ -3203,7 +3203,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-category .block-right {
     position: absolute;
@@ -3215,7 +3215,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-category .cheese-right {
     position: absolute;
@@ -3317,7 +3317,7 @@ input[type="text"]:focus {
       position: absolute;
       left: 50%;
       top: auto;
-      fill: #f6d34b;
+      fill: #ffc928;
       -webkit-transform: translateX(-50%) rotate(90deg);
           -ms-transform: translateX(-50%) rotate(90deg);
               transform: translateX(-50%) rotate(90deg);
@@ -3371,7 +3371,7 @@ input[type="text"]:focus {
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
     .block-product-img__carousel__item:hover {
-      border: 2px solid #f6d34b; }
+      border: 2px solid #ffc928; }
   .block-product-img__carousel .arrows--next {
     right: 2px; }
   .block-product-img__carousel .arrows--prev {
@@ -3542,7 +3542,7 @@ input[type="text"]:focus {
           height: 2px;
           -webkit-border-radius: 1px;
                   border-radius: 1px;
-          background-color: #f6c647;
+          background-color: #ffc928;
           vertical-align: middle; }
         .product-use-carousel__carousel__item__block-link a {
           font-size: 16px;
@@ -3623,7 +3623,7 @@ input[type="text"]:focus {
       z-index: 1;
       width: 500px;
       height: 2px;
-      background: #f6d34b; }
+      background: #ffc928; }
     .product-use-carousel_4__carousel:before {
       left: -550px; }
     .product-use-carousel_4__carousel:after {
@@ -3695,7 +3695,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-product .block-left-middle {
     position: absolute;
@@ -3707,7 +3707,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-product .block-left-bottom {
     position: absolute;
@@ -3719,7 +3719,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-product .block-right {
     position: absolute;
@@ -3731,7 +3731,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page-product .cheese-right {
     position: absolute;
@@ -3921,7 +3921,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-top_about {
     position: absolute;
@@ -3933,7 +3933,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-top_direction {
     position: absolute;
@@ -3945,7 +3945,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-top_event {
     position: absolute;
@@ -3957,7 +3957,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-top_exclusive {
     position: absolute;
@@ -3969,7 +3969,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-top_recipe {
     position: absolute;
@@ -4005,7 +4005,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-middle_brand {
     position: absolute;
@@ -4017,7 +4017,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-middle_about {
     position: absolute;
@@ -4029,7 +4029,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-middle_direction {
     position: absolute;
@@ -4041,7 +4041,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-middle_event {
     position: absolute;
@@ -4053,7 +4053,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-middle_exclusive {
     position: absolute;
@@ -4065,7 +4065,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-middle_recipe {
     position: absolute;
@@ -4101,7 +4101,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-bottom_about {
     position: absolute;
@@ -4113,7 +4113,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-bottom_direction {
     position: absolute;
@@ -4125,7 +4125,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-left-bottom_event {
     position: absolute;
@@ -4137,7 +4137,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right_brand {
     position: absolute;
@@ -4149,7 +4149,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right-top_about {
     position: absolute;
@@ -4161,7 +4161,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right-top_direction {
     position: absolute;
@@ -4173,7 +4173,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right-top_event {
     position: absolute;
@@ -4185,7 +4185,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right-top_exclusive {
     position: absolute;
@@ -4197,7 +4197,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right-top_recipe {
     position: absolute;
@@ -4221,7 +4221,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__block-right-bottom_about {
     position: absolute;
@@ -4233,7 +4233,7 @@ input[type="text"]:focus {
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
-    background-color: #f6d34b;
+    background-color: #ffc928;
     opacity: .2; }
   .background-page__cheese-right_brand {
     position: absolute;
@@ -4341,7 +4341,7 @@ input[type="text"]:focus {
       margin-bottom: 40px; } }
   .text-brand__link a:hover {
     color: inherit;
-    border-bottom: 2px solid #f6d34b; }
+    border-bottom: 2px solid #ffc928; }
 
 .text-about-company {
   padding: 30px 0;

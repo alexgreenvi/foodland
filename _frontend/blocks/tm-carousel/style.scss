@@ -18,7 +18,7 @@
             position: absolute;
             left: 50%;
             top: auto;
-            fill: #f6d34b;
+            fill: #ffc928;
             transform: translateX(-50%) rotate(90deg);
             cursor: pointer;
         }
@@ -44,7 +44,7 @@
                 z-index: 1;
                 width: 500px;
                 height: 2px;
-                background: #f6d34b;
+                background: #ffc928;
             }
             &:before {
                 left: -550px;
