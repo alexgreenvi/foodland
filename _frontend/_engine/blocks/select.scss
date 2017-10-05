@@ -6,7 +6,7 @@ div.cs-select {
     position: relative;
     text-align: left;
     background: transparent;
-    border-bottom: 2px solid #ffc928;
+    border-bottom: 3px solid #ffc928;
     z-index: 100;
     width: 100%;
     max-width: 500px;
@@ -39,7 +39,7 @@ div.cs-select {
         }
     }
     & .cs-placeholder {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1px;
     }
 
@@ -75,7 +75,7 @@ div.cs-select:focus {
 .cs-select .cs-selected span::after {
     speak: none;
     position: absolute;
-    top: 50%;
+    top: 35%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-font-smoothing: antialiased;
@@ -83,18 +83,19 @@ div.cs-select:focus {
 }
 
 .cs-select > span::after {
-    content: '\25BE';
-    right: 1em;
+    content: '\25bc';
+    right: 0em;
 }
 
 .cs-select .cs-selected span::after {
-    content: '\2713';
+    content: '\25b2';
     margin-left: 1em;
 }
 
 .cs-select.cs-active > span::after {
     -webkit-transform: translateY(-50%) rotate(180deg);
     transform: translateY(-50%) rotate(180deg);
+    right: 1em;
 }
 
 /* Options */

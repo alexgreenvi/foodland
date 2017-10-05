@@ -57,13 +57,13 @@ h1 {
   margin: 0.67em 0; }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h2_about-company, .h3, .h3_about-company, .h4, .h5, .h6 {
+.h1, .h2, .h2_about-company, .h2_catalog, .h3, .h3_about-company, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
 
-h1, .h1, h2, .h2, .h2_about-company, h3, .h3, .h3_about-company {
+h1, .h1, h2, .h2, .h2_about-company, .h2_catalog, h3, .h3, .h3_about-company {
   margin-top: 0;
   margin-bottom: 10px; }
 
@@ -74,7 +74,7 @@ h4, .h4, h5, .h5, h6, .h6 {
 h1, .h1 {
   font-size: 33px; }
 
-h2, .h2, .h2_about-company {
+h2, .h2, .h2_about-company, .h2_catalog {
   font-size: 23px;
   line-height: 33px; }
 
@@ -944,7 +944,7 @@ div.cs-select {
   position: relative;
   text-align: left;
   background: transparent;
-  border-bottom: 2px solid #ffc928;
+  border-bottom: 3px solid #ffc928;
   z-index: 100;
   width: 100%;
   max-width: 500px;
@@ -973,7 +973,7 @@ div.cs-select {
   div.cs-select.cs-active .cs-options {
     padding-top: 35px; }
   div.cs-select .cs-placeholder {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1px; }
 
 div.cs-select:focus {
@@ -1001,7 +1001,7 @@ div.cs-select:focus {
 .cs-select .cs-selected span::after {
   speak: none;
   position: absolute;
-  top: 50%;
+  top: 35%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -1009,17 +1009,18 @@ div.cs-select:focus {
   -moz-osx-font-smoothing: grayscale; }
 
 .cs-select > span::after {
-  content: '\25BE';
-  right: 1em; }
+  content: '\25bc';
+  right: 0em; }
 
 .cs-select .cs-selected span::after {
-  content: '\2713';
+  content: '\25b2';
   margin-left: 1em; }
 
 .cs-select.cs-active > span::after {
   -webkit-transform: translateY(-50%) rotate(180deg);
   -ms-transform: translateY(-50%) rotate(180deg);
-      transform: translateY(-50%) rotate(180deg); }
+      transform: translateY(-50%) rotate(180deg);
+  right: 1em; }
 
 /* Options */
 .cs-select .cs-options {
@@ -1390,7 +1391,7 @@ input[type="text"]:focus {
       .h1_mt-35 {
         margin-top: 90px; } }
 
-.h2, .h2_about-company {
+.h2, .h2_about-company, .h2_catalog {
   font-size: 40px;
   font-weight: 700;
   line-height: 48px; }
@@ -1405,6 +1406,15 @@ input[type="text"]:focus {
   .h2_one-recipe {
     margin-bottom: 20px;
     font-weight: 600; }
+  .h2_catalog {
+    margin-bottom: 35px; }
+  .h2_catalog-popular {
+    position: absolute;
+    top: -110px; }
+    @media only screen and (max-width: 992px) {
+      .h2_catalog-popular {
+        position: static;
+        padding-top: 30px; } }
 
 .h3, .h3_about-company {
   font-size: 24px;
@@ -2105,26 +2115,43 @@ input[type="text"]:focus {
   font-size: 18px; }
   .filter__item__name {
     margin-top: 15px;
+    margin-bottom: 7px;
     line-height: 18px;
     font-weight: bold; }
-  .filter__item__secect .cs-placeholder {
-    font-size: 18px; }
 
 .filter__button {
-  margin-top: 20px; }
+  margin-top: 25px; }
   .filter__button .button-orange span {
     padding: 0 46px; }
 
 .product__category {
-  text-align: center; }
+  margin-top: 35px;
+  text-align: center;
+  margin-left: 50px; }
+  @media only screen and (max-width: 576px) {
+    .product__category {
+      margin: 40px auto 0; } }
+  .product__category:after {
+    display: table;
+    clear: both;
+    content: ""; }
   .product__category__item {
-    float: left; }
+    float: left;
+    width: 16.6%; }
+    @media only screen and (max-width: 1200px) {
+      .product__category__item {
+        width: 25%; } }
+    @media only screen and (max-width: 992px) {
+      .product__category__item {
+        width: 33%; } }
+    @media only screen and (max-width: 758px) {
+      .product__category__item {
+        width: 50%; } }
     .product__category__item__images {
-      width: 150px;
-      height: 200px; }
+      height: 180px; }
       .product__category__item__images img {
         display: inline-block;
-        height: 120px; }
+        height: 110px; }
       .product__category__item__images_hover {
         display: none !important; }
     .product__category__item:hover .product__category__item__images img {
@@ -2270,7 +2297,7 @@ input[type="text"]:focus {
   display: block;
   top: 150px;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   width: 500px;
   height: 2px;
   background: #ffc928; }
@@ -3164,6 +3191,9 @@ input[type="text"]:focus {
       bottom: -40px; }
   .tm-carousel-horizontal_mb-120 {
     margin-bottom: 120px; }
+  .tm-carousel-horizontal_catalog {
+    padding-top: 40px;
+    margin-bottom: 140px; }
   .tm-carousel-horizontal__carousel {
     padding-top: 10px; }
     .tm-carousel-horizontal__carousel:before, .tm-carousel-horizontal__carousel:after {
@@ -3192,6 +3222,8 @@ input[type="text"]:focus {
     width: 355px;
     height: 451px;
     background: url("../images/background/cow.png") no-repeat; }
+    .background-page-category .cow_catalog {
+      top: 0; }
   .background-page-category .block-left-top {
     position: absolute;
     z-index: -2;
@@ -3203,9 +3235,20 @@ input[type="text"]:focus {
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
+    .background-page-category .block-left-top_catalog {
+      position: absolute;
+      z-index: -2;
+      left: 0px;
+      top: 520px;
+      width: 260px;
+      height: 180px;
+      -webkit-transform: skewY(20deg);
+          -ms-transform: skewY(20deg);
+              transform: skewY(20deg);
+      background-color: #fff6d3; }
   .background-page-category .block-left-middle {
     position: absolute;
-    z-index: -2;
+    z-index: -1;
     left: 0px;
     top: 1070px;
     width: 250px;
@@ -3214,14 +3257,30 @@ input[type="text"]:focus {
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
+    .background-page-category .block-left-middle_catalog {
+      position: absolute;
+      z-index: -1;
+      left: 0px;
+      top: 1300px;
+      width: 100%;
+      height: 75px;
+      -webkit-transform: skewY(20deg);
+          -ms-transform: skewY(20deg);
+              transform: skewY(20deg);
+      background-color: #fff6d3; }
   .background-page-category .cheese-left {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     left: 0;
-    top: 1100px;
-    width: 231px;
-    height: 411px;
-    background: url("../images/background/cheese-left-page-cetegory-2.png") no-repeat; }
+    top: 1135px;
+    width: 404px;
+    height: 590px;
+    background: url("../images/background/cheese-left-page-cetegory.png") no-repeat; }
+    .background-page-category .cheese-left_catalog {
+      top: 1030px; }
+      @media only screen and (max-width: 1600px) {
+        .background-page-category .cheese-left_catalog {
+          display: none; } }
   .background-page-category .block-left-bottom {
     position: absolute;
     z-index: -2;
@@ -3233,6 +3292,17 @@ input[type="text"]:focus {
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
+    .background-page-category .block-left-bottom_catalog {
+      position: absolute;
+      z-index: -2;
+      left: 0px;
+      bottom: -760px;
+      width: 100%;
+      height: 800px;
+      -webkit-transform: skewY(20deg);
+          -ms-transform: skewY(20deg);
+              transform: skewY(20deg);
+      background-color: #fff6d3; }
   .background-page-category .block-right {
     position: absolute;
     z-index: -2;
@@ -3240,6 +3310,28 @@ input[type="text"]:focus {
     top: 150px;
     width: 300px;
     height: 280px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #fff6d3; }
+    .background-page-category .block-right_catalog {
+      position: absolute;
+      z-index: -2;
+      right: 0px;
+      top: 60px;
+      width: 300px;
+      height: 250px;
+      -webkit-transform: skewY(20deg);
+          -ms-transform: skewY(20deg);
+              transform: skewY(20deg);
+      background-color: #fff6d3; }
+  .background-page-category .block-right-middle_catalog {
+    position: absolute;
+    z-index: -2;
+    right: 0px;
+    top: 817px;
+    width: 300px;
+    height: 270px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3252,6 +3344,14 @@ input[type="text"]:focus {
     width: 209px;
     height: 670px;
     background: url("../images/background/cheese-right-page-category.png") no-repeat; }
+    @media only screen and (max-width: 1400px) {
+      .background-page-category .cheese-right {
+        display: none; } }
+    .background-page-category .cheese-right_catalog {
+      top: 360px; }
+      @media only screen and (max-width: 1400px) {
+        .background-page-category .cheese-right_catalog {
+          display: none; } }
 
 @media only screen and (max-width: 1800px) {
   .background-page-category .cow {
@@ -4346,7 +4446,9 @@ input[type="text"]:focus {
     z-index: -1;
     width: 100%;
     height: 434px;
-    background: url("../images/background/top.png") no-repeat center; }
+    background: url("../images/background/top.png") no-repeat center;
+    -webkit-background-size: cover;
+            background-size: cover; }
   .background-page__bottom {
     position: absolute;
     bottom: 0;
@@ -4426,7 +4528,8 @@ input[type="text"]:focus {
     text-align: center;
     height: 117px;
     overflow: hidden;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    cursor: pointer; }
     .structure-company__img img {
       width: 117px;
       height: 117px; }
@@ -4440,6 +4543,12 @@ input[type="text"]:focus {
       .structure-company__img_size img {
         width: 150px;
         height: 130px; }
+    .structure-company__img_hover {
+      display: none !important; }
+    .structure-company__img:hover .structure-company__img_over {
+      display: none; }
+    .structure-company__img:hover .structure-company__img_hover {
+      display: inline-block !important; }
   .structure-company p {
     font-size: 20px;
     line-height: 28px;
@@ -4456,6 +4565,12 @@ input[type="text"]:focus {
         padding: 0 40px; }
     .structure-company_direct__p-mb {
       margin-bottom: 40px; }
+  .structure-company_catalog {
+    margin-top: 75px;
+    margin-bottom: 15px; }
+    @media only screen and (max-width: 1200px) {
+      .structure-company_catalog {
+        margin-top: 0; } }
 
 .production-spinner_about {
   margin-top: 80px;

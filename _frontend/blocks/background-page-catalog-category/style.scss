@@ -1,0 +1,156 @@
+.background-page-category {
+    position: relative;
+    .cow {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: -50px;
+        width: 355px;
+        height: 451px;
+        background: url('../images/background/cow.png') no-repeat;
+        &_catalog {
+            top: 0;
+        }
+    }
+    .block-left-top {
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        top: 220px;
+        width: 700px;
+        height: 110px;
+        transform: skewY(20deg);
+        background-color: #fff6d3;
+        &_catalog {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            top: 520px;
+            width: 260px;
+            height: 180px;
+            transform: skewY(20deg);
+            background-color: #fff6d3;
+        }
+    }
+    .block-left-middle {
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+        top: 1070px;
+        width: 250px;
+        height: 170px;
+        transform: skewY(20deg);
+        background-color: #fff6d3;
+        &_catalog {
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            top: 1300px;
+            width: 100%;
+            height: 75px;
+            transform: skewY(20deg);
+            background-color: #fff6d3;
+        }
+    }
+    .cheese-left {
+        position: absolute;
+        z-index: -2;
+        left: 0;
+        top: 1135px;
+        width: 404px;
+        height: 590px;
+        background: url('../images/background/cheese-left-page-cetegory.png') no-repeat;
+        &_catalog {
+            top: 1030px;
+            @media only screen and (max-width: 1600px) {
+                display: none;
+            }
+        }
+    }
+    .block-left-bottom {
+        position: absolute;
+        z-index: -2;
+        left: 0px;
+        bottom: -180px;
+        width: 1000px;
+        height: 300px;
+        transform: skewY(20deg);
+        background-color: #fff6d3;
+        &_catalog {
+            position: absolute;
+            z-index: -2;
+            left: 0px;
+            bottom: -760px;
+            width: 100%;
+            height: 800px;
+            transform: skewY(20deg);
+            background-color: #fff6d3;
+        }
+    }
+    .block-right {
+        position: absolute;
+        z-index: -2;
+        right: 0px;
+        top: 150px;
+        width: 300px;
+        height: 280px;
+        transform: skewY(20deg);
+        background-color: #fff6d3;
+        &_catalog {
+            position: absolute;
+            z-index: -2;
+            right: 0px;
+            top: 60px;
+            width: 300px;
+            height: 250px;
+            transform: skewY(20deg);
+            background-color: #fff6d3;
+        }
+
+    }
+    .block-right-middle {
+        &_catalog {
+            position: absolute;
+            z-index: -2;
+            right: 0px;
+            top: 817px;
+            width: 300px;
+            height: 270px;
+            transform: skewY(20deg);
+            background-color: #fff6d3;
+        }
+    }
+    .cheese-right {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 700px;
+        width: 209px;
+        height: 670px;
+        background: url('../images/background/cheese-right-page-category.png') no-repeat;
+        @media only screen and (max-width: 1400px) {
+            display: none;
+        }
+
+        &_catalog {
+            top: 360px;
+            @media only screen and (max-width: 1400px) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .background-page-category .cow {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 758px) {
+    .footer__parsley-left,
+    .footer__parsley-right,
+    .background-page-category .cheese-left {
+        display: none;
+    }
+}

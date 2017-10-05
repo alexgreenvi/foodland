@@ -54,6 +54,18 @@
         margin-bottom: 20px;
         font-weight: 600;
     }
+    &_catalog {
+        @extend .h2;
+        margin-bottom: 35px;
+    }
+    &_catalog-popular {
+        position: absolute;
+        top: -110px;
+        @include media(lg) {
+            position: static;
+            padding-top: 30px;
+        }
+    }
 }
 
 .h3 {

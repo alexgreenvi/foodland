@@ -14,17 +14,14 @@
         font-size: 18px;
         &__name {
             margin-top: 15px;
+            margin-bottom: 7px;
             line-height: 18px;
             font-weight: bold;
         }
-        &__secect {
-            .cs-placeholder {
-                font-size: 18px;
-            }
-        }
+        &__secect {}
     }
     &__button {
-        margin-top: 20px;
+        margin-top: 25px;
 
         & .button-orange span {
             padding: 0 46px;
