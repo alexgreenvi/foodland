@@ -138,7 +138,10 @@
     &__button {
         margin-top: 10px;
         text-align: center;
-        padding-top: 10px
+        padding-top: 10px;
+        &_one-recipe {
+            margin: 15px auto 50px;
+        }
     }
     &__arrows {
         width: 34px;

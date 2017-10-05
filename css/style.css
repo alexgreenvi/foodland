@@ -1670,7 +1670,7 @@ input[type="text"]:focus {
     width: 200%;
     height: 24px;
     transform: rotate(15deg);
-    background: #fff6d3; }
+    background: #fff8dd; }
   .cheese:after {
     content: '';
     left: -147px;
@@ -1680,7 +1680,7 @@ input[type="text"]:focus {
     width: 344px;
     height: 119px;
     transform: rotate(24deg) skew(19deg);
-    background: #fff6d3; }
+    background: #fff8dd; }
   .cheese__back {
     position: absolute;
     top: 64px;
@@ -2014,7 +2014,7 @@ input[type="text"]:focus {
 
 .clients {
   position: relative;
-  background: #fff6d3;
+  background: #fff8dd;
   padding: 110px 0 145px; }
   .clients__title {
     font-size: 45px;
@@ -2040,7 +2040,7 @@ input[type="text"]:focus {
   .clients__carousel:after {
     right: -550px; }
   .clients__carousel_bg {
-    background-color: #fff6d3; }
+    background-color: #fff8dd; }
   .clients_about {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2156,7 +2156,7 @@ input[type="text"]:focus {
     width: 100%;
     height: 528px;
     transform: rotate(24deg) skew(25deg);
-    background: #fff6d3; }
+    background: #fff8dd; }
   @media only screen and (max-width: 992px) {
     .production-spinner {
       margin-top: 0; } }
@@ -2316,7 +2316,7 @@ input[type="text"]:focus {
       padding-left: 20px; }
 
 .random {
-  background: #fff6d3;
+  background: #fff8dd;
   margin-top: 180px;
   display: -ms-flexbox;
   display: flex;
@@ -2334,7 +2334,7 @@ input[type="text"]:focus {
     position: absolute;
     z-index: -1;
     border-top: 800px solid transparent;
-    border-left: 2280px solid #fff6d3; }
+    border-left: 2280px solid #fff8dd; }
   .random .row:before, .random .row:after {
     content: '';
     position: absolute;

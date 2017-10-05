@@ -1,0 +1,16 @@
+.text-one-recipe {
+    color: #0a0a0a;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-right: 15px;
+    @include media(md) {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    &__h3 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 600;
+    }
+}
