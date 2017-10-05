@@ -94,7 +94,7 @@
     &:after {
         content: '';
         display: block;
-        top: 250px;
+        top: 150px;
         position: absolute;
         z-index: -1;
         width: 500px;
@@ -107,4 +107,7 @@
     &:after {
         right: -550px;
     }
+
+    .arrows {
+        top: 150px;}
 }

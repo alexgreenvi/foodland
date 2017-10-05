@@ -18,6 +18,9 @@
         width: 673px;
         height: 680px;
         background: url("../images/slack/tomato.png") no-repeat;
+        @include media(xl) {
+            display: none;
+        }
     }
     &__maslo {
         left: -125px;
@@ -35,6 +38,9 @@
         width: 573px;
         height: 586px;
         background: url("../images/slack/cheese_and_tomato.png") no-repeat;
+        @include media(xl) {
+            display: none;
+        }
     }
     &__petro {
         width: 468px;
