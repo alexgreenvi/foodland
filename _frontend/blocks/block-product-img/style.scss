@@ -77,15 +77,15 @@
             color: #0a0a0a;
             font-size: 18px;
             width: 310px;
-            height: 28px;
-
-            &__name {
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                background-color: #fff;
-                z-index: 1;
+            margin-bottom: 7px;
+            &_full {
+                width: auto;
             }
+            &__name {
+                display: inline-block;
+                background-color: #fff;
+            }
+
             &__dots {
                 position: absolute;
                 left: 0;
@@ -93,7 +93,9 @@
                 bottom: 4px;
                 height: 4px;
                 background: url('../images/product/product-page/line__dot.png');
+                z-index: -1;
             }
+
             &__val {
                 position: absolute;
                 right: 0;

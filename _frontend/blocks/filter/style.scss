@@ -1,27 +1,28 @@
 .filter {
-  &__title {
-    font-size: 20px;
-    line-height: 22px;
-    font-weight: bold;
-    padding-right: 40px;
-    margin-bottom: 20px;
-  }
-  &__item {
-    &__name {
-      margin-top: 15px;
-      font-size: 15px;
-      line-height: 18px;
-      font-weight: bold;
+    &_mb-30 {
+        margin-bottom: 30px;
     }
-    &__secect {
+    &__title {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: bold;
+        padding-right: 40px;
+        margin-bottom: 20px;
+    }
+    &__item {
+        &__name {
+            margin-top: 15px;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: bold;
+        }
+        &__secect {}
+    }
+    &__button {
+        margin-top: 20px;
 
+        & .button-orange span {
+            padding: 0 46px;
+        }
     }
-  }
-  &__button {
-    margin-top: 20px;
-
-    & .button-orange span {
-      padding: 0 46px;
-    }
-  }
 }

@@ -37,6 +37,18 @@
                 display: none;
             }
         }
+        &_one-recipe {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            bottom: 100px;
+            width: 483px;
+            height: 775px;
+            background: url('../images/background/tomat-left_one-recipe.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
     }
     &__butter {
         &_about {
@@ -85,6 +97,18 @@
             width: 327px;
             height: 511px;
             background: url('../images/background/cheese-left_event.png') no-repeat;
+            @media only screen and (max-width: 1680px) {
+                display: none;
+            }
+        }
+        &_recipe {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            top: 85px;
+            width: 366px;
+            height: 586px;
+            background: url('../images/background/cheese-left_recipe.png') no-repeat;
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -160,6 +184,28 @@
             background-color: #f6d34b;
             opacity: .2;
         }
+        &_recipe {
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            top: 685px;
+            width: 32%;
+            height: 105px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+        &_one-recipe {
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            top: 650px;
+            width: 32%;
+            height: 105px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
     }
     &__block-left-middle-top {
         &_about {
@@ -224,6 +270,28 @@
             z-index: -1;
             left: 0px;
             bottom: 600px;
+            width: 270px;
+            height: 180px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+        &_recipe {
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            bottom: 280px;
+            width: 270px;
+            height: 180px;
+            transform: skewY(20deg);
+            background-color: #f6d34b;
+            opacity: .2;
+        }
+        &_one-recipe {
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            bottom: 630px;
             width: 270px;
             height: 180px;
             transform: skewY(20deg);
@@ -336,6 +404,17 @@
                 background-color: #f6d34b;
                 opacity: .2;
             }
+            &_recipe {
+                position: absolute;
+                z-index: -2;
+                right: 0px;
+                top: 300px;
+                width: 310px;
+                height: 285px;
+                transform: skewY(20deg);
+                background-color: #f6d34b;
+                opacity: .2;
+            }
         }
         &-middle {
             &_about {
@@ -428,6 +507,30 @@
             @media only screen and (max-width: 1660px) {
                 display: none;
             }
+        }
+    }
+    &__cow-right {
+        position: absolute;
+        z-index: -2;
+        right: 0;
+        bottom: 540px;
+        width: 338px;
+        height: 451px;
+        background: url('../images/background/cow-right.png') no-repeat;
+        @media only screen and (max-width: 1660px) {
+            display: none;
+        }
+    }
+    &__cow-right_one-recipe {
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        bottom: 880px;
+        width: 338px;
+        height: 451px;
+        background: url('../images/background/cow-right.png') no-repeat;
+        @media only screen and (max-width: 1660px) {
+            display: none;
         }
     }
     &__top {

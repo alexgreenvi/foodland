@@ -25,6 +25,10 @@
     text-align: center;
     &_mt-35 {
         margin-top: 35px;
+        @include media(md) {
+            margin-top: 90px;
+        }
+
     }
 
 }
@@ -45,6 +49,10 @@
     }
     &_mb-25 {
         margin-bottom: 25px;
+    }
+    &_one-recipe {
+        margin-bottom: 20px;
+        font-weight: 600;
     }
 }
 
