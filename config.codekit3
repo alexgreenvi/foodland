@@ -493,6 +493,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/one-recipe\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/photo-product-recipe\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/popular\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -610,6 +636,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/recipe-category\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/recommendation\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -689,6 +728,19 @@
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/text-brand\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/text-one-recipe\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -794,6 +846,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exclusive.html",
+		"oF": 0
+		},
+	"\/find_recipes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/find_recipes.html",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome\/font-awesome.min.css": {
@@ -1459,6 +1517,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/background\/cheese-left_recipe.png": {
+		"ft": 32768,
+		"iS": 206408,
+		"oA": 0,
+		"oAP": "\/images\/background\/cheese-left_recipe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/background\/cheese-right-about.png": {
 		"ft": 32768,
 		"iS": 190572,
@@ -1497,6 +1566,17 @@
 		"iS": 198740,
 		"oA": 0,
 		"oAP": "\/images\/background\/cheese-right_direction.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/cow-right.png": {
+		"ft": 32768,
+		"iS": 175774,
+		"oA": 0,
+		"oAP": "\/images\/background\/cow-right.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1552,6 +1632,17 @@
 		"iS": 130635,
 		"oA": 0,
 		"oAP": "\/images\/background\/parsley-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/background\/tomat-left_one-recipe.png": {
+		"ft": 32768,
+		"iS": 217752,
+		"oA": 0,
+		"oAP": "\/images\/background\/tomat-left_one-recipe.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1975,6 +2066,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/eggs.png": {
+		"ft": 32768,
+		"iS": 548943,
+		"oA": 0,
+		"oAP": "\/images\/eggs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/event-inn.png": {
 		"ft": 32768,
 		"iS": 925839,
@@ -2040,6 +2142,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/meal.png": {
+		"ft": 32768,
+		"iS": 2608,
+		"oA": 0,
+		"oAP": "\/images\/icons\/meal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/print.png": {
+		"ft": 32768,
+		"iS": 1267,
+		"oA": 0,
+		"oAP": "\/images\/icons\/print.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/search.png": {
 		"ft": 32768,
 		"iS": 1442,
@@ -2051,11 +2175,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/star-no.png": {
+		"ft": 32768,
+		"iS": 595,
+		"oA": 0,
+		"oAP": "\/images\/icons\/star-no.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/star.png": {
 		"ft": 32768,
 		"iS": 1827,
 		"oA": 0,
 		"oAP": "\/images\/icons\/star.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/star_active.png": {
+		"ft": 32768,
+		"iS": 231,
+		"oA": 0,
+		"oAP": "\/images\/icons\/star_active.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/time.png": {
+		"ft": 32768,
+		"iS": 1899,
+		"oA": 0,
+		"oAP": "\/images\/icons\/time.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2748,6 +2905,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/recipes\/rec-1.png": {
+		"ft": 32768,
+		"iS": 6109,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-2.png": {
+		"ft": 32768,
+		"iS": 6668,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-3.png": {
+		"ft": 32768,
+		"iS": 6715,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-4.png": {
+		"ft": 32768,
+		"iS": 6711,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-5.png": {
+		"ft": 32768,
+		"iS": 8272,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-6.png": {
+		"ft": 32768,
+		"iS": 6463,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-7.png": {
+		"ft": 32768,
+		"iS": 5954,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/recipes\/rec-8.png": {
+		"ft": 32768,
+		"iS": 5518,
+		"oA": 0,
+		"oAP": "\/images\/recipes\/rec-8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/recommendation\/bondesto.jpg": {
 		"ft": 16384,
 		"iS": 71403,
@@ -2841,10 +3086,16 @@
 		"oA": 0,
 		"oAP": "\/images\/slack\/cheese_and_tomato.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/slack\/cheese_and_tomato_tmp931660024": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/slack\/cheese_and_tomato_tmp931660024",
+		"oF": 0
 		},
 	"\/images\/slack\/list.png": {
 		"ft": 32768,
@@ -3356,6 +3607,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/one-brand.html",
+		"oF": 0
+		},
+	"\/one_recipe.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/one_recipe.html",
 		"oF": 0
 		},
 	"\/product-catalog.html": {
