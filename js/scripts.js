@@ -479,3 +479,213 @@ $(document).ready(function () {
         new SelectFx(el);
     });
 })();
+
+$(document).ready(function () {
+    //обработка click выбора маршрута и способа добраться 
+    var routeBy = $('.route__by'),
+        routeByFoot = $('.route__by_foot'),
+        routeByCar = $('.route__by_car'),
+        routeByPublic = $('.route__by_public'),
+        routeMetro = $('.route__metro'),
+        metroTS = $('.route__metro_ts'),
+        metroYZ = $('.route__metro_yz'),
+        iframe = $('iframe');
+
+    //обработка click по метро
+    metroTS.click(function () {
+        if (metroTS.hasClass('active')) {
+            return;
+        } else {
+            routeMetro.removeClass('active');
+            metroTS.addClass('active');
+            if (routeByFoot.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDeBC6gB');
+            } else if (routeByCar.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDe4glcC');
+            } else {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUD4SfGlD');
+            }
+        }
+    });
+
+    //обработка click по метро
+    metroYZ.click(function () {
+        if (metroYZ.hasClass('active')) {
+            return;
+        } else {
+            routeMetro.removeClass('active');
+            metroYZ.addClass('active');
+            if (routeByFoot.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDiSAKXA');
+            } else if (routeByCar.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDiWeDCB');
+            } else {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDiWT01A');
+            }
+        }
+    });
+
+    //обработка click по способу добаться
+    routeByFoot.click(function () {
+        if (routeByFoot.hasClass('active')) {
+            return;
+        } else {
+            routeBy.removeClass('active');
+            routeByFoot.addClass('active');
+            if (metroTS.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDeBC6gB');
+            } else {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDiSAKXA');
+            }
+        }
+    });
+
+    //обработка click по способу добаться
+    routeByCar.click(function () {
+        if (routeByCar.hasClass('active')) {
+            return;
+        } else {
+            routeBy.removeClass('active');
+            routeByCar.addClass('active');
+            if (metroTS.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDe4glcC');
+            } else {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDiWeDCB');
+            }
+        }
+    });
+
+    //обработка click по способу добаться
+    routeByPublic.click(function () {
+        if (routeByPublic.hasClass('active')) {
+            return;
+        } else {
+            routeBy.removeClass('active');
+            routeByPublic.addClass('active');
+            if (metroTS.hasClass('active')) {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUD4SfGlD');
+            } else {
+                iframe.attr('src', 'https://yandex.ru/map-widget/v1/-/CBUDiWT01A');
+            }
+        }
+    });
+});
+
+//карта регионов
+
+var REGIONS_DATA = {
+        region: {}
+    },
+    // Шаблон html-содержимого макета.
+    optionsTemplate = [
+
+    ].join('');
+
+ymaps.ready(init);
+
+function init() {
+    // Создадим собственный макет RegionControl.
+    var RegionControlLayout = ymaps.templateLayoutFactory.createClass(optionsTemplate, {
+            build: function () {
+                RegionControlLayout.superclass.build.call(this);
+                this.handleClick = ymaps.util.bind(this.handleClick, this);
+                $(this.getParentElement)
+                    .on('click', 'a', this.handleClick);
+            },
+            clear: function () {
+                $(this.getParentElement)
+                    .off('click', 'a', this.handleClick);
+                RegionControlLayout.superclass.clear.call(this);
+            },
+            handleClick: function (e) {
+                e.preventDefault();
+                var $target = $(e.currentTarget);
+                var state = this.getData().state;
+                var newValues = ymaps.util.extend({}, state.get('values'));
+                if (!$target.hasClass('active')) {
+                    newValues[$target.data('param')] = $target.data('id');
+                    state.set('values', newValues);
+                }
+            }
+        }),
+        // Наследуем класс нашего контрола от ymaps.control.Button.
+        RegionControl = ymaps.util.defineClass(function (parameters) {
+            RegionControl.superclass.constructor.call(this, parameters);
+            this.regions = new ymaps.GeoObjectCollection();
+        }, ymaps.control.Button, /** @lends ymaps.control.Button */ {
+            onAddToMap: function (map) {
+                RegionControl.superclass.onAddToMap.call(this, map);
+                map.geoObjects.add(this.regions);
+                this.setupStateMonitor();
+                this.loadRegions(this.state.get('values'));
+            },
+
+            onRemoveFromMap: function (map) {
+                map.geoObjects.remove(this.regions);
+                this.clearStateMonitor();
+                RegionControl.superclass.onRemoveFromMap.call(this, map);
+            },
+
+            setupStateMonitor: function () {
+                this.stateMonitor = new ymaps.Monitor(this.state);
+                this.stateMonitor.add('values', this.handleStateChange, this);
+            },
+
+            clearStateMonitor: function () {
+                this.stateMonitor.removeAll();
+            },
+
+            handleStateChange: function (params) {
+                this.loadRegions(params);
+            },
+
+            handleRegionsLoaded: function (res) {
+                this.regions
+                    .removeAll()
+                    .add(res.geoObjects);
+                this.getMap().setBounds(
+                    this.regions.getBounds(), {
+                        checkZoomRange: true
+                    }
+                );
+            },
+
+            loadRegions: function (params) {
+                this.disable();
+                return ymaps.regions.load(params.region, params)
+                    .then(this.handleRegionsLoaded, this)
+                    .always(this.enable, this);
+            }
+        }),
+
+        map = new ymaps.Map('map', {
+            center: [50, 30],
+            zoom: 3,
+            controls: ['typeSelector']
+        }, {
+            typeSelectorSize: 'small'
+        }),
+
+        // Создадим экземпляр RegionControl.
+        regionControl = new RegionControl({
+            state: {
+                enabled: true,
+                values: {
+                    region: 'RU',
+                    lang: 'ru',
+                    quality: '1'
+                }
+            },
+            data: {
+                params: REGIONS_DATA
+            },
+            options: {
+                layout: RegionControlLayout
+            },
+            float: 'left',
+            maxWidth: [300]
+        });
+
+    // Добавим контрол на карту.
+    map.controls.add(regionControl);
+}

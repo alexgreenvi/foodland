@@ -1,0 +1,60 @@
+.map {
+    &__region {
+        width: 100%;
+        height: 550px;
+    }
+    &__tags {
+        color: #676767;
+        font-size: 16px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 18px;
+        letter-spacing: 0.16px;
+        padding-left: 10px;
+        li {
+            margin-bottom: 25px;
+            cursor: pointer;
+            &:before {
+                content: "";
+                width: 18px;
+                display: inline-block;
+                margin-right: 11px;
+                background-repeat: no-repeat;
+            }
+            i {
+                display: inline-block;
+                vertical-align: middle;
+                width: 200px;
+            }
+        }
+        &__presence {
+            &:before {
+                height: 18px;
+                background-color: #08aa4c;
+                border-radius: 50%;
+                vertical-align: top;
+            }
+        }
+        &__factory {
+            &:before {
+                height: 26px;
+                background: url("../images/icons/fact.png");
+                vertical-align: middle;
+            }
+        }
+        &__office {
+            &:before {
+                height: 26px;
+                background: url("../images/icons/office.png");
+                vertical-align: middle;
+            }
+        }
+        &__branch {
+            &:before {
+                height: 26px;
+                background: url("../images/icons/fillial.png");
+                vertical-align: middle;
+            }
+        }
+    }
+}

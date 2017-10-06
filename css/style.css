@@ -4734,10 +4734,105 @@ input[type="text"]:focus {
   margin-bottom: 17px;
   padding-left: 15px; }
 
-.photo-product-recipe__h3 {
+.route {
+  margin: 87px auto 35px; }
+  .route__wrap {
+    padding-left: 30px; }
+  .route__by {
+    color: #0b0b0b;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    cursor: pointer;
+    display: inline-block; }
+    .route__by:before {
+      content: "";
+      width: 85px;
+      height: 50px;
+      display: block;
+      background-repeat: no-repeat; }
+    .route__by_foot:before {
+      background-image: url("../images/icons/man.png"); }
+    .route__by_foot:hover:before, .route__by_foot.active:before {
+      background-image: url("../images/icons/man-hover.png"); }
+    .route__by_car:before {
+      background-image: url("../images/icons/car.png"); }
+    .route__by_car:hover:before, .route__by_car.active:before {
+      opacity: 0.5; }
+    .route__by_public:before {
+      background-image: url("../images/icons/bus.png"); }
+    .route__by_public:hover:before, .route__by_public.active:before {
+      opacity: 0.5; }
+  .route__metro {
+    color: #676767;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.16px;
+    margin-bottom: 15px;
+    cursor: pointer; }
+    .route__metro:before {
+      content: "";
+      display: inline-block;
+      vertical-align: sub;
+      width: 15px;
+      height: 15px;
+      margin-right: 11px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      border: 5px solid #ffc928;
+      background-color: #ffffff; }
+    .route__metro.active:before {
+      border: 7.5px solid #ffc928; }
+
+.contacts {
   color: #0a0a0a;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 30px;
-  margin-bottom: 17px;
-  padding-left: 15px; }
+  line-height: 24px; }
+  .contacts li {
+    margin-bottom: 8px; }
+
+.map__region {
+  width: 100%;
+  height: 550px; }
+
+.map__tags {
+  color: #676767;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  padding-left: 10px; }
+  .map__tags li {
+    margin-bottom: 25px;
+    cursor: pointer; }
+    .map__tags li:before {
+      content: "";
+      width: 18px;
+      display: inline-block;
+      margin-right: 11px;
+      background-repeat: no-repeat; }
+    .map__tags li i {
+      display: inline-block;
+      vertical-align: middle;
+      width: 200px; }
+  .map__tags__presence:before {
+    height: 18px;
+    background-color: #08aa4c;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    vertical-align: top; }
+  .map__tags__factory:before {
+    height: 26px;
+    background: url("../images/icons/fact.png");
+    vertical-align: middle; }
+  .map__tags__office:before {
+    height: 26px;
+    background: url("../images/icons/office.png");
+    vertical-align: middle; }
+  .map__tags__branch:before {
+    height: 26px;
+    background: url("../images/icons/fillial.png");
+    vertical-align: middle; }
