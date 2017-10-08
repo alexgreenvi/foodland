@@ -10,7 +10,7 @@
         font-style: italic;
         line-height: 18px;
         letter-spacing: 0.16px;
-        padding-left: 10px;
+        padding-left: 30px;
         li {
             margin-bottom: 25px;
             cursor: pointer;
@@ -52,7 +52,7 @@
         &__branch {
             &:before {
                 height: 26px;
-                background: url("../images/icons/fillial.png");
+                background: url("../images/icons/filial.png");
                 vertical-align: middle;
             }
         }

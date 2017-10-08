@@ -573,119 +573,221 @@ $(document).ready(function () {
 
 //карта регионов
 
-var REGIONS_DATA = {
-        region: {}
-    },
-    // Шаблон html-содержимого макета.
-    optionsTemplate = [
 
-    ].join('');
+ymaps.ready(function () {
 
-ymaps.ready(init);
+    geoMap = new ymaps.Map('map', {
+        center: [62.788252602236476, 88.50848728079634],
+        type: "yandex#map",
+        // убрать все элементы control на карте
+        controls: [],
+        zoom: 3
+    });
 
-function init() {
-    // Создадим собственный макет RegionControl.
-    var RegionControlLayout = ymaps.templateLayoutFactory.createClass(optionsTemplate, {
-            build: function () {
-                RegionControlLayout.superclass.build.call(this);
-                this.handleClick = ymaps.util.bind(this.handleClick, this);
-                $(this.getParentElement)
-                    .on('click', 'a', this.handleClick);
-            },
-            clear: function () {
-                $(this.getParentElement)
-                    .off('click', 'a', this.handleClick);
-                RegionControlLayout.superclass.clear.call(this);
-            },
-            handleClick: function (e) {
-                e.preventDefault();
-                var $target = $(e.currentTarget);
-                var state = this.getData().state;
-                var newValues = ymaps.util.extend({}, state.get('values'));
-                if (!$target.hasClass('active')) {
-                    newValues[$target.data('param')] = $target.data('id');
-                    state.set('values', newValues);
-                }
-            }
-        }),
-        // Наследуем класс нашего контрола от ymaps.control.Button.
-        RegionControl = ymaps.util.defineClass(function (parameters) {
-            RegionControl.superclass.constructor.call(this, parameters);
-            this.regions = new ymaps.GeoObjectCollection();
-        }, ymaps.control.Button, /** @lends ymaps.control.Button */ {
-            onAddToMap: function (map) {
-                RegionControl.superclass.onAddToMap.call(this, map);
-                map.geoObjects.add(this.regions);
-                this.setupStateMonitor();
-                this.loadRegions(this.state.get('values'));
-            },
+    var lastCollection = 0,
+        lng = 'ru',
+        contr = 'RU',
+        level = '0';
 
-            onRemoveFromMap: function (map) {
-                map.geoObjects.remove(this.regions);
-                this.clearStateMonitor();
-                RegionControl.superclass.onRemoveFromMap.call(this, map);
-            },
+    if (lastCollection) {
+        geoMap.geoObjects.remove(lastCollection);
+    }
 
-            setupStateMonitor: function () {
-                this.stateMonitor = new ymaps.Monitor(this.state);
-                this.stateMonitor.add('values', this.handleStateChange, this);
-            },
-
-            clearStateMonitor: function () {
-                this.stateMonitor.removeAll();
-            },
-
-            handleStateChange: function (params) {
-                this.loadRegions(params);
-            },
-
-            handleRegionsLoaded: function (res) {
-                this.regions
-                    .removeAll()
-                    .add(res.geoObjects);
-                this.getMap().setBounds(
-                    this.regions.getBounds(), {
-                        checkZoomRange: true
+    ymaps.regions.load(contr, {
+        lang: lng,
+        quality: level
+    }).then(function (result) {
+        lastCollection = result.geoObjects;
+        //  осноыной цвет регионов
+        lastCollection.options.set('fillColor', '#fff145');
+        //  цвет границ
+        lastCollection.options.set('preset', {
+            strokeWidth: 1,
+            strokeColor: 'ffd13b'
+        });
+        lastCollection.each(function (reg) {
+            switch (reg.properties.get('osmId')) {
+                case '191706':
+                    {
+                        reg.options.set(
+                            'fillColor',
+                            '#159d40');
+                        reg.options.set('preset', {
+                            strokeWidth: 1,
+                            strokeColor: '0f7120'
+                        });
+                        break;
                     }
-                );
-            },
 
-            loadRegions: function (params) {
-                this.disable();
-                return ymaps.regions.load(params.region, params)
-                    .then(this.handleRegionsLoaded, this)
-                    .always(this.enable, this);
+                case '190090':
+                    {
+                        reg.options.set(
+                            'fillColor',
+                            '#159d40');
+                        reg.options.set('preset', {
+                            strokeWidth: 1,
+                            strokeColor: '0f7120'
+                        });
+                        break;
+                    }
+                case '145454':
+                    {
+                        reg.options.set(
+                            'fillColor',
+                            '#159d40');
+                        reg.options.set('preset', {
+                            strokeWidth: 1,
+                            strokeColor: '0f7120'
+                        });
+                        break;
+                    }
             }
-        }),
-
-        map = new ymaps.Map('map', {
-            center: [50, 30],
-            zoom: 3,
-            controls: ['typeSelector']
-        }, {
-            typeSelectorSize: 'small'
-        }),
-
-        // Создадим экземпляр RegionControl.
-        regionControl = new RegionControl({
-            state: {
-                enabled: true,
-                values: {
-                    region: 'RU',
-                    lang: 'ru',
-                    quality: '1'
-                }
-            },
-            data: {
-                params: REGIONS_DATA
-            },
-            options: {
-                layout: RegionControlLayout
-            },
-            float: 'left',
-            maxWidth: [300]
         });
 
-    // Добавим контрол на карту.
-    map.controls.add(regionControl);
-}
+
+        geoMap.geoObjects.add(lastCollection);
+
+        // создание меток на карте
+
+        MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<h3 class="h1">$[properties.balloonHeader]</h3>' +
+            '<div class="popover-content">$[properties.balloonContent]</div>'
+        );
+
+        placemarkFactory = new ymaps.Placemark([55.61414730895103, 37.47190599999999], {
+            hintContent: 'Собственный значок метки',
+            balloonHeader: 'Заголовок балуна',
+            balloonContent: 'Контент балуна'
+        }, {
+            // Опции.
+            balloonContentLayout: MyBalloonContentLayout,
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/fact-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkFactory2 = new ymaps.Placemark([64.9614028569075, 62.40949755273436], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/fact-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkFactory3 = new ymaps.Placemark([58.55266732499611, 84.33820849023435], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/fact-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkFactory4 = new ymaps.Placemark([58.73593601918061, 67.15559130273435], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/fact-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkFactory5 = new ymaps.Placemark([58.09025713015575, 55.20246630273436], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/fact-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkOffice = new ymaps.Placemark([52.9244134978265, 39.64582567773435], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/office-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkFilial = new ymaps.Placemark([47.786119567765326, 40.524731927734344], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/filial-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        placemarkFilial2 = new ymaps.Placemark([51.58964143433744, 45.138989740234344], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../images/icons/filial-sh.png',
+            // Размеры метки.
+            iconImageSize: [41, 37],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            //iconImageOffset: [-5, -38]
+        });
+        geoMap.geoObjects.add(placemarkFactory)
+            .add(placemarkFactory2)
+            .add(placemarkFactory3)
+            .add(placemarkFactory4)
+            .add(placemarkFactory5)
+            .add(placemarkOffice)
+            .add(placemarkFilial)
+            .add(placemarkFilial2);
+
+
+    }, function () {
+        //alert('no response');
+    });
+
+});

@@ -4804,7 +4804,7 @@ input[type="text"]:focus {
   font-style: italic;
   line-height: 18px;
   letter-spacing: 0.16px;
-  padding-left: 10px; }
+  padding-left: 30px; }
   .map__tags li {
     margin-bottom: 25px;
     cursor: pointer; }
@@ -4834,5 +4834,5 @@ input[type="text"]:focus {
     vertical-align: middle; }
   .map__tags__branch:before {
     height: 26px;
-    background: url("../images/icons/fillial.png");
+    background: url("../images/icons/filial.png");
     vertical-align: middle; }
