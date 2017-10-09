@@ -2,21 +2,17 @@
     position: relative;
     background: rgba(255, 255, 255, 0.5);
     text-align: right;
-<<<<<<< HEAD
     z-index: 101;
 
     &__nav,
-    &__logo,
-=======
-    z-index: 2;
+    &__logo, //=======z-index: 2;
     &.fixed {
         position: fixed;
         width: 100%;
         z-index: 100;
     }
-    &__nav, 
-    &__logo, 
->>>>>>> be867072b24fb067b450f57a6e90db62972f51b1
+    &__nav,
+    &__logo, //> > > > > > > be867072b24fb067b450f57a6e90db62972f51b1 
     &__nav-btn,
     &__map-btn {
         display: inline-block;
@@ -102,7 +98,8 @@
             right: 44px;
             cursor: pointer;
             @media (max-width: 1000px) {
-                top: 15px; right: 20px;
+                top: 15px;
+                right: 20px;
             }
         }
         &_mobile {

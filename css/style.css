@@ -1194,6 +1194,10 @@ input[type="text"]:focus {
   background: rgba(255, 255, 255, 0.5);
   text-align: right;
   z-index: 101; }
+  .header__nav, .header__logo, .header.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 100; }
   .header__nav, .header__logo, .header__nav-btn, .header__map-btn {
     display: inline-block;
     vertical-align: top; }
@@ -1270,6 +1274,10 @@ input[type="text"]:focus {
       top: 38px;
       right: 44px;
       cursor: pointer; }
+      @media (max-width: 1000px) {
+        .header__modal__close {
+          top: 15px;
+          right: 20px; } }
     .header__modal_mobile {
       display: none;
       float: left;
@@ -1277,10 +1285,11 @@ input[type="text"]:focus {
       padding-bottom: 50px; }
   @media (max-width: 1000px) {
     .header__modal {
-      padding: 60px 20px 20px;
+      padding: 25px 20px 20px;
       width: 90%; }
       .header__modal_mobile {
-        display: block; } }
+        display: block;
+        padding-bottom: 10px; } }
 
 .footer {
   position: relative;
@@ -4829,46 +4838,86 @@ input[type="text"]:focus {
   .contacts li {
     margin-bottom: 8px; }
 
-.map__region {
-  width: 100%;
-  height: 550px; }
+.map {
+  margin: 45px auto 80px; }
+  .map__region {
+    width: 100%;
+    height: 550px; }
+  .map__tags {
+    color: #676767;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 18px;
+    letter-spacing: 0.16px;
+    padding-left: 30px;
+    margin-top: 70px; }
+    .map__tags li {
+      margin-bottom: 25px; }
+      .map__tags li:before {
+        content: "";
+        width: 18px;
+        display: inline-block;
+        margin-right: 11px;
+        background-repeat: no-repeat; }
+      .map__tags li i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 200px; }
+    .map__tags__presence:before {
+      height: 18px;
+      background-color: #08aa4c;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      vertical-align: top; }
+    .map__tags__factory:before {
+      height: 26px;
+      background: url("../images/icons/fact.png");
+      vertical-align: middle; }
+    .map__tags__office:before {
+      height: 26px;
+      background: url("../images/icons/office.png");
+      vertical-align: middle; }
+    .map__tags__branch:before {
+      height: 26px;
+      background: url("../images/icons/filial.png");
+      vertical-align: middle; }
 
-.map__tags {
-  color: #676767;
-  font-size: 16px;
-  font-weight: 300;
-  font-style: italic;
-  line-height: 18px;
-  letter-spacing: 0.16px;
-  padding-left: 30px; }
-  .map__tags li {
-    margin-bottom: 25px;
-    cursor: pointer; }
-    .map__tags li:before {
-      content: "";
-      width: 18px;
-      display: inline-block;
-      margin-right: 11px;
-      background-repeat: no-repeat; }
-    .map__tags li i {
-      display: inline-block;
-      vertical-align: middle;
-      width: 200px; }
-  .map__tags__presence:before {
-    height: 18px;
-    background-color: #08aa4c;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    vertical-align: top; }
-  .map__tags__factory:before {
-    height: 26px;
-    background: url("../images/icons/fact.png");
-    vertical-align: middle; }
-  .map__tags__office:before {
-    height: 26px;
-    background: url("../images/icons/office.png");
-    vertical-align: middle; }
-  .map__tags__branch:before {
-    height: 26px;
-    background: url("../images/icons/filial.png");
-    vertical-align: middle; }
+.map-balloon {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  max-width: 276px;
+  margin-top: 12px;
+  margin-left: 116px; }
+  .map-balloon__close {
+    position: absolute;
+    right: 19px;
+    top: 11px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff; }
+  .map-balloon__arrow {
+    bottom: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #0091ff;
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0; }
+  .map-balloon__inner__content {
+    width: 227px;
+    padding: 20px;
+    background-color: #0091ff;
+    color: #fff;
+    font-family: PFBeauSansPro;
+    font-size: 16px;
+    line-height: 18px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    -webkit-border-bottom-left-radius: 0;
+            border-bottom-left-radius: 0; }

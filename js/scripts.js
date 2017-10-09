@@ -348,11 +348,10 @@ var header_fix = {
         var header = $('.header');
 
 
-        $(window).scroll(function(){
-            if($(this).scrollTop()>100){
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
                 $('.header').addClass('fixed');
-            }
-            else if ($(this).scrollTop()<100){
+            } else if ($(this).scrollTop() < 100) {
                 $('.header').removeClass('fixed');
             }
         });
@@ -589,8 +588,9 @@ $(document).ready(function () {
     });
 });
 
-//карта регионов
-
+//----------------------
+//  карта регионов
+//----------------------
 
 ymaps.ready(function () {
 
@@ -665,162 +665,238 @@ ymaps.ready(function () {
 
         geoMap.geoObjects.add(lastCollection);
 
-        // создание меток на карте
 
-        MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<h3 class="h1">$[properties.balloonHeader]</h3>' +
-            '<div class="popover-content">$[properties.balloonContent]</div>'
-        );
+        // Создание макета балуна 
+        MapBalloonLayout = ymaps.templateLayoutFactory.createClass(
+                '<div class="map-balloon">' +
+                '<a class="map-balloon__close" href="#">&#9587;</a>' +
+                '<div class="map-balloon__arrow"></div>' +
+                '<div class="map-balloon__inner">' +
+                '$[[options.contentLayout observeSize minWidth=235 maxWidth=235 maxHeight=350]]' +
+                '</div>' +
+                '</div>', {
+                    /**
+                     * Строит экземпляр макета на основе шаблона и добавляет его в родительский HTML-элемент.
+                     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/layout.templateBased.Base.xml#build
+                     * @function
+                     * @name build
+                     */
+                    build: function () {
+                        this.constructor.superclass.build.call(this);
 
-        // Создание макета содержимого хинта.
-        // Макет создается через фабрику макетов с помощью текстового шаблона.
-        HintLayout = ymaps.templateLayoutFactory.createClass("<div class='my-hint'>" +
-            "<b>{{ properties.object }}</b><br />" +
-            "{{ properties.address }}" +
-            "</div>", {
-                // Определяем метод getShape, который
-                // будет возвращать размеры макета хинта.
-                // Это необходимо для того, чтобы хинт автоматически
-                // сдвигал позицию при выходе за пределы карты.
-                getShape: function () {
-                    var el = this.getElement(),
-                        result = null;
-                    if (el) {
-                        var firstChild = el.firstChild;
-                        result = new ymaps.shape.Rectangle(
-                            new ymaps.geometry.pixel.Rectangle([
-                                [0, 0],
-                                [firstChild.offsetWidth, firstChild.offsetHeight]
-                            ])
-                        );
+                        this._$element = $('.map-balloon', this.getParentElement());
+
+                        this.applyElementOffset();
+
+                        this._$element.find('.map-balloon__close')
+                            .on('click', $.proxy(this.onCloseClick, this));
+                    },
+
+                    /**
+                     * Удаляет содержимое макета из DOM.
+                     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/layout.templateBased.Base.xml#clear
+                     * @function
+                     * @name clear
+                     */
+                    clear: function () {
+                        this._$element.find('.map-balloon__close')
+                            .off('click');
+
+                        this.constructor.superclass.clear.call(this);
+                    },
+
+                    /**
+                     * Метод будет вызван системой шаблонов АПИ при изменении размеров вложенного макета.
+                     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/IBalloonLayout.xml#event-userclose
+                     * @function
+                     * @name onSublayoutSizeChange
+                     */
+                    onSublayoutSizeChange: function () {
+                        MapBalloonLayout.superclass.onSublayoutSizeChange.apply(this, arguments);
+
+                        if (!this._isElement(this._$element)) {
+                            return;
+                        }
+
+                        this.applyElementOffset();
+
+                        this.events.fire('shapechange');
+                    },
+
+                    /**
+                     * Сдвигаем балун, чтобы "хвостик" указывал на точку привязки.
+                     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/IBalloonLayout.xml#event-userclose
+                     * @function
+                     * @name applyElementOffset
+                     */
+                    applyElementOffset: function () {
+                        this._$element.css({
+                            left: -(this._$element[0].offsetWidth / 2),
+                            top: -(this._$element[0].offsetHeight + this._$element.find('.map-balloon__arrow')[0].offsetHeight)
+                        });
+                    },
+
+                    /**
+                     * Закрывает балун при клике на крестик, кидая событие "userclose" на макете.
+                     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/IBalloonLayout.xml#event-userclose
+                     * @function
+                     * @name onCloseClick
+                     */
+                    onCloseClick: function (e) {
+                        e.preventDefault();
+
+                        this.events.fire('userclose');
+                    },
+
+                    /**
+                     * Используется для автопозиционирования (balloonAutoPan).
+                     * @see https://api.yandex.ru/maps/doc/jsapi/2.1/ref/reference/ILayout.xml#getClientBounds
+                     * @function
+                     * @name getClientBounds
+                     * @returns {Number[][]} Координаты левого верхнего и правого нижнего углов шаблона относительно точки привязки.
+                     */
+                    getShape: function () {
+                        if (!this._isElement(this._$element)) {
+                            return MapBalloonLayout.superclass.getShape.call(this);
+                        }
+
+                        var position = this._$element.position();
+
+                        return new ymaps.shape.Rectangle(new ymaps.geometry.pixel.Rectangle([
+                    [position.left, position.top], [
+                        position.left + this._$element[0].offsetWidth,
+                        position.top + this._$element[0].offsetHeight + this._$element.find('.map-balloon__arrow')[0].offsetHeight
+                    ]
+                ]));
+                    },
+
+                    /**
+                     * Проверяем наличие элемента (в ИЕ и Опере его еще может не быть).
+                     * @function
+                     * @private
+                     * @name _isElement
+                     * @param {jQuery} [element] Элемент.
+                     * @returns {Boolean} Флаг наличия.
+                     */
+                    _isElement: function (element) {
+                        return element && element[0] && element.find('.map-balloon__arrow')[0];
                     }
-                    return result;
-                }
-            }
-        );
+                }),
+            MapBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
+                '<div class="map-balloon__inner__content">$[properties.balloonContent]</div>'
+            );
 
         placemarkFactory = new ymaps.Placemark([55.61414730895103, 37.47190599999999], {
-            address: "Москва, ул. Зоологическая, 13, стр. 2",
-            hintContent: 'Собственный значок метки',
-            balloonHeader: 'Заголовок балуна',
-            balloonContent: 'Контент балуна'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
-            balloonContentLayout: MyBalloonContentLayout,
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/fact-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkFactory2 = new ymaps.Placemark([64.9614028569075, 62.40949755273436], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка 2'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/fact-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkFactory3 = new ymaps.Placemark([58.55266732499611, 84.33820849023435], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/fact-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkFactory4 = new ymaps.Placemark([58.73593601918061, 67.15559130273435], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/fact-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkFactory5 = new ymaps.Placemark([58.09025713015575, 55.20246630273436], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/fact-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkOffice = new ymaps.Placemark([52.9244134978265, 39.64582567773435], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/office-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkFilial = new ymaps.Placemark([47.786119567765326, 40.524731927734344], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/filial-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         placemarkFilial2 = new ymaps.Placemark([51.58964143433744, 45.138989740234344], {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: '142771, Москва, пос. Мосрентген, ПП «Автострой»'
         }, {
             // Опции.
+            balloonShadow: false,
+            balloonLayout: MapBalloonLayout,
+            balloonContentLayout: MapBalloonContentLayout,
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
             iconImageHref: '../images/icons/filial-sh.png',
             // Размеры метки.
-            iconImageSize: [41, 37],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            //iconImageOffset: [-5, -38]
+            iconImageSize: [41, 37]
         });
         geoMap.geoObjects.add(placemarkFactory)
             .add(placemarkFactory2)
