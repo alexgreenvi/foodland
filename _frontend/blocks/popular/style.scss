@@ -2,6 +2,7 @@
     position: relative;
     padding-bottom: 50px;
     @include media(lg) {
+        padding-top: 40px;
         padding-bottom: 0;
     }
     &_pb {
@@ -73,6 +74,14 @@
             }
 
         }
+        @media (max-width: 640px) {
+            margin-bottom: 50px;
+            &__text,
+            &__description {
+                opacity: 1;
+                transition: opacity .3s
+            }
+        }
     }
 }
 
@@ -80,12 +89,6 @@
     .popular .item .image {
         margin-top: 0;
         transition: margin-top .3s
-    }
-    .popular .item,
-    .popular .item .description,
-    .popular .item .text {
-        opacity: 1;
-        transition: opacity .3s
     }
 }
 

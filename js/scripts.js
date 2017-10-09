@@ -316,7 +316,7 @@ var _resize = {
     },
     resize: function () {
         _resize.width = $(document).width() + 5;
-        console.log(_resize.width);
+       // console.log(_resize.width);
         for (var i in _resize.arResize) {
             var _this = _resize.arResize[i];
 
@@ -330,7 +330,7 @@ var _resize = {
 
             if (_resize.width < size) {
                 var block = before.children();
-                console.log(block);
+              //  console.log(block);
 
                 block.detach();
                 after.prepend(block);
@@ -422,7 +422,7 @@ $(document).ready(function () {
         if (active == 1 && index == 3) rotate += 120;
 
 
-        console.log('актимнам' + active + ' тек ' + index);
+        //console.log('актимнам' + active + ' тек ' + index);
 
         anime({
             targets: '#spinner .rotate-wrap',
