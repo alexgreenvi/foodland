@@ -79,6 +79,7 @@
             &__text,
             &__description {
                 opacity: 1;
+                vertical-align: top;
                 transition: opacity .3s
             }
         }
