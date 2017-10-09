@@ -3,7 +3,11 @@
     background: rgba(255, 255, 255, 0.5);
     text-align: right;
     z-index: 2;
-
+    &.fixed {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
     &__nav, 
     &__logo, 
     &__nav-btn,
@@ -89,6 +93,9 @@
             width: 22px; height: 23px;
             top: 38px; right: 44px;
             cursor: pointer;
+            @media (max-width: 1000px) {
+                top: 15px; right: 20px;
+            }
         }
         &_mobile {
             display: none;
@@ -99,11 +106,12 @@
     }
     @media (max-width: 1000px) {
         &__modal {
-            padding: 60px 20px 20px;
+            padding: 25px 20px 20px;
             width: 90%;
             
             &_mobile {
                 display: block;
+                padding-bottom: 10px;
             }
         }
     }
