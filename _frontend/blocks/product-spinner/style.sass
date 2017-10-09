@@ -81,7 +81,9 @@ $width: 480px
 
 			@include bg()
 
-			@include shadow(false, 3px, 3px, 18px, 0, #000, 0.5)
+			-webkit-box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.3), 3px 3px 78px 12px rgba(0, 0, 0, 0.1)
+			-moz-box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.3), 3px 3px 78px 12px rgba(0, 0, 0, 0.1)
+			box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.3), 3px 3px 78px 12px rgba(0, 0, 0, 0.1)
 
 			transition-duration: inherit
 

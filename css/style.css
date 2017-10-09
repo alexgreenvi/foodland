@@ -1291,7 +1291,7 @@ input[type="text"]:focus {
   background: url("../images/footer-bg.jpg"); }
   @media only screen and (max-width: 992px) {
     .footer {
-      background-size: cover;
+      background-size: auto;
       background-position: center; } }
   .footer__title, .footer__button, .footer__social, .footer__phone {
     display: inline-block; }
@@ -1722,12 +1722,12 @@ input[type="text"]:focus {
   .cheese:after {
     content: '';
     left: -147px;
-    bottom: -149px;
+    bottom: -118px;
     position: absolute;
     z-index: -5;
     width: 344px;
     height: 119px;
-    transform: rotate(24deg) skew(19deg);
+    transform: rotate(18deg) skew(19deg);
     background: #fff6d3;
     border-radius: 4px; }
   .cheese__back {
@@ -1914,9 +1914,12 @@ input[type="text"]:focus {
     background-repeat: no-repeat;
     transition-duration: 0.3s; }
     .cheese-circle .piece[data-number='item1'] {
-      top: 137.566719859px;
-      left: 186.91588785px;
-      transform: rotate(53deg);
+      width: 423.28042328px;
+      height: 423.28042328px;
+      zoom: 1.01;
+      top: 135.87013px;
+      left: 182.890877px;
+      transform: rotate(52.7deg);
       background-image: url("../images/cheese/piece1.png"); }
       .cheese-circle .piece[data-number='item1'].active {
         transform: rotate(53deg) translateX(-100px); }
@@ -2284,9 +2287,9 @@ input[type="text"]:focus {
       background-size: cover;
       background-color: transparent;
       background-repeat: no-repeat;
-      -webkit-box-shadow: false 3px 3px 18px 0 rgba(0, 0, 0, 0.5);
-      -moz-box-shadow: false 3px 3px 18px 0 rgba(0, 0, 0, 0.5);
-      box-shadow: false 3px 3px 18px 0 rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.3), 3px 3px 78px 12px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.3), 3px 3px 78px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.3), 3px 3px 78px 12px rgba(0, 0, 0, 0.1);
       transition-duration: inherit; }
       #spinner .rotate-wrap .circle[data-index="1"] {
         top: 175.182481752px;
@@ -2781,7 +2784,7 @@ input[type="text"]:focus {
         display: none; } }
   .back-img__maslo {
     left: -125px;
-    bottom: -105px;
+    bottom: -45px;
     width: 424px;
     height: 358px;
     background: url("../images/slack/maslo.png") no-repeat; }
@@ -3627,6 +3630,9 @@ input[type="text"]:focus {
       margin: 60px auto 95px; }
       .product-use-carousel_4_gallery .slick-list {
         background-color: transparent; }
+
+.random__arrows:hover {
+  fill: red; }
 
 .arrows--prev {
   left: -40px; }
