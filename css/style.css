@@ -2703,9 +2703,9 @@ input[type="text"]:focus {
       position: absolute;
       right: 20px; }
     .recommendation__block_col-2 {
-      height: 440px; }
+      height: 430px; }
     .recommendation__block_col-4 {
-      height: 440px;
+      height: 430px;
       padding: 50px; }
     @media only screen and (max-width: 576px) {
       .recommendation__block_col-2, .recommendation__block_col-4 {
