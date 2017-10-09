@@ -4057,6 +4057,17 @@ input[type="text"]:focus {
     @media only screen and (max-width: 1680px) {
       .background-page__butter_about {
         display: none; } }
+  .background-page__butter_contact {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 150px;
+    width: 366px;
+    height: 400px;
+    background: url("../images/background/butter-contact.png") no-repeat; }
+    @media only screen and (max-width: 1680px) {
+      .background-page__butter_contact {
+        display: none; } }
   .background-page__cheese-left_about {
     position: absolute;
     z-index: -1;
@@ -4189,6 +4200,17 @@ input[type="text"]:focus {
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
+  .background-page__block-left-top_contact {
+    position: absolute;
+    z-index: -2;
+    left: 0px;
+    top: 320px;
+    width: 25%;
+    height: 105px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #fff6d3; }
   .background-page__block-left-middle-top_about {
     position: absolute;
     z-index: -2;
@@ -4272,6 +4294,17 @@ input[type="text"]:focus {
     left: 0px;
     bottom: 630px;
     width: 270px;
+    height: 180px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #fff6d3; }
+  .background-page__block-left-middle_contact {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    bottom: 0px;
+    width: 230px;
     height: 180px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
@@ -4387,6 +4420,17 @@ input[type="text"]:focus {
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
+  .background-page__block-right-top_contact {
+    position: absolute;
+    z-index: -2;
+    right: 0px;
+    top: 285px;
+    width: 275px;
+    height: 285px;
+    -webkit-transform: skewY(20deg);
+        -ms-transform: skewY(20deg);
+            transform: skewY(20deg);
+    background-color: #fff6d3; }
   .background-page__block-right-middle_about {
     position: absolute;
     z-index: -2;
@@ -4485,6 +4529,17 @@ input[type="text"]:focus {
     background: url("../images/background/cow-right.png") no-repeat; }
     @media only screen and (max-width: 1660px) {
       .background-page__cow-right_one-recipe {
+        display: none; } }
+  .background-page__tomat-right_contact {
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    bottom: 118px;
+    width: 438px;
+    height: 726px;
+    background: url("../images/background/tomat-contact.png") no-repeat; }
+    @media only screen and (max-width: 1660px) {
+      .background-page__tomat-right_contact {
         display: none; } }
   .background-page__top {
     position: absolute;
