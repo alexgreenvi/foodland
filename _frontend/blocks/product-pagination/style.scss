@@ -14,6 +14,9 @@
     }
     &__button {
         text-align: right;
+        @include media(sm) {
+            text-align: center;
+        }
         .button-cheese {
             span {
                 color: #450b0b;
@@ -29,13 +32,23 @@
         @include media(lg) {
             margin-bottom: 30px;
         }
-        li {
+        &__li {
             display: inline-block;
             color: #ffc928;
             font-size: 16px;
             font-style: italic;
             text-align: center;
             margin-left: -10px;
+            &.col-sm-none {
+                @include media(sm) {
+                    display: none;
+                }
+            }
+            &.col-xs-none {
+                @media only screen and(max-width: 400px) {
+                    display: none;
+                }
+            }
         }
         a {
             display: inline-block;
@@ -65,6 +78,10 @@
         &_right {
             text-align: right;
             margin: 0 30px 0 0;
+            @include media(lg) {
+                text-align: center;
+                margin: 0 0 20px;
+            }
         }
     }
 }

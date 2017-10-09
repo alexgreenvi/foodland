@@ -22,7 +22,9 @@
     }
     &__button {
         margin-top: 25px;
-
+        @include media(md) {
+            text-align: center;
+        }
         & .button-orange span {
             padding: 0 46px;
         }

@@ -1,6 +1,9 @@
 .search {
     margin-bottom: 30px;
     text-align: right;
+    @include media(lg) {
+        margin-top: 30px;
+    }
     &__form-mini {
         position: relative;
 
