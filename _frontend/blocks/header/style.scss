@@ -4,15 +4,23 @@
     text-align: right;
     z-index: 101;
 
+<<<<<<< HEAD
     &__nav,
     &__logo, //=======z-index: 2;
+=======
+>>>>>>> e2cf98f281cdc9f523ba0e78f51649c7a2eddbf4
     &.fixed {
         position: fixed;
         width: 100%;
         z-index: 100;
     }
+<<<<<<< HEAD
     &__nav,
     &__logo, //> > > > > > > be867072b24fb067b450f57a6e90db62972f51b1 
+=======
+    &__nav, 
+    &__logo,
+>>>>>>> e2cf98f281cdc9f523ba0e78f51649c7a2eddbf4
     &__nav-btn,
     &__map-btn {
         display: inline-block;

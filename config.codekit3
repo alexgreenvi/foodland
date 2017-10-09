@@ -3027,6 +3027,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/product\/products\/layer-19.png": {
+		"ft": 32768,
+		"iS": 40821,
+		"oA": 0,
+		"oAP": "\/images\/product\/products\/layer-19.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/product\/products\/main-img--product.png": {
+		"ft": 32768,
+		"iS": 67175,
+		"oA": 0,
+		"oAP": "\/images\/product\/products\/main-img--product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/product\/products\/product-item-2.png": {
 		"ft": 32768,
 		"iS": 39347,
@@ -3300,46 +3322,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/images\/slack\/Слой 3 копия копия.png": {
-		"ft": 32768,
-		"iS": 295516,
-		"oA": 0,
-		"oAP": "\/images\/slack\/Слой 3 копия копия.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/slack\/Слой 3 копия2.png": {
-		"ft": 32768,
-		"iS": 295194,
-		"oA": 0,
-		"oAP": "\/images\/slack\/Слой 3 копия2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/slack\/Слой 3 копия2.psb": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/slack\/Слой 3 копия2.psb",
-		"oF": 0
-		},
-	"\/images\/slack\/Цвет с без профиля": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/slack\/Цвет с без профиля",
-		"oF": 0
-		},
-	"\/images\/slack\/Цвет с встроенным профилем ": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/slack\/Цвет с встроенным профилем ",
-		"oF": 0
 		},
 	"\/images\/slider\/1-logo.png": {
 		"ft": 32768,
