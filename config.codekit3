@@ -259,7 +259,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_frontend\/blocks\/background-page-category\/style.scss": {
+	"\/_frontend\/blocks\/background-page-catalog-category\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -389,6 +389,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/contacts\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/direct-action\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -468,6 +481,19 @@
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/header\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_frontend\/blocks\/map\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -662,6 +688,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/blocks\/route\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/blocks\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/blocks\/search\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -802,6 +841,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/brands.html",
+		"oF": 0
+		},
+	"\/contacts.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contacts.html",
 		"oF": 0
 		},
 	"\/css\/style.css": {
@@ -2109,6 +2154,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/bus.png": {
+		"ft": 32768,
+		"iS": 1830,
+		"oA": 0,
+		"oAP": "\/images\/icons\/bus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/car.png": {
+		"ft": 32768,
+		"iS": 1396,
+		"oA": 0,
+		"oAP": "\/images\/icons\/car.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/fact-sh.png": {
+		"ft": 32768,
+		"iS": 1713,
+		"oA": 0,
+		"oAP": "\/images\/icons\/fact-sh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/fact.png": {
+		"ft": 32768,
+		"iS": 325,
+		"oA": 0,
+		"oAP": "\/images\/icons\/fact.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/filial-sh.png": {
+		"ft": 32768,
+		"iS": 1585,
+		"oA": 0,
+		"oAP": "\/images\/icons\/filial-sh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/filial.png": {
+		"ft": 32768,
+		"iS": 325,
+		"oA": 0,
+		"oAP": "\/images\/icons\/filial.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/info-product-2.png": {
 		"ft": 32768,
 		"iS": 2007,
@@ -2142,11 +2253,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/icons\/man-hover.png": {
+		"ft": 32768,
+		"iS": 1347,
+		"oA": 0,
+		"oAP": "\/images\/icons\/man-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/man.png": {
+		"ft": 32768,
+		"iS": 1873,
+		"oA": 0,
+		"oAP": "\/images\/icons\/man.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/icons\/meal.png": {
 		"ft": 32768,
 		"iS": 2608,
 		"oA": 0,
 		"oAP": "\/images\/icons\/meal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/office-sh.png": {
+		"ft": 32768,
+		"iS": 1679,
+		"oA": 0,
+		"oAP": "\/images\/icons\/office-sh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/office.png": {
+		"ft": 32768,
+		"iS": 325,
+		"oA": 0,
+		"oAP": "\/images\/icons\/office.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3091,12 +3246,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/slack\/cheese_and_tomato_tmp931660024": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/slack\/cheese_and_tomato_tmp931660024",
-		"oF": 0
-		},
 	"\/images\/slack\/list.png": {
 		"ft": 32768,
 		"iS": 31025,
@@ -3344,11 +3493,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/trade-marks\/Cream_nuvo-01.png": {
+		"ft": 32768,
+		"iS": 94745,
+		"oA": 0,
+		"oAP": "\/images\/trade-marks\/Cream_nuvo-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/trade-marks\/heidi-logo.png": {
 		"ft": 32768,
 		"iS": 9629,
 		"oA": 0,
 		"oAP": "\/images\/trade-marks\/heidi-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/trade-marks\/Heidi.png": {
+		"ft": 32768,
+		"iS": 235326,
+		"oA": 0,
+		"oAP": "\/images\/trade-marks\/Heidi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/trade-marks\/La_paulina-01.png": {
+		"ft": 32768,
+		"iS": 204658,
+		"oA": 0,
+		"oAP": "\/images\/trade-marks\/La_paulina-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/trade-marks\/Lattesso-01.png": {
+		"ft": 32768,
+		"iS": 134640,
+		"oA": 0,
+		"oAP": "\/images\/trade-marks\/Lattesso-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3399,6 +3592,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/trade-marks\/pic05177.jpg": {
+		"ft": 16384,
+		"iS": 35229,
+		"oA": 0,
+		"oAP": "\/images\/trade-marks\/pic05177.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/trade-marks\/wimm-bill-dann-foods-logo-svg-1024x638.png": {
 		"ft": 32768,
 		"iS": 14345,
@@ -3410,88 +3613,88 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/Bellanova-01.png": {
+	"\/images\/trade-marks\/Лого (1)\/Bellanova-01.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/Bellanova-01.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/Bellanova-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/Bonfesto-01.png": {
+	"\/images\/trade-marks\/Лого (1)\/Bonfesto-01.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/Bonfesto-01.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/Bonfesto-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/Cooking-01-01.png": {
+	"\/images\/trade-marks\/Лого (1)\/Cooking-01-01.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/Cooking-01-01.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/Cooking-01-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/Cream_nuvo-01.png": {
+	"\/images\/trade-marks\/Лого (1)\/Cream_nuvo-01.png": {
 		"ft": 32768,
 		"iS": 94745,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/Cream_nuvo-01.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/Cream_nuvo-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/Heidi.png": {
+	"\/images\/trade-marks\/Лого (1)\/Heidi.png": {
 		"ft": 32768,
 		"iS": 235326,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/Heidi.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/Heidi.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/La_paulina-01.png": {
+	"\/images\/trade-marks\/Лого (1)\/La_paulina-01.png": {
 		"ft": 32768,
 		"iS": 204658,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/La_paulina-01.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/La_paulina-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/Lattesso-01.png": {
+	"\/images\/trade-marks\/Лого (1)\/Lattesso-01.png": {
 		"ft": 32768,
 		"iS": 134640,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/Lattesso-01.png",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/Lattesso-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/Лого (1)\/pic05177.jpg": {
+	"\/images\/trade-marks\/Лого (1)\/pic05177.jpg": {
 		"ft": 16384,
 		"iS": 35229,
 		"oA": 0,
-		"oAP": "\/images\/Лого (1)\/pic05177.jpg",
+		"oAP": "\/images\/trade-marks\/Лого (1)\/pic05177.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

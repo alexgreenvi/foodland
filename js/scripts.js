@@ -1,5 +1,6 @@
 $(document).ready(function () {
     _resize.init();
+    header_fix.init();
     /* Пренос блоков соглана размеру экрана
      * Откуда : data-resize="logo" data-resize-width="1000"
      * Куда   : data-resize-after="logo"
@@ -315,7 +316,7 @@ var _resize = {
     },
     resize: function () {
         _resize.width = $(document).width() + 5;
-
+        console.log(_resize.width);
         for (var i in _resize.arResize) {
             var _this = _resize.arResize[i];
 
@@ -329,6 +330,7 @@ var _resize = {
 
             if (_resize.width < size) {
                 var block = before.children();
+                console.log(block);
 
                 block.detach();
                 after.prepend(block);
@@ -341,7 +343,23 @@ var _resize = {
         };
     }
 };
+var header_fix = {
+    init: function () {
+        var header = $('.header');
 
+
+        $(window).scroll(function(){
+            if($(this).scrollTop()>100){
+                $('.header').addClass('fixed');
+            }
+            else if ($(this).scrollTop()<100){
+                $('.header').removeClass('fixed');
+            }
+        });
+
+
+    }
+}
 
 // Активный элемент по умолчанию под номером 2
 

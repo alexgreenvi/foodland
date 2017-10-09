@@ -245,6 +245,12 @@
 
 }
 
+.random__arrows {
+    &:hover {
+        fill: red;
+    }
+}
+
 .arrows--prev {
     left: -40px;
 }
