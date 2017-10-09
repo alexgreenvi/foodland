@@ -31,14 +31,20 @@
         }
         @include media(lg) {
             margin-bottom: 30px;
+            text-align: center;
         }
-        &__li {
+        li {
             display: inline-block;
             color: #ffc928;
             font-size: 16px;
             font-style: italic;
             text-align: center;
             margin-left: -10px;
+            &.col-lg-none {
+                @include media(lg) {
+                    display: none;
+                }
+            }
             &.col-sm-none {
                 @include media(sm) {
                     display: none;

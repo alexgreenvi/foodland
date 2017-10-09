@@ -1193,7 +1193,7 @@ input[type="text"]:focus {
   position: relative;
   background: rgba(255, 255, 255, 0.5);
   text-align: right;
-  z-index: 2; }
+  z-index: 101; }
   .header__nav, .header__logo, .header__nav-btn, .header__map-btn {
     display: inline-block;
     vertical-align: top; }
@@ -1385,9 +1385,12 @@ input[type="text"]:focus {
   font-size: 48px;
   font-weight: 700;
   text-align: center; }
+  @media only screen and (max-width: 576px) {
+    .h1 {
+      font-size: 40px; } }
   .h1_mt-35 {
     margin-top: 35px; }
-    @media only screen and (max-width: 758px) {
+    @media only screen and (max-width: 1200px) {
       .h1_mt-35 {
         margin-top: 100px; } }
 
@@ -1703,7 +1706,8 @@ input[type="text"]:focus {
     -webkit-transform: translatex(-50%);
             transform: translatex(-50%);
     bottom: -7.5px;
-    overflow: hidden; }
+    overflow: hidden;
+    min-width: 195px; }
     .slider .dots li {
       display: block;
       float: left;
@@ -2588,6 +2592,8 @@ input[type="text"]:focus {
     background: rgba(255, 255, 255, 0.9);
     z-index: 10;
     position: relative; }
+    .random__body_about {
+      max-width: 357px; }
   .random__title {
     font-size: 24px;
     font-weight: 700;
@@ -3139,19 +3145,23 @@ input[type="text"]:focus {
         margin-left: 0; } }
     @media only screen and (max-width: 992px) {
       .product-pagination__pagination {
-        margin-bottom: 30px; } }
-    .product-pagination__pagination__li {
+        margin-bottom: 30px;
+        text-align: center; } }
+    .product-pagination__pagination li {
       display: inline-block;
       color: #ffc928;
       font-size: 16px;
       font-style: italic;
       text-align: center;
       margin-left: -10px; }
+      @media only screen and (max-width: 992px) {
+        .product-pagination__pagination li.col-lg-none {
+          display: none; } }
       @media only screen and (max-width: 576px) {
-        .product-pagination__pagination__li.col-sm-none {
+        .product-pagination__pagination li.col-sm-none {
           display: none; } }
       @media only screen and (max-width: 400px) {
-        .product-pagination__pagination__li.col-xs-none {
+        .product-pagination__pagination li.col-xs-none {
           display: none; } }
     .product-pagination__pagination a {
       display: inline-block;
