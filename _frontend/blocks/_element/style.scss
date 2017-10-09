@@ -23,10 +23,13 @@
     font-size: 48px;
     font-weight: 700;
     text-align: center;
+    @include media(sm) {
+        font-size: 40px;
+    }
     &_mt-35 {
         margin-top: 35px;
-        @include media(md) {
-            margin-top: 90px;
+        @include media(xl) {
+            margin-top: 100px;
         }
 
     }

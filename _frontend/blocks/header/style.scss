@@ -2,6 +2,12 @@
     position: relative;
     background: rgba(255, 255, 255, 0.5);
     text-align: right;
+<<<<<<< HEAD
+    z-index: 101;
+
+    &__nav,
+    &__logo,
+=======
     z-index: 2;
     &.fixed {
         position: fixed;
@@ -10,6 +16,7 @@
     }
     &__nav, 
     &__logo, 
+>>>>>>> be867072b24fb067b450f57a6e90db62972f51b1
     &__nav-btn,
     &__map-btn {
         display: inline-block;
@@ -60,11 +67,11 @@
             fill: #979695;
             margin-bottom: 7px;
         }
-        &:hover{
+        &:hover {
             color: $color-link-hover;
 
             & svg {
-            fill: $color-link-hover!important;
+                fill: $color-link-hover!important;
             }
         }
     }
@@ -72,8 +79,8 @@
     &__modal {
         position: absolute;
         z-index: 100;
-        top: -1000%; 
-        left: 50%; 
+        top: -1000%;
+        left: 50%;
         -ms-transform: translateX(-50%);
         transform: translateX(-50%);
         width: 80%;
@@ -82,16 +89,17 @@
         background-color: #ffc928;
         transition: top .2s;
         border-radius: 0 0 10px 10px;
-    
+
         &.active {
-            top: 0; 
+            top: 0;
             transition: top .2s
         }
-        &__close
-            {
+        &__close {
             position: absolute;
-            width: 22px; height: 23px;
-            top: 38px; right: 44px;
+            width: 22px;
+            height: 23px;
+            top: 38px;
+            right: 44px;
             cursor: pointer;
             @media (max-width: 1000px) {
                 top: 15px; right: 20px;
@@ -99,16 +107,16 @@
         }
         &_mobile {
             display: none;
-            float: left; 
+            float: left;
             width: 100%;
             padding-bottom: 50px;
-    }
+        }
     }
     @media (max-width: 1000px) {
         &__modal {
             padding: 25px 20px 20px;
             width: 90%;
-            
+
             &_mobile {
                 display: block;
                 padding-bottom: 10px;

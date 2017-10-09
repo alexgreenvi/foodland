@@ -672,7 +672,35 @@ ymaps.ready(function () {
             '<div class="popover-content">$[properties.balloonContent]</div>'
         );
 
+        // Создание макета содержимого хинта.
+        // Макет создается через фабрику макетов с помощью текстового шаблона.
+        HintLayout = ymaps.templateLayoutFactory.createClass("<div class='my-hint'>" +
+            "<b>{{ properties.object }}</b><br />" +
+            "{{ properties.address }}" +
+            "</div>", {
+                // Определяем метод getShape, который
+                // будет возвращать размеры макета хинта.
+                // Это необходимо для того, чтобы хинт автоматически
+                // сдвигал позицию при выходе за пределы карты.
+                getShape: function () {
+                    var el = this.getElement(),
+                        result = null;
+                    if (el) {
+                        var firstChild = el.firstChild;
+                        result = new ymaps.shape.Rectangle(
+                            new ymaps.geometry.pixel.Rectangle([
+                                [0, 0],
+                                [firstChild.offsetWidth, firstChild.offsetHeight]
+                            ])
+                        );
+                    }
+                    return result;
+                }
+            }
+        );
+
         placemarkFactory = new ymaps.Placemark([55.61414730895103, 37.47190599999999], {
+            address: "Москва, ул. Зоологическая, 13, стр. 2",
             hintContent: 'Собственный значок метки',
             balloonHeader: 'Заголовок балуна',
             balloonContent: 'Контент балуна'
@@ -691,7 +719,7 @@ ymaps.ready(function () {
         });
         placemarkFactory2 = new ymaps.Placemark([64.9614028569075, 62.40949755273436], {
             hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
+            balloonContent: 'Это красивая метка 2'
         }, {
             // Опции.
             // Необходимо указать данный тип макета.

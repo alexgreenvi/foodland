@@ -2149,7 +2149,6 @@ input[type="text"]:focus {
   padding-bottom: 50px; }
   @media only screen and (max-width: 992px) {
     .popular {
-      padding-top: 40px;
       padding-bottom: 0; } }
   .popular_pb {
     padding-bottom: 0; }
@@ -2195,17 +2194,16 @@ input[type="text"]:focus {
     .popular__item:hover .popular__item__description, .popular__item:hover .popular__item__text {
       opacity: 1;
       transition: opacity .3s; }
-    @media (max-width: 640px) {
-      .popular__item {
-        margin-bottom: 50px; }
-        .popular__item__text, .popular__item__description {
-          opacity: 1;
-          transition: opacity .3s; } }
 
 @media (max-width: 640px) {
   .popular .item .image {
     margin-top: 0;
-    transition: margin-top .3s; } }
+    transition: margin-top .3s; }
+  .popular .item,
+  .popular .item .description,
+  .popular .item .text {
+    opacity: 1;
+    transition: opacity .3s; } }
 
 .popular__carousel:before, .popular__carousel:after {
   content: '';
