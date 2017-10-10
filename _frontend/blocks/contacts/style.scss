@@ -3,6 +3,11 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
+    &__item {
+        @include media(md) {
+            margin-bottom: 20px;
+        }
+    }
     li {
         margin-bottom: 8px;
     }

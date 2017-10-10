@@ -2,6 +2,10 @@
     margin: 87px auto 35px;
     &__wrap {
         padding-left: 30px;
+        @include media(lg) {
+            padding-left: 0;
+            margin-top: 20px;
+        }
     }
     &__by {
         color: #0b0b0b;
@@ -10,6 +14,14 @@
         margin-bottom: 25px;
         cursor: pointer;
         display: inline-block;
+        vertical-align: top;
+        @include media(lg) {
+            padding: 0 10px;
+            max-width: 33%;
+        }
+        @include media(sm) {
+            max-width: 100%;
+        }
         &:before {
             content: "";
             width: 85px;
