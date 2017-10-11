@@ -503,12 +503,17 @@
         }
         &_about {
             position: absolute;
+<<<<<<< HEAD
             z-index: -1;
+=======
+            z-index: 2;
+>>>>>>> e19f3a355b71cb3dc3b163a8cf17518a3dfd2826
             right: 0;
             top: 1700px;
             width: 407px;
-            height: 649px;
-            background: url('../images/background/cheese-right-about.png') no-repeat;
+            height: 459px;
+            background: url(../images/slack/cheese.png) no-repeat;
+
             @media only screen and (max-width: 1660px) {
                 display: none;
             }

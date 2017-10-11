@@ -2253,6 +2253,11 @@ input[type="text"]:focus {
     .popular {
       padding-top: 40px;
       padding-bottom: 0; } }
+  .popular__carousel {
+    margin: 0 -60px; }
+    @media only screen and (max-width: 1400px) {
+      .popular__carousel {
+        margin: 0; } }
   .popular_pb {
     padding-bottom: 0; }
   .popular__item {
@@ -2791,6 +2796,8 @@ input[type="text"]:focus {
   @media only screen and (max-width: 70px) {
     .recommendation {
       width: 20px; } }
+  .recommendation .slick-list {
+    padding: 0 0 20px; }
   .recommendation .slick-slider {
     padding: 0px; }
     @media only screen and (max-width: 992px) {
@@ -2820,11 +2827,16 @@ input[type="text"]:focus {
     -webkit-background-size: auto 110%;
             background-size: auto 110%;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     -webkit-transition: -webkit-background-size .3s;
     transition: -webkit-background-size .3s;
     -o-transition: background-size .3s;
     transition: background-size .3s;
     transition: background-size .3s, -webkit-background-size .3s; }
+=======
+    box-shadow: 0 5px 7px 1px rgba(0, 0, 0, 0.1);
+    transition: background-size .3s; }
+>>>>>>> e19f3a355b71cb3dc3b163a8cf17518a3dfd2826
     @media only screen and (max-width: 1200px) {
       .recommendation__block {
         -webkit-background-size: cover;
@@ -4572,12 +4584,16 @@ input[type="text"]:focus {
         display: none; } }
   .background-page__cheese-right_about {
     position: absolute;
+<<<<<<< HEAD
     z-index: -1;
+=======
+    z-index: 2;
+>>>>>>> e19f3a355b71cb3dc3b163a8cf17518a3dfd2826
     right: 0;
     top: 1700px;
     width: 407px;
-    height: 649px;
-    background: url("../images/background/cheese-right-about.png") no-repeat; }
+    height: 459px;
+    background: url(../images/slack/cheese.png) no-repeat; }
     @media only screen and (max-width: 1660px) {
       .background-page__cheese-right_about {
         display: none; } }
