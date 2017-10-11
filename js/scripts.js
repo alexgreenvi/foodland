@@ -911,11 +911,14 @@ ymaps.ready(function () {
         //alert('no response');
     });
 
+
     //----------------------------------------------------
     //   mask
     //----------------------------------------------------
+
+
     ymaps.modules.require('RS.RegionSelector', function (RegionSelector) {
-        new RegionSelector(geoMap, $('#sidebar ul'), $('#settings div'), $('#header'));
+        new RegionSelector(geoMap, $(), $(), $());
     });
 
     (function (global) {
@@ -1170,7 +1173,6 @@ ymaps.ready(function () {
                     );
                 }
             });
-
             provide(ListView);
 
         });
@@ -1322,10 +1324,10 @@ ymaps.ready(function () {
         });
 
         ym.modules.define('RS.MapView', [
-  'util.defineClass',
-  'util.bind',
-  'event.Manager',
-], function (provide, defineClass, bind, EventManager) {
+          'util.defineClass',
+          'util.bind',
+          'event.Manager',
+        ], function (provide, defineClass, bind, EventManager) {
 
             /**
              * Цвет областей региона.
@@ -1603,8 +1605,8 @@ ymaps.ready(function () {
         });
 
         ym.modules.define('RS.OptsView', [
-  'util.defineClass'
-], function (provide, defineClass) {
+          'util.defineClass'
+        ], function (provide, defineClass) {
 
             /**
              * Заголовки контролов.
@@ -1670,14 +1672,14 @@ ymaps.ready(function () {
             var OptsView = defineClass(function (container) {
                 this._container = container;
                 this._btnTemplate = [
-        '<div class="btn-group">',
-            '<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">',
+                '<div class="btn-group">',
+                '<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">',
                 '%s',
                 '&nbsp;<span class="caret"></span>',
-            '</a>',
-            '<ul class="dropdown-menu"></ul>',
-        '</div>'
-    ].join('');
+                '</a>',
+                '<ul class="dropdown-menu"></ul>',
+                '</div>'
+                ].join('');
                 this._itemTemplate = '<li><a href="#">%s</a></li>';
                 this._activeIconTemplate = '<i class="icon-ok"></i>';
                 this.events = $({});
@@ -1806,83 +1808,82 @@ ymaps.ready(function () {
         });
 
         ym.modules.define('RS.TitleView', [
-  'util.defineClass'
-], function (provide, defineClass) {
-
-            /**
-             * Класс-отображение заголовка.
-             * @class
-             * @name RegionSelector.TitleView
-             * @param {jQuery} container Родителький элемент контрола.
-             */
-            var TitleView = defineClass(function (container) {
-                this._container = container;
-                this._template = '<p><a href="#">%s</a></p>';
-                this.events = $({});
-            }, /** @lends RegionSelector.TitleView.prototype */ {
+          'util.defineClass'],
+            function (provide, defineClass) {
                 /**
-                 * Отображение данных в DOM-дереве.
-                 * @function
-                 * @name RegionSelector.TitleView.render
-                 * @param {ymaps.data.Manager} data Данные регионов.
-                 * @returns {RegionSelector.TitleView} Возвращает ссылку на себя.
+                 * Класс-отображение заголовка.
+                 * @class
+                 * @name RegionSelector.TitleView
+                 * @param {jQuery} container Родителький элемент контрола.
                  */
-                render: function (data) {
-                    var title = data.get('regions').properties.get('hintContent');
+                var TitleView = defineClass(function (container) {
+                    this._container = container;
+                    this._template = '<p><a href="#">%s</a></p>';
+                    this.events = $({});
+                }, /** @lends RegionSelector.TitleView.prototype */ {
+                    /**
+                     * Отображение данных в DOM-дереве.
+                     * @function
+                     * @name RegionSelector.TitleView.render
+                     * @param {ymaps.data.Manager} data Данные регионов.
+                     * @returns {RegionSelector.TitleView} Возвращает ссылку на себя.
+                     */
+                    render: function (data) {
+                        var title = data.get('regions').properties.get('hintContent');
 
-                    this._container
-                        .append(this._template.replace('%s', title));
-                    this._attachHandlers();
+                        this._container
+                            .append(this._template.replace('%s', title));
+                        this._attachHandlers();
 
-                    return this;
-                },
-                /**
-                 * Удаление данных из DOM-дерева.
-                 * @function
-                 * @name RegionSelector.TitleView.clear
-                 * @returns {RegionSelector.TitleView} Возвращает ссылку на себя.
-                 */
-                clear: function () {
-                    this._detachHandlers();
-                    this._container.empty();
+                        return this;
+                    },
+                    /**
+                     * Удаление данных из DOM-дерева.
+                     * @function
+                     * @name RegionSelector.TitleView.clear
+                     * @returns {RegionSelector.TitleView} Возвращает ссылку на себя.
+                     */
+                    clear: function () {
+                        this._detachHandlers();
+                        this._container.empty();
 
-                    return this;
-                },
-                /**
-                 * Добавление обработчиков событий.
-                 * @function
-                 * @private
-                 * @name RegionSelector.TitleView._attachHandlers
-                 */
-                _attachHandlers: function () {
-                    this._container.on('click', 'a', $.proxy(this._onTitleClick, this));
-                },
-                /**
-                 * Удаление обработчиков событий.
-                 * @function
-                 * @private
-                 * @name RegionSelector.TitleView._detachHandlers
-                 */
-                _detachHandlers: function () {
-                    this._container.off('click');
-                },
-                /**
-                 * Обработчик клика на заголовке.
-                 * @function
-                 * @private
-                 * @name RegionSelector.TitleView._onTitleClick
-                 * @param {jQuery.Event} e Объект-событие.
-                 */
-                _onTitleClick: function (e) {
-                    e.preventDefault();
+                        return this;
+                    },
+                    /**
+                     * Добавление обработчиков событий.
+                     * @function
+                     * @private
+                     * @name RegionSelector.TitleView._attachHandlers
+                     */
+                    _attachHandlers: function () {
+                        this._container.on('click', 'a', $.proxy(this._onTitleClick, this));
+                    },
+                    /**
+                     * Удаление обработчиков событий.
+                     * @function
+                     * @private
+                     * @name RegionSelector.TitleView._detachHandlers
+                     */
+                    _detachHandlers: function () {
+                        this._container.off('click');
+                    },
+                    /**
+                     * Обработчик клика на заголовке.
+                     * @function
+                     * @private
+                     * @name RegionSelector.TitleView._onTitleClick
+                     * @param {jQuery.Event} e Объект-событие.
+                     */
+                    _onTitleClick: function (e) {
+                        e.preventDefault();
 
-                    this.events.trigger($.Event('titleclick'));
-                }
+                        this.events.trigger($.Event('titleclick'));
+                    }
+                });
+
+                provide(TitleView);
+
             });
-
-            provide(TitleView);
-
-        });
 
         ym.modules.define('RS.RegionSelector', [
           'util.defineClass',
@@ -2009,7 +2010,6 @@ ymaps.ready(function () {
             provide(RegionSelector);
 
         });
-
     })(this);
 
 

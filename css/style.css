@@ -4209,6 +4209,8 @@ input[type="text"]:focus {
     top: 320px;
     width: 25%;
     height: 105px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
