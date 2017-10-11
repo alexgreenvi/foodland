@@ -132,6 +132,10 @@
                         vertical-align: middle;
                         margin: 0 10px;
                     }
+                    &:hover:before,
+                    &:hover:after {
+                        background-color: #ce0018;
+                    }
                 }
 
             }
@@ -240,6 +244,12 @@
             .slick-list {
                 background-color: transparent;
             }
+        }
+    }
+    &_one-brand {
+        .slick-list {
+            box-shadow: 0px 10px 20px 0px #777;
+
         }
     }
 

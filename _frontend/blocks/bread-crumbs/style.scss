@@ -33,7 +33,11 @@
                 height: 20px;
                 margin-right: 10px;
             }
+            &:hover {
+                color: #ce0018;
+            }
         }
+
     }
     &_after {
         li {
@@ -69,8 +73,11 @@
         a {
             vertical-align: middle;
             &:hover {
-                color: inherit;
+                color: #ce0018;
             }
+        }
+        span {
+            vertical-align: middle;
         }
     }
 }

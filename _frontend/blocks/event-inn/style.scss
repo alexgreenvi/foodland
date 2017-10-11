@@ -4,8 +4,24 @@
     letter-spacing: 0.2px;
     &__img {
         margin-bottom: 45px;
+        position: relative;
         img {
             width: 100%;
+        }
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            top: 30%;
+            width: 450px;
+            height: 3px;
+            background-image: url("../images/point-line.png");
+        }
+        &:before {
+            left: -550px;
+        }
+        &:after {
+            right: -550px;
         }
     }
     &__h2 {

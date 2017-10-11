@@ -35,6 +35,13 @@
                 margin-bottom: 10px;
             }
             &_time {
+                margin-right: 65px;
+                @include media(xl) {
+                    margin-right: 45px;
+                }
+                @include media(lg) {
+                    margin-right: 10px;
+                }
                 &:before {
                     background: url('../images/icons/time.png') no-repeat center;
                 }

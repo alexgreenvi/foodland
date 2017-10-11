@@ -46,6 +46,9 @@
         margin-top: 23px;
         margin-right: 20px;
         cursor: pointer;
+        &:hover {
+            fill: #ce0018;
+        }
     }
     &__map-btn {
         width: 90px;
@@ -95,6 +98,9 @@
             top: 38px;
             right: 44px;
             cursor: pointer;
+            &:hover {
+                fill: #ce0018;
+            }
             @media (max-width: 1000px) {
                 top: 15px;
                 right: 20px;

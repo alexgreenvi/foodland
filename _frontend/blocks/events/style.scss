@@ -59,6 +59,10 @@
                         background-color: #000;
                         vertical-align: middle;
                     }
+                    &:hover:before,
+                    &:hover:after {
+                        background-color: #ce0018;
+                    }
                 }
             }
         }

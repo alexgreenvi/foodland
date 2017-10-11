@@ -30,6 +30,9 @@
             fill: #ffc928;
             transform: translateX(-50%) rotate(90deg);
             cursor: pointer;
+            &:hover {
+                fill: #ce0018;
+            }
         }
         .arrows--prev {
             top: -40px;

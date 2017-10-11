@@ -248,7 +248,7 @@ ul ul, ol ul, ul ol, ol ol {
     width: 100%; }
   .container-aside {
     width: 170px;
-    margin-right: 70px; }
+    margin-right: 170px; }
   .container-main {
     width: 940px; }
   @media (min-width: 0) {
@@ -267,19 +267,19 @@ ul ul, ol ul, ul ol, ol ol {
     .container {
       max-width: 720px !important; }
       .container-main {
-        width: 440px; }
+        width: 340px; }
       .container-aside {
         width: 170px; } }
   @media (min-width: 992px) {
     .container {
       max-width: 960px !important; }
       .container-main {
-        width: 680px; }
+        width: 580px; }
       .container-aside {
         width: 170px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1300px) {
     .container {
-      max-width: 1140px !important; }
+      max-width: 1240px !important; }
       .container-main {
         width: 860px; }
       .container-aside {
@@ -1012,6 +1012,9 @@ div.cs-select:focus {
   content: '\25bc';
   right: 0em; }
 
+.cs-select > span:hover:after {
+  color: #ce0018; }
+
 .cs-select .cs-selected span::after {
   content: '\25b2';
   margin-left: 1em; }
@@ -1227,6 +1230,8 @@ input[type="text"]:focus {
     margin-top: 23px;
     margin-right: 20px;
     cursor: pointer; }
+    .header__nav-btn:hover {
+      fill: #ce0018; }
   .header__map-btn {
     width: 90px;
     display: inline-block;
@@ -1274,6 +1279,8 @@ input[type="text"]:focus {
       top: 38px;
       right: 44px;
       cursor: pointer; }
+      .header__modal__close:hover {
+        fill: #ce0018; }
       @media (max-width: 1000px) {
         .header__modal__close {
           top: 15px;
@@ -2212,8 +2219,6 @@ input[type="text"]:focus {
     left: -550px; }
   .clients__carousel:after {
     right: -550px; }
-  .clients__carousel_bg {
-    background-color: #fff6d3; }
   .clients_about {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3233,6 +3238,8 @@ input[type="text"]:focus {
           -ms-transform: translateX(-50%) rotate(90deg);
               transform: translateX(-50%) rotate(90deg);
       cursor: pointer; }
+      .tm-carousel__carousel .arrows:hover {
+        fill: #ce0018; }
     .tm-carousel__carousel .arrows--prev {
       top: -40px; }
     .tm-carousel__carousel .arrows--next {
@@ -3279,6 +3286,8 @@ input[type="text"]:focus {
     top: 220px;
     width: 700px;
     height: 110px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3290,6 +3299,8 @@ input[type="text"]:focus {
       top: 520px;
       width: 260px;
       height: 180px;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
       -webkit-transform: skewY(20deg);
           -ms-transform: skewY(20deg);
               transform: skewY(20deg);
@@ -3301,6 +3312,8 @@ input[type="text"]:focus {
     top: 1070px;
     width: 250px;
     height: 170px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3312,6 +3325,8 @@ input[type="text"]:focus {
       top: 1300px;
       width: 100%;
       height: 75px;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
       -webkit-transform: skewY(20deg);
           -ms-transform: skewY(20deg);
               transform: skewY(20deg);
@@ -3336,6 +3351,8 @@ input[type="text"]:focus {
     bottom: -180px;
     width: 1000px;
     height: 300px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3347,6 +3364,8 @@ input[type="text"]:focus {
       bottom: -760px;
       width: 100%;
       height: 800px;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
       -webkit-transform: skewY(20deg);
           -ms-transform: skewY(20deg);
               transform: skewY(20deg);
@@ -3358,6 +3377,8 @@ input[type="text"]:focus {
     top: 150px;
     width: 300px;
     height: 280px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3369,6 +3390,8 @@ input[type="text"]:focus {
       top: 60px;
       width: 300px;
       height: 250px;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
       -webkit-transform: skewY(20deg);
           -ms-transform: skewY(20deg);
               transform: skewY(20deg);
@@ -3380,6 +3403,8 @@ input[type="text"]:focus {
     top: 817px;
     width: 300px;
     height: 270px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3439,6 +3464,8 @@ input[type="text"]:focus {
       width: 9px;
       height: 20px;
       margin-right: 10px; }
+    .bread-crumbs_return li:hover {
+      color: #ce0018; }
   .bread-crumbs_after li:after {
     content: " ";
     display: inline-block;
@@ -3465,7 +3492,9 @@ input[type="text"]:focus {
   .bread-crumbs ul a {
     vertical-align: middle; }
     .bread-crumbs ul a:hover {
-      color: inherit; }
+      color: #ce0018; }
+  .bread-crumbs ul span {
+    vertical-align: middle; }
 
 .analog-carousel {
   text-align: center; }
@@ -3497,6 +3526,8 @@ input[type="text"]:focus {
           -ms-transform: translateX(-50%) rotate(90deg);
               transform: translateX(-50%) rotate(90deg);
       cursor: pointer; }
+      .analog-carousel__carousel .arrows:hover {
+        fill: #ce0018; }
     .analog-carousel__carousel .arrows--prev {
       top: -40px; }
     .analog-carousel__carousel .arrows--next {
@@ -3773,6 +3804,8 @@ input[type="text"]:focus {
           .product-use-carousel__carousel__item__block-link a span {
             vertical-align: middle;
             margin: 0 10px; }
+          .product-use-carousel__carousel__item__block-link a:hover:before, .product-use-carousel__carousel__item__block-link a:hover:after {
+            background-color: #ce0018; }
       .product-use-carousel__carousel__item_m-h {
         min-height: 230px;
         background-color: #f1eee3;
@@ -3861,6 +3894,9 @@ input[type="text"]:focus {
       margin: 60px auto 95px; }
       .product-use-carousel_4_gallery .slick-list {
         background-color: transparent; }
+  .product-use-carousel_one-brand .slick-list {
+    -webkit-box-shadow: 0px 10px 20px 0px #777;
+            box-shadow: 0px 10px 20px 0px #777; }
 
 .random__arrows:hover {
   fill: red; }
@@ -3899,6 +3935,8 @@ input[type="text"]:focus {
     top: 290px;
     width: 100%;
     height: 320px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3910,6 +3948,8 @@ input[type="text"]:focus {
     top: 820px;
     width: 390px;
     height: 110px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3921,6 +3961,8 @@ input[type="text"]:focus {
     bottom: -330px;
     width: 100%;
     height: 600px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -3932,6 +3974,8 @@ input[type="text"]:focus {
     top: 60px;
     width: 350px;
     height: 190px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4096,7 +4140,7 @@ input[type="text"]:focus {
     position: absolute;
     z-index: -1;
     left: 0;
-    top: 265px;
+    top: 320px;
     width: 327px;
     height: 511px;
     background: url("../images/background/cheese-left_event.png") no-repeat; }
@@ -4132,6 +4176,8 @@ input[type="text"]:focus {
     top: 490px;
     width: 100%;
     height: 30px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4143,6 +4189,8 @@ input[type="text"]:focus {
     top: 650px;
     width: 100%;
     height: 30px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4154,6 +4202,8 @@ input[type="text"]:focus {
     top: 390px;
     width: 50%;
     height: 120px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4165,6 +4215,8 @@ input[type="text"]:focus {
     top: 330px;
     width: 33%;
     height: 120px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4176,6 +4228,8 @@ input[type="text"]:focus {
     top: 335px;
     width: 34%;
     height: 105px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4187,6 +4241,8 @@ input[type="text"]:focus {
     top: 685px;
     width: 32%;
     height: 105px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4198,6 +4254,8 @@ input[type="text"]:focus {
     top: 650px;
     width: 32%;
     height: 105px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4222,6 +4280,8 @@ input[type="text"]:focus {
     top: 545px;
     width: 140px;
     height: 170px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4233,6 +4293,8 @@ input[type="text"]:focus {
     top: 420px;
     width: 140px;
     height: 170px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4244,6 +4306,8 @@ input[type="text"]:focus {
     top: 2500px;
     width: 100%;
     height: 250px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4255,6 +4319,8 @@ input[type="text"]:focus {
     top: 1220px;
     width: 300px;
     height: 170px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4266,6 +4332,8 @@ input[type="text"]:focus {
     bottom: 486px;
     width: 270px;
     height: 170px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4277,6 +4345,8 @@ input[type="text"]:focus {
     bottom: 600px;
     width: 270px;
     height: 180px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4288,6 +4358,8 @@ input[type="text"]:focus {
     bottom: 280px;
     width: 270px;
     height: 180px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4299,6 +4371,8 @@ input[type="text"]:focus {
     bottom: 630px;
     width: 270px;
     height: 180px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4310,6 +4384,8 @@ input[type="text"]:focus {
     bottom: 0px;
     width: 230px;
     height: 180px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4321,6 +4397,8 @@ input[type="text"]:focus {
     top: 2654px;
     width: 300px;
     height: 125px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4332,6 +4410,8 @@ input[type="text"]:focus {
     bottom: -630px;
     width: 100%;
     height: 1153px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4343,6 +4423,8 @@ input[type="text"]:focus {
     bottom: -530px;
     width: 100%;
     height: 400px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4354,17 +4436,21 @@ input[type="text"]:focus {
     bottom: -555px;
     width: 100%;
     height: 400px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
   .background-page__block-right_brand {
     position: absolute;
-    z-index: -2;
+    z-index: -1;
     right: 0px;
     top: 220px;
     width: 370px;
     height: 420px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4376,6 +4462,8 @@ input[type="text"]:focus {
     top: 400px;
     width: 370px;
     height: 420px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4387,6 +4475,8 @@ input[type="text"]:focus {
     top: 300px;
     width: 340px;
     height: 270px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4398,6 +4488,8 @@ input[type="text"]:focus {
     top: 300px;
     width: 310px;
     height: 295px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4409,6 +4501,8 @@ input[type="text"]:focus {
     top: 300px;
     width: 310px;
     height: 285px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4420,6 +4514,8 @@ input[type="text"]:focus {
     top: 300px;
     width: 310px;
     height: 285px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4431,6 +4527,8 @@ input[type="text"]:focus {
     top: 285px;
     width: 275px;
     height: 285px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4442,6 +4540,8 @@ input[type="text"]:focus {
     top: 1440px;
     width: 950px;
     height: 600px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
@@ -4453,13 +4553,15 @@ input[type="text"]:focus {
     bottom: 350px;
     width: 300px;
     height: 60px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     -webkit-transform: skewY(20deg);
         -ms-transform: skewY(20deg);
             transform: skewY(20deg);
     background-color: #fff6d3; }
   .background-page__cheese-right_brand {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     right: 0;
     top: 486px;
     width: 392px;
@@ -4470,7 +4572,7 @@ input[type="text"]:focus {
         display: none; } }
   .background-page__cheese-right_about {
     position: absolute;
-    z-index: -2;
+    z-index: -1;
     right: 0;
     top: 1700px;
     width: 407px;
@@ -4752,15 +4854,29 @@ input[type="text"]:focus {
           height: 2px;
           background-color: #000;
           vertical-align: middle; }
+        .events__event__content__time-more a:hover:before, .events__event__content__time-more a:hover:after {
+          background-color: #ce0018; }
 
 .event-inn {
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.2px; }
   .event-inn__img {
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    position: relative; }
     .event-inn__img img {
       width: 100%; }
+    .event-inn__img:before, .event-inn__img:after {
+      content: '';
+      position: absolute;
+      top: 30%;
+      width: 450px;
+      height: 3px;
+      background-image: url("../images/point-line.png"); }
+    .event-inn__img:before {
+      left: -550px; }
+    .event-inn__img:after {
+      right: -550px; }
   .event-inn__h2 {
     margin-bottom: 24px; }
 
@@ -4811,8 +4927,16 @@ input[type="text"]:focus {
         height: 55px;
         text-align: center;
         margin-bottom: 10px; }
-      .one-recipe__info-icon__item_time:before {
-        background: url("../images/icons/time.png") no-repeat center; }
+      .one-recipe__info-icon__item_time {
+        margin-right: 65px; }
+        @media only screen and (max-width: 1200px) {
+          .one-recipe__info-icon__item_time {
+            margin-right: 45px; } }
+        @media only screen and (max-width: 992px) {
+          .one-recipe__info-icon__item_time {
+            margin-right: 10px; } }
+        .one-recipe__info-icon__item_time:before {
+          background: url("../images/icons/time.png") no-repeat center; }
       .one-recipe__info-icon__item_category:before {
         background: url("../images/icons/meal.png") no-repeat center; }
       .one-recipe__info-icon__item_print:before {

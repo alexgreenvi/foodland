@@ -87,6 +87,12 @@ div.cs-select:focus {
     right: 0em;
 }
 
+.cs-select > span {
+    &:hover:after {
+        color: #ce0018;
+    }
+}
+
 .cs-select .cs-selected span::after {
     content: '\25b2';
     margin-left: 1em;
