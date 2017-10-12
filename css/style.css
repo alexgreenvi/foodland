@@ -4130,7 +4130,8 @@ input[type="text"]:focus {
     width: 677px;
     height: 775px;
     background: url("../images/slack/tomato.png") no-repeat;
-    transform: rotateX(180deg) rotateZ(-90deg); }
+    -webkit-transform: rotateX(180deg) rotateZ(-90deg);
+            transform: rotateX(180deg) rotateZ(-90deg); }
     @media only screen and (max-width: 1680px) {
       .background-page__tomat_one-recipe {
         display: none; } }
@@ -4698,7 +4699,8 @@ input[type="text"]:focus {
     width: 695px;
     height: 726px;
     background: url("../images/slack/tomato.png") no-repeat;
-    transform: rotateY(180deg); }
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg); }
     @media only screen and (max-width: 1660px) {
       .background-page__tomat-right_contact {
         display: none; } }
