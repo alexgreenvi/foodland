@@ -93,11 +93,13 @@
         &_direction {
             position: absolute;
             z-index: -1;
-            left: 0;
-            top: 30px;
-            width: 606px;
-            height: 562px;
-            background: url('../images/background/cheese-left_direction.png') no-repeat;
+            left: -147px;
+            top: 202px;
+            width: 692px;
+            height: 380px;
+            background: url('../images/background/new/cheese-green1.png') no-repeat center;
+            -webkit-background-size: contain;
+            background-size: contain;
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -105,11 +107,13 @@
         &_event {
             position: absolute;
             z-index: -1;
-            left: 0;
+            left: -42px;
             top: 320px;
-            width: 327px;
-            height: 511px;
-            background: url('../images/background/cheese-left_event.png') no-repeat;
+            width: 378px;
+            height: 440px;
+            background: url('../images/background/new/cheese-left_event1.png') no-repeat center;
+            -webkit-background-size: contain;
+            background-size: contain;
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -131,11 +135,13 @@
         &_direction {
             position: absolute;
             z-index: -1;
-            left: 0;
-            bottom: 280px;
-            width: 213px;
-            height: 670px;
-            background: url('../images/background/cheese-left-bottom_direction.png') no-repeat;
+            left: -252px;
+            bottom: 307px;
+            width: 519px;
+            height: 557px;
+            background: url('../images/background/new/cheese-right-page-category1.png') no-repeat center;
+            transform: rotateY(180deg);
+            background-size: contain;
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -177,7 +183,7 @@
         }
         &_event {
             position: absolute;
-            z-index: -1;
+            z-index: -2;
             left: 0px;
             top: 330px;
             width: 33%;
@@ -492,12 +498,14 @@
     &__cheese-right {
         &_brand {
             position: absolute;
-            z-index: -2;
-            right: 0;
-            top: 486px;
-            width: 392px;
-            height: 562px;
-            background: url('../images/background/cheese-green.png') no-repeat;
+            z-index: -1;
+            right: -387px;
+            top: 670px;
+            width: 692px;
+            height: 380px;
+            background: url('../images/background/new/cheese-green1.png') no-repeat center;
+            -webkit-background-size: contain;
+            background-size: contain;
             @media only screen and (max-width: 1660px) {
                 display: none;
             }
@@ -545,11 +553,12 @@
         &_exclusive {
             position: absolute;
             z-index: -2;
-            right: 0;
-            bottom: 810px;
-            width: 318px;
-            height: 566px;
-            background: url('../images/background/milk-right_exclusive.png') no-repeat;
+            right: -86px;
+            bottom: 897px;
+            width: 392px;
+            height: 519px;
+            background: url('../images/background/new/milk1.png') no-repeat;
+            background-size: contain;
             @media only screen and (max-width: 1660px) {
                 display: none;
             }

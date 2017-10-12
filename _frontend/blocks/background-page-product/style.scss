@@ -3,11 +3,13 @@
     .milk {
         position: absolute;
         z-index: -1;
-        left: 0;
-        top: -50px;
-        width: 298px;
-        height: 566px;
-        background: url('../images/background/milk.png') no-repeat;
+        left: -104px;
+        top: -8px;
+        width: 392px;
+        height: 519px;
+        background: url('../images/background/new/milk1.png') no-repeat;
+        background-size: contain;
+        transform: rotateY(180deg);
     }
     .block-left-top {
         position: absolute;
@@ -56,11 +58,11 @@
     .cheese-right {
         position: absolute;
         z-index: -1;
-        right: 0;
-        top: 990px;
-        width: 335px;
-        height: 477px;
-        background: url('../images/background/cheese-right-page-product.png') no-repeat;
+        right: -262px;
+        top: 1011px;
+        width: 598px;
+        height: 470px;
+        background: url('../images/background//new/cheese-right-page-product1.png') no-repeat;
         @include media(xl) {
             display: none;
         }
