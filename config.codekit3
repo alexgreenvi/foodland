@@ -1869,6 +1869,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/button\/button-one-recipe.png": {
+		"ft": 32768,
+		"iS": 978,
+		"oA": 0,
+		"oAP": "\/images\/button\/button-one-recipe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/button\/button-orange-hover.png": {
 		"ft": 32768,
 		"iS": 1832,
@@ -2538,8 +2549,8 @@
 		"oA": 0,
 		"oAP": "\/images\/product\/category-for-slider\/cat1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2549,8 +2560,8 @@
 		"oA": 0,
 		"oAP": "\/images\/product\/category-for-slider\/cat2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2560,8 +2571,8 @@
 		"oA": 0,
 		"oAP": "\/images\/product\/category-for-slider\/cat3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2582,8 +2593,8 @@
 		"oA": 0,
 		"oAP": "\/images\/product\/category-for-slider\/cat5.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3459,8 +3470,8 @@
 		"oA": 0,
 		"oAP": "\/images\/structure-company\/logist.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3470,8 +3481,8 @@
 		"oA": 0,
 		"oAP": "\/images\/structure-company\/made.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
