@@ -16,11 +16,11 @@
         &_about {
             position: absolute;
             z-index: -1;
-            left: 0;
+            left: -387px;
             top: -180px;
-            width: 397px;
-            height: 726px;
-            background: url('../images/background/tomato-about.png') no-repeat;
+            width: 673px;
+            height: 680px;
+            background: url('../images/slack/tomato.png') no-repeat;
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -40,11 +40,12 @@
         &_one-recipe {
             position: absolute;
             z-index: -1;
-            left: 0;
-            bottom: 100px;
-            width: 483px;
+            left: -188px;
+            bottom: 148px;
+            width: 677px;
             height: 775px;
-            background: url('../images/background/tomat-left_one-recipe.png') no-repeat;
+            background: url('../images/slack/tomato.png') no-repeat;
+            transform: rotateX(180deg) rotateZ(-90deg);
             @media only screen and (max-width: 1680px) {
                 display: none;
             }
@@ -312,7 +313,7 @@
         }
         &_one-recipe {
             position: absolute;
-            z-index: -1;
+            z-index: -2;
             left: 0px;
             bottom: 630px;
             width: 270px;
@@ -453,7 +454,7 @@
                 position: absolute;
                 z-index: -2;
                 right: 0px;
-                top: 285px;
+                top: 250px;
                 width: 275px;
                 height: 285px;
                 border-radius: 10px;
@@ -505,7 +506,7 @@
             position: absolute;
             z-index: -1;
             right: 0;
-            top: 1700px;
+            top: 1600px;
             width: 407px;
             height: 459px;
             background: url(../images/slack/cheese.png) no-repeat;
@@ -581,12 +582,13 @@
     &__tomat-right {
         &_contact {
             position: absolute;
-            z-index: -2;
-            right: 0;
-            bottom: 118px;
-            width: 438px;
+            z-index: -1;
+            right: -334px;
+            bottom: 71px;
+            width: 695px;
             height: 726px;
-            background: url('../images/background/tomat-contact.png') no-repeat;
+            background: url('../images/slack/tomato.png') no-repeat;
+            transform: rotateY(180deg);
             @media only screen and (max-width: 1660px) {
                 display: none;
             }
