@@ -2926,7 +2926,19 @@ input[type="text"]:focus {
 .category-carousel__item {
   height: 122px;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
+  .category-carousel__item__images {
+    height: 180px; }
+    .category-carousel__item__images img {
+      display: inline-block;
+      height: 110px; }
+    .category-carousel__item__images_hover {
+      display: none !important; }
+  .category-carousel__item:hover .category-carousel__item__images img {
+    display: none; }
+  .category-carousel__item:hover .category-carousel__item__images_hover {
+    display: inline-block !important; }
 
 .category-carousel .arrows--next {
   right: -40px; }
@@ -3883,8 +3895,7 @@ input[type="text"]:focus {
     width: 677px;
     height: 775px;
     background: url("../images/slack/tomato.png") no-repeat;
-    -webkit-transform: rotateX(180deg) rotateZ(-90deg);
-            transform: rotateX(180deg) rotateZ(-90deg); }
+    transform: rotateX(180deg) rotateZ(-90deg); }
     @media only screen and (max-width: 1680px) {
       .background-page__tomat_one-recipe {
         display: none; } }
@@ -4350,8 +4361,7 @@ input[type="text"]:focus {
     width: 695px;
     height: 726px;
     background: url("../images/slack/tomato.png") no-repeat;
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg); }
+    transform: rotateY(180deg); }
     @media only screen and (max-width: 1660px) {
       .background-page__tomat-right_contact {
         display: none; } }
