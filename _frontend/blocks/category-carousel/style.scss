@@ -12,6 +12,29 @@
     height: 122px;
     margin: auto;
     text-align: center;
+    cursor: pointer;
+    &__images {
+        height: 180px;
+        img {
+            display: inline-block;
+            height: 110px;
+        }
+        &_hover {
+            display: none!important;
+        }
+    }
+
+    &:hover & {
+        &__images {
+            img {
+                display: none;
+            }
+            &_hover {
+                display: inline-block!important;
+            }
+        }
+
+    }
 }
 
 .category-carousel .arrows--next {
