@@ -36,8 +36,8 @@
             }
             &_time {
                 margin-right: 65px;
-                @include media(xl) {
-                    margin-right: 45px;
+                @media only screen and(max-width: 1299px) {
+                    margin-right: 55px;
                 }
                 @include media(lg) {
                     margin-right: 10px;
