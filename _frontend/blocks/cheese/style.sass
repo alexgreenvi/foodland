@@ -275,19 +275,22 @@ $width: 1000px
 			opacity: 1
 
 		&[data-number='item1']
-
+			opacity: 1
 			width: $width/8.2173
 			height: $width/8.3382
 
-			top: $width/5.0625
-			left: $width/3.15
+			top: 197.530864198px
+			left: 325.460317px
 
 			background-image: url("../images/cheese/1.png")
 
-			transform: rotate(53deg)
-
+			transform: rotate(48deg)
+			&.hover,
 			&.active
-				transform: rotate(53deg) translateX(-$width/10)
+				background-image: url("../images/cheese/1_hover.png")
+			&.active
+				transform: rotate(48deg) translateX(-110px) translateY(-7px)
+
 				
 
 		&[data-number='item2']

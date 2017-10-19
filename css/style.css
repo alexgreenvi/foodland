@@ -1976,14 +1976,17 @@ input[type="text"]:focus {
     .cheese-circle .icon.hover {
       opacity: 1; }
     .cheese-circle .icon[data-number='item1'] {
+      opacity: 1;
       width: 121.694473854px;
       height: 119.929960903px;
       top: 197.530864198px;
-      left: 317.46031746px;
+      left: 325.460317px;
       background-image: url("../images/cheese/1.png");
-      transform: rotate(53deg); }
+      transform: rotate(48deg); }
+      .cheese-circle .icon[data-number='item1'].hover, .cheese-circle .icon[data-number='item1'].active {
+        background-image: url("../images/cheese/1_hover.png"); }
       .cheese-circle .icon[data-number='item1'].active {
-        transform: rotate(53deg) translateX(-100px); }
+        transform: rotate(48deg) translateX(-110px) translateY(-7px); }
     .cheese-circle .icon[data-number='item2'] {
       width: 132.275132275px;
       height: 114.639458902px;
@@ -2822,8 +2825,8 @@ input[type="text"]:focus {
   .back-img__maslo {
     left: -125px;
     bottom: -45px;
-    width: 424px;
-    height: 358px;
+    width: 550px;
+    height: 400px;
     background: url("../images/slack/maslo.png") no-repeat; }
     @media only screen and (max-width: 1200px) {
       .back-img__maslo {
@@ -3910,8 +3913,8 @@ input[type="text"]:focus {
     z-index: -1;
     left: 0;
     top: 980px;
-    width: 324px;
-    height: 400px;
+    width: 405px;
+    height: 443px;
     background: url("../images/background/butter-about.png") no-repeat; }
     @media only screen and (max-width: 1680px) {
       .background-page__butter_about {
@@ -3921,8 +3924,8 @@ input[type="text"]:focus {
     z-index: -1;
     left: 0;
     top: 150px;
-    width: 366px;
-    height: 400px;
+    width: 447px;
+    height: 434px;
     background: url("../images/background/butter-contact.png") no-repeat; }
     @media only screen and (max-width: 1680px) {
       .background-page__butter_contact {
@@ -4328,8 +4331,8 @@ input[type="text"]:focus {
     z-index: -2;
     right: 0;
     bottom: 750px;
-    width: 309px;
-    height: 400px;
+    width: 362px;
+    height: 409px;
     background: url("../images/background/butter-right_event.png") no-repeat; }
     @media only screen and (max-width: 1660px) {
       .background-page__butter-right_event {
