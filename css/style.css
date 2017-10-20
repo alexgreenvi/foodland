@@ -1971,40 +1971,37 @@ input[type="text"]:focus {
     background-repeat: no-repeat;
     transition-duration: 0.3s;
     transform: rotate(0deg);
+    width: 150px;
+    height: 150px;
     opacity: 0.5;
     cursor: pointer; }
     .cheese-circle .icon.hover {
       opacity: 1; }
     .cheese-circle .icon[data-number='item1'] {
       opacity: 1;
-      width: 121.694473854px;
-      height: 119.929960903px;
-      top: 197.530864198px;
-      left: 325.460317px;
-      background-image: url("../images/cheese/1.png");
-      transform: rotate(48deg); }
+      top: 190px;
+      left: 308px;
+      background-image: url("../images/cheese/1.png"); }
       .cheese-circle .icon[data-number='item1'].hover, .cheese-circle .icon[data-number='item1'].active {
         background-image: url("../images/cheese/1_hover.png"); }
       .cheese-circle .icon[data-number='item1'].active {
-        transform: rotate(48deg) translateX(-110px) translateY(-7px); }
+        transform: translateX(-62px) translateY(-83px); }
     .cheese-circle .icon[data-number='item2'] {
-      width: 132.275132275px;
-      height: 114.639458902px;
-      top: 340.390768602px;
-      left: 238.095238095px;
-      background-image: url("../images/cheese/2.png");
-      transform: rotate(7deg); }
+      top: 320px;
+      left: 224px;
+      background-image: url("../images/cheese/2.png"); }
+      .cheese-circle .icon[data-number='item2'].hover, .cheese-circle .icon[data-number='item2'].active {
+        background-image: url("../images/cheese/2_hover.png"); }
       .cheese-circle .icon[data-number='item2'].active {
-        transform: rotate(7deg) translateX(-100px); }
+        transform: translateX(-106px) translateY(-15px); }
     .cheese-circle .icon[data-number='item3'] {
-      width: 132.275132275px;
-      height: 128.748181432px;
-      top: 476.19047619px;
-      left: 268.082140368px;
-      background-image: url("../images/cheese/3.png");
-      transform: rotate(-37deg); }
+      top: 467px;
+      left: 261px;
+      background-image: url("../images/cheese/3.png"); }
+      .cheese-circle .icon[data-number='item3'].hover, .cheese-circle .icon[data-number='item3'].active {
+        background-image: url("../images/cheese/3_hover.png"); }
       .cheese-circle .icon[data-number='item3'].active {
-        transform: rotate(-37deg) translateX(-100px); }
+        transform: translateX(-87px) translateY(67px); }
     @media only screen and (max-width: 1200px) {
       .cheese-circle .icon {
         position: relative;
@@ -2013,12 +2010,6 @@ input[type="text"]:focus {
         display: inline-block;
         margin-right: 30px;
         margin-bottom: 10px; }
-        .cheese-circle .icon[data-number='item1'].active {
-          transform: rotate(53deg) !important; }
-        .cheese-circle .icon[data-number='item2'].active {
-          transform: rotate(7deg) !important; }
-        .cheese-circle .icon[data-number='item3'].active {
-          transform: rotate(-37deg) !important; }
         .cheese-circle .icon.active {
           transform: translateX(0) !important; } }
 

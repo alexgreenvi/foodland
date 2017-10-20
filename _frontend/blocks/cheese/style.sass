@@ -268,6 +268,9 @@ $width: 1000px
 		transition-duration: $duration
 		transform: rotate(0deg)
 
+		width: 150px
+		height: 150px
+
 		opacity: 0.5
 
 		cursor: pointer
@@ -276,52 +279,47 @@ $width: 1000px
 
 		&[data-number='item1']
 			opacity: 1
-			width: $width/8.2173
-			height: $width/8.3382
 
-			top: 197.530864198px
-			left: 325.460317px
+			top: 190px
+			left: 308px
 
 			background-image: url("../images/cheese/1.png")
 
-			transform: rotate(48deg)
+			//transform: rotate(48deg)
 			&.hover,
 			&.active
 				background-image: url("../images/cheese/1_hover.png")
 			&.active
-				transform: rotate(48deg) translateX(-110px) translateY(-7px)
+				transform: translateX(-62px) translateY(-83px)
 
 				
 
 		&[data-number='item2']
 
-			width: $width/7.56
-			height: $width/8.7230
-
-			top: $width/2.9378
-			left: $width/4.2
+			top: 320px
+			left: 224px
 
 			background-image: url("../images/cheese/2.png")
 
-			transform: rotate(7deg)
-
+			&.hover,
 			&.active
-				transform: rotate(7deg) translateX(-$width/10)
+				background-image: url("../images/cheese/2_hover.png")
+			&.active
+				transform: translateX(-106px) translateY(-15px)
 
 		&[data-number='item3']
 
-			width: $width/7.56
-			height: $width/7.7671
-
-			top: $width/2.1
-			left: $width/3.7302
+			top: 467px
+			left: 261px
 
 			background-image: url("../images/cheese/3.png")
 
-			transform: rotate(-37deg)
-
+			&.hover,
 			&.active
-				transform: rotate(-37deg) translateX(-$width/10)
+				background-image: url("../images/cheese/3_hover.png")
+			&.active
+				transform: translateX(-87px) translateY(67px)
+
 
 		@include media(xl)
 			position: relative
@@ -331,14 +329,6 @@ $width: 1000px
 			margin-right: 30px
 			margin-bottom: 10px
 
-			&[data-number='item1']
-				&.active
-					transform: rotate(53deg)!important
-			&[data-number='item2']
-				&.active
-					transform: rotate(7deg)!important
-			&[data-number='item3']
-				&.active
-					transform: rotate(-37deg)!important
+
 			&.active
 				transform: translateX(0)!important
