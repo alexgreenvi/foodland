@@ -2814,11 +2814,11 @@ input[type="text"]:focus {
       .back-img__tomato {
         display: none; } }
   .back-img__maslo {
-    left: -125px;
+    left: -50px;
     bottom: -45px;
-    width: 424px;
-    height: 358px;
-    background: url("../images/slack/maslo.png") no-repeat; }
+    width: 366px;
+    height: 400px;
+    background: url("../images/background/butter-contact.png") no-repeat; }
     @media only screen and (max-width: 1200px) {
       .back-img__maslo {
         display: none; } }
