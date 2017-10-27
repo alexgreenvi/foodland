@@ -1,5 +1,3 @@
-var ss1 = '1';
-
 $(document).ready(function () {
     _resize.init();
     header_fix.init();
@@ -521,13 +519,11 @@ $(document).ready(function () {
     //   Выпадающие меню
 
 });
-
 (function () {
     [].slice.call(document.querySelectorAll('select.cs-select')).forEach(function (el) {
         new SelectFx(el);
     });
 })();
-
 $(document).ready(function () {
     //обработка click выбора маршрута и способа добраться
     var routeBy = $('.route__by'),
