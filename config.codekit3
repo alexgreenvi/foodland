@@ -61,7 +61,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/_container.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/_css.sass": {
@@ -74,7 +74,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/_css.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/_mixin.scss": {
@@ -87,7 +87,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/_mixin.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/_standart.sass": {
@@ -100,7 +100,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/_standart.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/blocks\/icon.scss": {
@@ -113,7 +113,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/_engine\/css\/icon.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/blocks\/nav.scss": {
@@ -126,7 +126,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/_engine\/css\/nav.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/blocks\/scroll.scss": {
@@ -139,7 +139,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/_engine\/css\/scroll.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/blocks\/select.scss": {
@@ -152,7 +152,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/_engine\/css\/select.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/blocks\/slick.scss": {
@@ -165,7 +165,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/_engine\/css\/slick.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_engine\/css\/scroll.css": {
@@ -188,7 +188,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_fonts.scss": {
@@ -201,7 +201,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_fonts.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_standart.scss": {
@@ -214,7 +214,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_standart.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/_variables.scss": {
@@ -227,7 +227,7 @@
 		"oA": 1,
 		"oAP": "\/css\/_variables.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/_element\/style.scss": {
@@ -240,7 +240,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/analog-carousel\/style.scss": {
@@ -253,7 +253,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/aside-category-carousel\/style.scss": {
@@ -266,7 +266,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/back-img\/style.scss": {
@@ -279,7 +279,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/background-page-catalog-category\/style.scss": {
@@ -292,7 +292,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/background-page-product\/style.scss": {
@@ -305,7 +305,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/background-page\/style.scss": {
@@ -318,7 +318,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/block-product-img\/style.scss": {
@@ -331,7 +331,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/block-product-text\/style.scss": {
@@ -344,7 +344,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/bread-crumbs\/style.scss": {
@@ -357,7 +357,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/button\/style.scss": {
@@ -370,7 +370,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/category-carousel\/style.scss": {
@@ -383,7 +383,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/cheese\/style.sass": {
@@ -396,7 +396,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/clients-carousel\/style.scss": {
@@ -409,7 +409,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/contacts\/style.scss": {
@@ -422,7 +422,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/direct-action\/style.scss": {
@@ -435,7 +435,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/event-inn\/style.scss": {
@@ -448,7 +448,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/events\/style.scss": {
@@ -461,7 +461,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/filter\/style.scss": {
@@ -474,7 +474,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/footer\/style.scss": {
@@ -487,7 +487,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/header-background\/style.scss": {
@@ -500,7 +500,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/header\/style.scss": {
@@ -513,7 +513,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/map\/style.scss": {
@@ -526,7 +526,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/menu-site-map\/style.scss": {
@@ -539,7 +539,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/one-recipe\/style.scss": {
@@ -552,7 +552,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/photo-product-recipe\/style.scss": {
@@ -565,7 +565,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/popular\/style.scss": {
@@ -578,7 +578,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/product-day\/style.scss": {
@@ -591,7 +591,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/product-pagination\/style.scss": {
@@ -604,7 +604,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/product-spinner\/style.sass": {
@@ -617,7 +617,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/product-use-carousel\/style.scss": {
@@ -630,7 +630,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/product\/style.scss": {
@@ -643,7 +643,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/production-spinner_about\/style.scss": {
@@ -656,7 +656,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/products-block\/style.scss": {
@@ -669,7 +669,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/random\/style.scss": {
@@ -682,7 +682,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/recipe-category\/style.scss": {
@@ -695,7 +695,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/recommendation\/style.scss": {
@@ -708,7 +708,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/route\/style.scss": {
@@ -721,7 +721,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/search\/style.scss": {
@@ -734,7 +734,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/slider\/style.scss": {
@@ -747,7 +747,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/structure-company\/style.scss": {
@@ -760,7 +760,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/style.scss": {
@@ -773,7 +773,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/text-about-company\/style.scss": {
@@ -786,7 +786,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/text-brand\/style.scss": {
@@ -799,7 +799,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/text-one-recipe\/style.scss": {
@@ -812,7 +812,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/tm-carousel\/style.scss": {
@@ -825,7 +825,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/blocks\/trade-marks\/style.scss": {
@@ -838,7 +838,7 @@
 		"oA": 1,
 		"oAP": "\/_frontend\/blocks\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_frontend\/style.sass": {
@@ -851,7 +851,7 @@
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/about.html": {
@@ -1473,7 +1473,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/bottom.png": {
 		"ft": 32768,
@@ -1484,7 +1484,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/butter-about.png": {
 		"ft": 32768,
@@ -1495,7 +1495,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/butter-contact.png": {
 		"ft": 32768,
@@ -1506,7 +1506,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/butter-right_event.png": {
 		"ft": 32768,
@@ -1517,7 +1517,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-green.png": {
 		"ft": 32768,
@@ -1528,7 +1528,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left-about.png": {
 		"ft": 32768,
@@ -1539,7 +1539,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left-bottom_direction.png": {
 		"ft": 32768,
@@ -1550,7 +1550,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left-page-cetegory-2.png": {
 		"ft": 32768,
@@ -1561,7 +1561,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left-page-cetegory.png": {
 		"ft": 32768,
@@ -1572,7 +1572,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left_direction.png": {
 		"ft": 32768,
@@ -1583,7 +1583,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left_event.png": {
 		"ft": 32768,
@@ -1594,7 +1594,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-left_recipe.png": {
 		"ft": 32768,
@@ -1605,7 +1605,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-right-about.png": {
 		"ft": 32768,
@@ -1616,7 +1616,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-right-page-category.png": {
 		"ft": 32768,
@@ -1627,7 +1627,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-right-page-product.png": {
 		"ft": 32768,
@@ -1638,7 +1638,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cheese-right_direction.png": {
 		"ft": 32768,
@@ -1649,7 +1649,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cow-right.png": {
 		"ft": 32768,
@@ -1660,7 +1660,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/cow.png": {
 		"ft": 32768,
@@ -1671,7 +1671,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/maslo.png": {
 		"ft": 32768,
@@ -1682,7 +1682,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/milk-right_exclusive.png": {
 		"ft": 32768,
@@ -1693,7 +1693,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/milk.png": {
 		"ft": 32768,
@@ -1704,7 +1704,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/3-layers.png": {
 		"ft": 32768,
@@ -1715,7 +1715,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-green.png": {
 		"ft": 32768,
@@ -1726,7 +1726,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-green1.png": {
 		"ft": 32768,
@@ -1737,7 +1737,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-left-page-cetegory.png": {
 		"ft": 32768,
@@ -1748,7 +1748,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-left-page-cetegory1.png": {
 		"ft": 32768,
@@ -1759,7 +1759,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-left_event.png": {
 		"ft": 32768,
@@ -1770,7 +1770,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-left_event1.png": {
 		"ft": 32768,
@@ -1781,7 +1781,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-right-page-category.png": {
 		"ft": 32768,
@@ -1792,7 +1792,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-right-page-category1.png": {
 		"ft": 32768,
@@ -1803,7 +1803,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-right-page-product.png": {
 		"ft": 32768,
@@ -1814,7 +1814,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/cheese-right-page-product1.png": {
 		"ft": 32768,
@@ -1825,7 +1825,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/milk.png": {
 		"ft": 32768,
@@ -1836,7 +1836,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/new\/milk1.png": {
 		"ft": 32768,
@@ -1847,7 +1847,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/parsley-left.png": {
 		"ft": 32768,
@@ -1858,7 +1858,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/parsley-right.png": {
 		"ft": 32768,
@@ -1869,7 +1869,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/tomat-contact.png": {
 		"ft": 32768,
@@ -1880,7 +1880,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/tomat-left_one-recipe.png": {
 		"ft": 32768,
@@ -1891,7 +1891,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/tomat.png": {
 		"ft": 32768,
@@ -1902,7 +1902,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/tomat_exclusive.png": {
 		"ft": 32768,
@@ -1913,7 +1913,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/tomato-about-2.png": {
 		"ft": 32768,
@@ -1924,7 +1924,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/tomato-about.png": {
 		"ft": 32768,
@@ -1935,7 +1935,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/background\/top.png": {
 		"ft": 32768,
@@ -1946,7 +1946,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/blud.png": {
 		"ft": 32768,
@@ -1954,10 +1954,10 @@
 		"oA": 0,
 		"oAP": "\/images\/blud.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/board.jpg": {
 		"ft": 16384,
@@ -1965,9 +1965,9 @@
 		"oA": 0,
 		"oAP": "\/images\/board.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
 		},
 	"\/images\/button\/button-chees-hover-left.png": {
 		"ft": 32768,
@@ -1975,10 +1975,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-chees-hover-left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-chees-hover-right.png": {
 		"ft": 32768,
@@ -1986,10 +1986,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-chees-hover-right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-chees-hover.png": {
 		"ft": 32768,
@@ -1997,10 +1997,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-chees-hover.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-chees-left.png": {
 		"ft": 32768,
@@ -2008,10 +2008,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-chees-left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-chees-right.png": {
 		"ft": 32768,
@@ -2019,10 +2019,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-chees-right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-chees.png": {
 		"ft": 32768,
@@ -2030,10 +2030,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-chees.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-one-recipe.png": {
 		"ft": 32768,
@@ -2041,10 +2041,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-one-recipe.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-orange-hover.png": {
 		"ft": 32768,
@@ -2052,10 +2052,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-orange-hover.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-orange-hover_left.png": {
 		"ft": 32768,
@@ -2063,10 +2063,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-orange-hover_left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-orange-hover_right.png": {
 		"ft": 32768,
@@ -2074,10 +2074,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-orange-hover_right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-orange.png": {
 		"ft": 32768,
@@ -2085,10 +2085,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-orange.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-orange_left.png": {
 		"ft": 32768,
@@ -2096,10 +2096,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-orange_left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-orange_right.png": {
 		"ft": 32768,
@@ -2107,10 +2107,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-orange_right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-white-hover.png": {
 		"ft": 32768,
@@ -2118,10 +2118,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-white-hover.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-white-hover_left.png": {
 		"ft": 32768,
@@ -2129,10 +2129,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-white-hover_left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-white-hover_right.png": {
 		"ft": 32768,
@@ -2140,10 +2140,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-white-hover_right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-white.png": {
 		"ft": 32768,
@@ -2151,10 +2151,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-white_left.png": {
 		"ft": 32768,
@@ -2162,10 +2162,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-white_left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/button-white_right.png": {
 		"ft": 32768,
@@ -2173,10 +2173,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/button-white_right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/button\/paginat-button.png": {
 		"ft": 32768,
@@ -2184,10 +2184,10 @@
 		"oA": 0,
 		"oAP": "\/images\/button\/paginat-button.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/images\/cheese\/1.png": {
 		"ft": 32768,
@@ -2198,7 +2198,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/1_hover.png": {
 		"ft": 32768,
@@ -2209,7 +2209,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/2.png": {
 		"ft": 32768,
@@ -2220,7 +2220,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/2_hover.png": {
 		"ft": 32768,
@@ -2231,7 +2231,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/3.png": {
 		"ft": 32768,
@@ -2242,7 +2242,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/3_hover.png": {
 		"ft": 32768,
@@ -2253,7 +2253,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/cheese.png": {
 		"ft": 32768,
@@ -2264,7 +2264,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/green.png": {
 		"ft": 32768,
@@ -2275,7 +2275,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/icons.png": {
 		"ft": 32768,
@@ -2286,7 +2286,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/icons2.png": {
 		"ft": 32768,
@@ -2297,7 +2297,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/piece1.png": {
 		"ft": 32768,
@@ -2308,7 +2308,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/piece2.png": {
 		"ft": 32768,
@@ -2319,7 +2319,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/piece3.png": {
 		"ft": 32768,
@@ -2330,7 +2330,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/cheese\/shadow.png": {
 		"ft": 32768,
@@ -2341,7 +2341,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/clients\/azbuka.png": {
 		"ft": 32768,
@@ -2352,7 +2352,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/eggs.png": {
 		"ft": 32768,
@@ -2360,10 +2360,10 @@
 		"oA": 0,
 		"oAP": "\/images\/eggs.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/event-inn.png": {
 		"ft": 32768,
@@ -2371,10 +2371,10 @@
 		"oA": 0,
 		"oAP": "\/images\/event-inn.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/footer-bg.jpg": {
 		"ft": 16384,
@@ -2382,9 +2382,9 @@
 		"oA": 0,
 		"oAP": "\/images\/footer-bg.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
 		},
 	"\/images\/icons\/bonfesto.png": {
 		"ft": 32768,
@@ -2395,7 +2395,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/bus.png": {
 		"ft": 32768,
@@ -2406,7 +2406,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/car.png": {
 		"ft": 32768,
@@ -2417,7 +2417,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/fact-sh.png": {
 		"ft": 32768,
@@ -2428,7 +2428,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/fact.png": {
 		"ft": 32768,
@@ -2439,7 +2439,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/filial-sh.png": {
 		"ft": 32768,
@@ -2450,7 +2450,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/filial.png": {
 		"ft": 32768,
@@ -2461,7 +2461,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/info-product-2.png": {
 		"ft": 32768,
@@ -2472,7 +2472,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/info-product.png": {
 		"ft": 32768,
@@ -2483,7 +2483,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/like.png": {
 		"ft": 32768,
@@ -2494,7 +2494,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/man-hover.png": {
 		"ft": 32768,
@@ -2505,7 +2505,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/man.png": {
 		"ft": 32768,
@@ -2516,7 +2516,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/meal.png": {
 		"ft": 32768,
@@ -2527,7 +2527,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/office-sh.png": {
 		"ft": 32768,
@@ -2538,7 +2538,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/office.png": {
 		"ft": 32768,
@@ -2549,7 +2549,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/print.png": {
 		"ft": 32768,
@@ -2560,7 +2560,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/search.png": {
 		"ft": 32768,
@@ -2571,7 +2571,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/star-no.png": {
 		"ft": 32768,
@@ -2582,7 +2582,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/star.png": {
 		"ft": 32768,
@@ -2593,7 +2593,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/star_active.png": {
 		"ft": 32768,
@@ -2604,7 +2604,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/icons\/time.png": {
 		"ft": 32768,
@@ -2615,7 +2615,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/images-1.jpg": {
 		"ft": 16384,
@@ -2623,9 +2623,9 @@
 		"oA": 0,
 		"oAP": "\/images\/images-1.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
 		},
 	"\/images\/images-2.jpg": {
 		"ft": 16384,
@@ -2633,9 +2633,9 @@
 		"oA": 0,
 		"oAP": "\/images\/images-2.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 90
 		},
 	"\/images\/lamber.png": {
 		"ft": 32768,
@@ -2643,10 +2643,10 @@
 		"oA": 0,
 		"oAP": "\/images\/lamber.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/logo.png": {
 		"ft": 32768,
@@ -2654,10 +2654,10 @@
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/plate.png": {
 		"ft": 32768,
@@ -2668,7 +2668,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/point-line.png": {
 		"ft": 32768,
@@ -2676,10 +2676,10 @@
 		"oA": 0,
 		"oAP": "\/images\/point-line.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/popular\/br.png": {
 		"ft": 32768,
@@ -2690,7 +2690,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/popular\/chees.png": {
 		"ft": 32768,
@@ -2701,7 +2701,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/popular\/lamber.png": {
 		"ft": 32768,
@@ -2712,7 +2712,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/popular\/mas.png": {
 		"ft": 32768,
@@ -2723,7 +2723,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/popular\/popular.psd": {
 		"ft": 8192,
@@ -2740,7 +2740,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category-for-slider\/cat1.png": {
 		"ft": 32768,
@@ -2751,7 +2751,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category-for-slider\/cat2.png": {
 		"ft": 32768,
@@ -2762,7 +2762,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category-for-slider\/cat3.png": {
 		"ft": 32768,
@@ -2773,7 +2773,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category-for-slider\/cat4.png": {
 		"ft": 32768,
@@ -2784,7 +2784,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category-for-slider\/cat5.png": {
 		"ft": 32768,
@@ -2795,7 +2795,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/1.png": {
 		"ft": 32768,
@@ -2806,7 +2806,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/10.png": {
 		"ft": 32768,
@@ -2817,7 +2817,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/10_hover.png": {
 		"ft": 32768,
@@ -2828,7 +2828,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/11.png": {
 		"ft": 32768,
@@ -2839,7 +2839,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/11_hover.png": {
 		"ft": 32768,
@@ -2850,7 +2850,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/12.png": {
 		"ft": 32768,
@@ -2861,7 +2861,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/12_hover.png": {
 		"ft": 32768,
@@ -2872,7 +2872,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/1_hover.png": {
 		"ft": 32768,
@@ -2883,7 +2883,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/2.png": {
 		"ft": 32768,
@@ -2894,7 +2894,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/2_hover.png": {
 		"ft": 32768,
@@ -2905,7 +2905,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/3.png": {
 		"ft": 32768,
@@ -2916,7 +2916,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/3_hover.png": {
 		"ft": 32768,
@@ -2927,7 +2927,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/4.png": {
 		"ft": 32768,
@@ -2938,7 +2938,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/4_hover.png": {
 		"ft": 32768,
@@ -2949,7 +2949,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/5.png": {
 		"ft": 32768,
@@ -2960,7 +2960,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/5_hover.png": {
 		"ft": 32768,
@@ -2971,7 +2971,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/6.png": {
 		"ft": 32768,
@@ -2982,7 +2982,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/6_hover.png": {
 		"ft": 32768,
@@ -2993,7 +2993,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/7.png": {
 		"ft": 32768,
@@ -3004,7 +3004,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/7_hover.png": {
 		"ft": 32768,
@@ -3015,7 +3015,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/8.png": {
 		"ft": 32768,
@@ -3026,7 +3026,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/8_hover.png": {
 		"ft": 32768,
@@ -3037,7 +3037,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/9.png": {
 		"ft": 32768,
@@ -3048,7 +3048,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/9_hover.png": {
 		"ft": 32768,
@@ -3059,7 +3059,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/layer-19.png": {
 		"ft": 32768,
@@ -3070,7 +3070,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/text__block-1.png": {
 		"ft": 32768,
@@ -3081,7 +3081,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/text__block-1_hover.png": {
 		"ft": 32768,
@@ -3092,7 +3092,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/text__block-2.png": {
 		"ft": 32768,
@@ -3103,7 +3103,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/text__block-2_hover.png": {
 		"ft": 32768,
@@ -3114,7 +3114,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/text__block-3.png": {
 		"ft": 32768,
@@ -3125,7 +3125,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/category\/text__block-3_hover.png": {
 		"ft": 32768,
@@ -3136,7 +3136,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/header-product-category.png": {
 		"ft": 32768,
@@ -3147,7 +3147,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/header-product-category2.png": {
 		"ft": 32768,
@@ -3158,7 +3158,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/header-product-category3.png": {
 		"ft": 32768,
@@ -3169,7 +3169,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/header-product-category4.png": {
 		"ft": 32768,
@@ -3180,7 +3180,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/3-layers.png": {
 		"ft": 32768,
@@ -3191,7 +3191,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/carousel-item-1.png": {
 		"ft": 32768,
@@ -3202,7 +3202,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/carousel-item-2.png": {
 		"ft": 32768,
@@ -3213,7 +3213,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/carousel-item-3.png": {
 		"ft": 32768,
@@ -3224,7 +3224,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/carousel-item-4.png": {
 		"ft": 32768,
@@ -3235,7 +3235,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/line__dot.png": {
 		"ft": 32768,
@@ -3246,7 +3246,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/main-img--product.png": {
 		"ft": 32768,
@@ -3257,7 +3257,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/product-use-1.png": {
 		"ft": 32768,
@@ -3268,7 +3268,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/product-page\/product-use-2.png": {
 		"ft": 32768,
@@ -3279,7 +3279,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/products\/layer-19.png": {
 		"ft": 32768,
@@ -3290,7 +3290,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/products\/main-img--product.png": {
 		"ft": 32768,
@@ -3301,7 +3301,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/products\/product-item-2.png": {
 		"ft": 32768,
@@ -3312,7 +3312,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/products\/product-item-3.png": {
 		"ft": 32768,
@@ -3323,7 +3323,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/product\/products\/product-item.png": {
 		"ft": 32768,
@@ -3334,7 +3334,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-1.png": {
 		"ft": 32768,
@@ -3345,7 +3345,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-2.png": {
 		"ft": 32768,
@@ -3356,7 +3356,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-3.png": {
 		"ft": 32768,
@@ -3367,7 +3367,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-4.png": {
 		"ft": 32768,
@@ -3378,7 +3378,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-5.png": {
 		"ft": 32768,
@@ -3389,7 +3389,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-6.png": {
 		"ft": 32768,
@@ -3400,7 +3400,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-7.png": {
 		"ft": 32768,
@@ -3411,7 +3411,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recipes\/rec-8.png": {
 		"ft": 32768,
@@ -3422,7 +3422,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/bondesto.jpg": {
 		"ft": 16384,
@@ -3432,7 +3432,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/cheese-par.jpg": {
 		"ft": 16384,
@@ -3442,7 +3442,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/cheese.jpg": {
 		"ft": 16384,
@@ -3452,7 +3452,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/heidi.jpg": {
 		"ft": 16384,
@@ -3462,7 +3462,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/mlekara.jpg": {
 		"ft": 16384,
@@ -3472,7 +3472,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/ras.jpg": {
 		"ft": 16384,
@@ -3482,7 +3482,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/recommendation\/recommendation.psb": {
 		"ft": 8192,
@@ -3498,7 +3498,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/cheese.png": {
 		"ft": 32768,
@@ -3509,7 +3509,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/cheese_and_tomato.png": {
 		"ft": 32768,
@@ -3520,7 +3520,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/list.png": {
 		"ft": 32768,
@@ -3531,7 +3531,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/maslo.png": {
 		"ft": 32768,
@@ -3542,7 +3542,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/petro-left-1.png": {
 		"ft": 32768,
@@ -3553,7 +3553,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/petro.png": {
 		"ft": 32768,
@@ -3564,7 +3564,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slack\/tomato.png": {
 		"ft": 32768,
@@ -3575,7 +3575,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slider\/1-logo.png": {
 		"ft": 32768,
@@ -3586,7 +3586,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slider\/1-text.png": {
 		"ft": 32768,
@@ -3597,7 +3597,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slider\/imagas-1.jpg": {
 		"ft": 16384,
@@ -3607,7 +3607,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/slider\/imagas-2.jpg": {
 		"ft": 16384,
@@ -3617,7 +3617,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/spinner\/manufacturies.png": {
 		"ft": 32768,
@@ -3628,7 +3628,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/spinner\/products.png": {
 		"ft": 32768,
@@ -3639,7 +3639,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/spinner\/technologies.png": {
 		"ft": 32768,
@@ -3650,7 +3650,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/structure-company\/distrib.png": {
 		"ft": 32768,
@@ -3661,7 +3661,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/structure-company\/logist.png": {
 		"ft": 32768,
@@ -3672,7 +3672,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/structure-company\/made.png": {
 		"ft": 32768,
@@ -3683,7 +3683,7 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/structure-company\/shape-1.png": {
 		"ft": 32768,
@@ -3694,7 +3694,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/tm\/layer-16.png": {
 		"ft": 32768,
@@ -3705,7 +3705,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/tm\/layer-17.png": {
 		"ft": 32768,
@@ -3716,7 +3716,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/tm\/slice-1.png": {
 		"ft": 32768,
@@ -3727,7 +3727,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Cream_nuvo-01.png": {
 		"ft": 32768,
@@ -3738,7 +3738,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/heidi-logo.png": {
 		"ft": 32768,
@@ -3749,7 +3749,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Heidi.png": {
 		"ft": 32768,
@@ -3760,7 +3760,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/La_paulina-01.png": {
 		"ft": 32768,
@@ -3771,7 +3771,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Lattesso-01.png": {
 		"ft": 32768,
@@ -3782,7 +3782,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/layer-36.png": {
 		"ft": 32768,
@@ -3793,7 +3793,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/layer-37.png": {
 		"ft": 32768,
@@ -3804,7 +3804,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/layer-38.png": {
 		"ft": 32768,
@@ -3815,7 +3815,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/layer-39.png": {
 		"ft": 32768,
@@ -3826,7 +3826,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/pic05177.jpg": {
 		"ft": 16384,
@@ -3836,7 +3836,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/wimm-bill-dann-foods-logo-svg-1024x638.png": {
 		"ft": 32768,
@@ -3847,7 +3847,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/Bellanova-01.png": {
 		"ft": 32768,
@@ -3858,7 +3858,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/Bonfesto-01.png": {
 		"ft": 32768,
@@ -3869,7 +3869,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/Cooking-01-01.png": {
 		"ft": 32768,
@@ -3880,7 +3880,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/Cream_nuvo-01.png": {
 		"ft": 32768,
@@ -3891,7 +3891,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/Heidi.png": {
 		"ft": 32768,
@@ -3902,7 +3902,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/La_paulina-01.png": {
 		"ft": 32768,
@@ -3913,7 +3913,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/Lattesso-01.png": {
 		"ft": 32768,
@@ -3924,7 +3924,7 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/images\/trade-marks\/Лого (1)\/pic05177.jpg": {
 		"ft": 16384,
@@ -3934,7 +3934,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"q": 90
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -3947,7 +3947,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/anime-min.js",
+		"oAP": "\/js\/libs\/anime.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -3957,7 +3957,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/classie-min.js",
+		"oAP": "\/js\/libs\/classie.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -3967,7 +3967,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/fancybox.min-min.js",
+		"oAP": "\/js\/libs\/fancybox.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -3987,7 +3987,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/jquery.min-min.js",
+		"oAP": "\/js\/libs\/jquery.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -3997,7 +3997,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/scroll\/jquery.jscrollpane-min.js",
+		"oAP": "\/js\/libs\/scroll\/jquery.jscrollpane.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4007,7 +4007,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/scroll\/jquery.jscrollpane.min-min.js",
+		"oAP": "\/js\/libs\/scroll\/jquery.jscrollpane.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4017,7 +4017,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/scroll\/jquery.mousewheel-min.js",
+		"oAP": "\/js\/libs\/scroll\/jquery.mousewheel.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4027,7 +4027,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/scroll\/mwheelIntent-min.js",
+		"oAP": "\/js\/libs\/scroll\/mwheelIntent.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4037,7 +4037,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/selectFx-min.js",
+		"oAP": "\/js\/libs\/selectFx.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4047,17 +4047,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/libs\/slick-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/scripts-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/scripts-min-min.js",
+		"oAP": "\/js\/libs\/slick.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -4067,17 +4057,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/scripts.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/scripts.min-min.js",
+		"oAP": "\/js\/scripts.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -5877,7 +5857,7 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -5916,16 +5896,16 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"quality": 100
+		"autoOutputPathStyle": 3,
+		"quality": 90
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.min.js",
 		"autoOutputPathRelativePath": "\/min",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathReplace1": "*",
+		"autoOutputPathReplace2": "scripts.min.js",
+		"autoOutputPathStyle": 3,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 0,
@@ -6002,9 +5982,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 3,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 90
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -6026,7 +6006,7 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
@@ -6048,13 +6028,13 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "..\/css",
-		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace1": "*.min",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 3,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0

@@ -1,3 +1,5 @@
+var ss1 = '1';
+
 $(document).ready(function () {
     _resize.init();
     header_fix.init();
