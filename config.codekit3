@@ -129,6 +129,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_frontend\/_engine\/blocks\/scroll.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_frontend\/_engine\/css\/scroll.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_frontend\/_engine\/blocks\/select.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -154,6 +167,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/_frontend\/_engine\/css\/scroll.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_frontend\/_engine\/css\/scroll-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_frontend\/_engine\/style.sass": {
 		"aP": 0,
@@ -3965,6 +3988,46 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/libs\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/libs\/scroll\/jquery.jscrollpane.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/scroll\/jquery.jscrollpane-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/libs\/scroll\/jquery.jscrollpane.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/scroll\/jquery.jscrollpane.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/libs\/scroll\/jquery.mousewheel.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/scroll\/jquery.mousewheel-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/libs\/scroll\/mwheelIntent.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/libs\/scroll\/mwheelIntent-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

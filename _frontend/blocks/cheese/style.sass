@@ -56,7 +56,12 @@
 		line-height: 48px
 		letter-spacing: .45px
 		margin-bottom: 23px
-	&__text 
+		min-height: 96px
+	&__text
+		overflow: auto
+		position: relative
+		left: -40px
+		height: 230px
 		clear: both
 		color: #000
 		font-family: 'MyriadPro', sans-serif
@@ -65,24 +70,16 @@
 		text-align: justify
 		letter-spacing: .2px
 		padding-bottom: 13px
+		margin-bottom: 20px
 
+		& p
+			padding-left: 40px
+			padding-right: 20px
+		@media (max-width: 640px)
+			left: 0
 
 	&__text-block 
    		position: relative
-
-
-.cheese__text-block:after, .cheese__text-block:before 
-    content: ''
-    position: absolute
-    background: #ffc928
-
-
-.cheese__text-block:before 
-    width: 15px
-    height: 15px
-    border-radius: 100%
-    left: -39px
-    top: 0
 
 
 .cheese

@@ -368,7 +368,7 @@ $(document).ready(function () {
     $('.icon').hover(function () {
         var number = $(this).data('number');
 
-        $('.icon[data-number="' + number + '"]').addClass('hover')
+        $('.icon[data-number="' + number + '"]').addClass('hover');
 
         $(this).mouseout(function () {
             $('.icon[data-number="' + number + '"]').removeClass('hover')
@@ -376,6 +376,11 @@ $(document).ready(function () {
 
     });
 
+
+    $('.scroll-pane').jScrollPane({
+        verticalDragMinHeight: 15,
+        verticalDragMaxHeight: 15
+    });
 
     $('.icon').on('click', function () {
 
@@ -391,6 +396,30 @@ $(document).ready(function () {
 
         $('[data-cheese="content"]').removeClass('active');
         $('[data-cheese-index="' + number + '"]').addClass('active');
+
+        var $tempArray = $('.icon[data-number]'),
+            tempStatus = false;
+            tempScroll = $('[data-cheese-index="' + number + '"]');
+
+        $tempArray.each(function () {
+            var $this = $(this);
+            if($this.hasClass('active')) {
+                tempStatus = true;
+            }
+        });
+
+        if(tempStatus === false) {
+            $('[data-cheese="content"]').removeClass('active');
+            $('[data-cheese-index="default"]').addClass('active');
+            tempScroll = $('[data-cheese-index="default"]');
+        }
+
+        console.log(tempStatus);
+
+       tempScroll.find('.scroll-pane').jScrollPane({
+            verticalDragMinHeight: 15,
+            verticalDragMaxHeight: 15
+        });
 
         // Чтобы добавить анимацию, связанную с кликом по куску сыра, необходимо добавить
         // data-type="piece"
@@ -498,7 +527,7 @@ $(document).ready(function () {
 })();
 
 $(document).ready(function () {
-    //обработка click выбора маршрута и способа добраться 
+    //обработка click выбора маршрута и способа добраться
     var routeBy = $('.route__by'),
         routeByFoot = $('.route__by_foot'),
         routeByCar = $('.route__by_car'),
@@ -663,7 +692,7 @@ ymaps.ready(function () {
         geoMap.geoObjects.add(lastCollection);
 
 
-        // Создание макета балуна 
+        // Создание макета балуна
         MapBalloonLayout = ymaps.templateLayoutFactory.createClass(
                 '<div class="map-balloon">' +
                 '<a class="map-balloon__close" href="#">&#9587;</a>' +
