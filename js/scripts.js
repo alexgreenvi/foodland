@@ -376,11 +376,12 @@ $(document).ready(function () {
 
     });
 
-
-    $('.scroll-pane').jScrollPane({
+    if($.fn.jScrollPane) {
+        $('.scroll-pane').jScrollPane({
         verticalDragMinHeight: 15,
         verticalDragMaxHeight: 15
     });
+    }
 
     $('.icon').on('click', function () {
 
@@ -618,8 +619,8 @@ $(document).ready(function () {
 //----------------------
 //  карта регионов
 //----------------------
-
-ymaps.ready(function () {
+if(typeof ymaps !== 'undefined') {
+    ymaps.ready(function () {
 
     geoMap = new ymaps.Map('map', {
         center: [62.788252602236476, 88.50848728079634],
@@ -2042,3 +2043,4 @@ ymaps.ready(function () {
 
 
 });
+}
