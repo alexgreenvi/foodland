@@ -92,9 +92,10 @@
         bottom: -7.5px;
         overflow: hidden;
         min-width: 195px;
+        text-align: center;
         li {
-            display: block;
-            float: left;
+            display: inline-block;
+            float: none;
             margin: 0 12px;
         }
         button {

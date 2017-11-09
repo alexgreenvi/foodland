@@ -7,45 +7,52 @@
 		"uuidString": "6BA01151-7CB7-43EC-A8A4-980C0073C54D"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/.idea\/deployment.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/deployment.xml",
 		"oF": 0
 		},
 	"\/.idea\/foodland.iml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/foodland.iml",
 		"oF": 0
 		},
 	"\/.idea\/modules.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/modules.xml",
 		"oF": 0
 		},
 	"\/.idea\/vcs.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/vcs.xml",
 		"oF": 0
 		},
 	"\/.idea\/webServers.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/webServers.xml",
 		"oF": 0
 		},
 	"\/.idea\/workspace.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/workspace.xml",
@@ -855,18 +862,21 @@
 		"uL": 1
 		},
 	"\/about.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/brands.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/brands.html",
 		"oF": 0
 		},
 	"\/contacts.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contacts.html",
@@ -893,30 +903,35 @@
 		"oS": 3
 		},
 	"\/direction.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/direction.html",
 		"oF": 0
 		},
 	"\/event.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/event.html",
 		"oF": 0
 		},
 	"\/event_inn.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/event_inn.html",
 		"oF": 0
 		},
 	"\/exclusive.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exclusive.html",
 		"oF": 0
 		},
 	"\/find_recipes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/find_recipes.html",
@@ -933,6 +948,7 @@
 		"oS": 3
 		},
 	"\/fonts\/FontAwesome\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome\/fontawesome-webfont.eot",
@@ -949,516 +965,602 @@
 		"prP": 0
 		},
 	"\/fonts\/FontAwesome\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 100 Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 100 Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 100.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 100.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 300 Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 300 Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 300.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 300.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 500 Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 500 Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 500.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 500.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 700 Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 700 Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 700.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 700.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 900 Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 900 Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 900.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris - Museo Cyrl 900.otf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris_-_museo_cyrl_900-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris_-_museo_cyrl_900-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris_-_museo_cyrl_900-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris_-_museo_cyrl_900-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MuseoCyrl\/exljbris_-_museo_cyrl_900-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MuseoCyrl\/exljbris_-_museo_cyrl_900-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBold\/MyriadProBold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBold\/MyriadProBold.eot",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBold\/MyriadProBold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBold\/MyriadProBold.otf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBold\/MyriadProBold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBold\/MyriadProBold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBold\/MyriadProBold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBold\/MyriadProBold.woff",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProBoldItalic\/MyriadProBoldItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProItalic\/MyriadProItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProItalic\/MyriadProItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProItalic\/MyriadProItalic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProItalic\/MyriadProItalic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProItalic\/MyriadProItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProItalic\/MyriadProItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProItalic\/MyriadProItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProItalic\/MyriadProItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProRegular\/MyriadProRegular.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProRegular\/MyriadProRegular.eot",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProRegular\/MyriadProRegular.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProRegular\/MyriadProRegular.otf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProRegular\/MyriadProRegular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProRegular\/MyriadProRegular.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProRegular\/MyriadProRegular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProRegular\/MyriadProRegular.woff",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.eot",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.otf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBold\/MyriadProSemiBold.woff",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.eot",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.otf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-black-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-black.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-black.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-bolditalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-book-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-book.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-book.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-light-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-light.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-reg-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-reg.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-reg.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-sebold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-sebold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-sebold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-seboldital.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-thin-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/pfbeausanspro\/pfbeausanspro-thin.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/pfbeausanspro\/pfbeausanspro-thin.ttf",
@@ -2726,6 +2828,7 @@
 		"q": 90
 		},
 	"\/images\/popular\/popular.psd": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/popular\/popular.psd",
@@ -3485,6 +3588,7 @@
 		"q": 90
 		},
 	"\/images\/recommendation\/recommendation.psb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/recommendation\/recommendation.psb",
@@ -3937,6 +4041,7 @@
 		"q": 90
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -4062,31 +4167,46 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/scripts.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/one-brand.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/one-brand.html",
 		"oF": 0
 		},
 	"\/one_recipe.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/one_recipe.html",
 		"oF": 0
 		},
 	"\/product-catalog.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-catalog.html",
 		"oF": 0
 		},
 	"\/product-category.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-category.html",
 		"oF": 0
 		},
 	"\/product-page.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product-page.html",
@@ -4637,6 +4757,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -4701,9 +4825,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -4733,6 +4857,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -4742,14 +4870,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -5853,7 +5973,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -5886,6 +6007,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -5927,7 +6049,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -5959,13 +6082,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -5974,7 +6097,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -5994,7 +6118,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -6022,7 +6147,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
