@@ -21,13 +21,11 @@
         padding: 0px;
 
         @include media(lg){
-
-            padding: 0 0 80px;
-            margin: -10px;
+            padding: 0;
+            margin: 50px -10px -10px;
 
             .arrows {
-                top: auto;
-                bottom: 0;
+                top: -50px;
 
                 &.arrows--next {
                     right: 0;
